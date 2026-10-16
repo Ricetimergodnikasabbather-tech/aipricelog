@@ -137,7 +137,7 @@ td.cost{font-weight:700}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .pick h3{margin:0 0 4px;font-size:.8rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
 .pick a{font-weight:700;color:var(--fg);text-decoration:none}.pick a:hover{color:var(--accent)}.pick p{margin:2px 0 0;color:var(--muted);font-size:.88rem}
-.big{font-size:2rem;font-weight:800;letter-spacing:-.02em}
+figure svg{max-height:240px}.big{font-size:2rem;font-weight:800;letter-spacing:-.02em}
 .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
 .kv div span{display:block;color:var(--muted);font-size:.8rem}
 .crumbs{font-size:.85rem;color:var(--muted);margin-top:18px}.crumbs a{color:var(--muted)}
@@ -232,6 +232,14 @@ ${cheapest("Cheapest Premium-tier model", m => tier(m) === "Premium")}
 ${cheapest("Cheapest with prompt caching", m => m.caching && m.cached, m => `cached input ${usd(m.cached)}`)}
 </div>`;
 
+// Biggest cuts in the last 12 months, one row per model (its largest output or input cut).
+const yearAgo = new Date(now - 365 * 864e5).toISOString().slice(0, 10);
+const bigCuts = Object.values(changes
+  .filter(c => (c.type === "output" || c.type === "input") && c.old && c.new < c.old && c.date >= yearAgo && models[c.key])
+  .reduce((best, c) => ((best[c.key]?.pct ?? 0) > (c.new - c.old) / c.old ? { ...best, [c.key]: { ...c, pct: (c.new - c.old) / c.old } } : best), {}))
+  .sort((a, b) => a.pct - b.pct).slice(0, 10);
+const cutsBlock = bigCuts.length ? `<h2>Biggest price cuts, last 12 months</h2>${changeTable(bigCuts)}` : "";
+
 const recentBlock = n => {
   const r = changes.filter(c => c.type !== "removed").slice(0, n);
   return r.length ? `<h2>Latest price changes</h2>${changeTable(r)}<p><a href="/changes.html">Full change log →</a></p>` : "";
@@ -256,6 +264,7 @@ write("/", page({
 ${priceTable(list)}
 ${picks}
 ${recentBlock(8)}
+${cutsBlock}
 <h2>How to read these prices</h2><div class="prose"><p>AI APIs charge per token. A token is about ¾ of a word, so 1 million tokens is roughly 750,000 words. <b>Input</b> is the text you send (your prompt, documents, chat history). <b>Output</b> is the text the model writes back, and it usually costs 4–8 times more. <b>Cached input</b> is the discounted rate when you resend the same long prompt, which matters for chatbots and agents.</p><p>The calculator multiplies your token counts by each model's standard rate. Batch processing, long-context surcharges and regional pricing can change the real bill; each model page lists those rates where providers publish them.</p></div>`,
 }));
 
@@ -311,7 +320,7 @@ for (const m of list) {
   const twins = list.filter(x => x.key !== m.key && x.input === m.input && x.output === m.output);
   const first = firstListed(m.key);
   const moved = hist.filter(c => (c.type === "input" || c.type === "output") && c.old != null && c.new != null);
-  const cuts = moved.filter(c => c.new < c.old).length, rises = moved.filter(c => c.new > c.old).length;
+  const cuts = new Set(moved.filter(c => c.new < c.old).map(c => c.date)).size, rises = new Set(moved.filter(c => c.new > c.old).map(c => c.date)).size;
   const facts = [
     `It is the ${provRank === 1 ? "cheapest" : provRank === provList.length ? "most expensive" : `${ordinal(provRank)} cheapest`} of ${provList.length} ${SEARCH_NAME[m.provider]} models tracked here, by blended price.`,
     rival && `The closest ${tier(m)}-tier model from another provider is <a href="${modelUrl(rival.key)}">${esc(rival.name)}</a> (${rival.provider}) at ${usd(rival.input)} / ${usd(rival.output)}${rival.blend === m.blend ? ", the same blended price" : `; ${esc(m.name)} is ${Math.abs(pctDiff(m.blend, rival.blend))}% ${m.blend > rival.blend ? "more expensive" : "cheaper"}`}.`,
@@ -384,7 +393,8 @@ write("/changes.html", page({
   title: "AI API Price Change Log: Every Price Change, Dated",
   desc: "A dated log of every AI API price change, new model and context-window change across OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral.",
   path: "/changes.html",
-  body: `<h1>AI price change log</h1><p class="lead">Every price change, new model and context-window change, newest first. Tracking since ${trackingStart}. <a href="/feed.xml">Subscribe by RSS</a>.</p>
+  body: `<h1>AI price change log</h1><p class="lead">Every price change, new model and context-window change, newest first. Tracking since ${trackingStart}. <a href="/feed.xml">Subscribe by RSS</a>. Dates are when each change first appeared in the open LiteLLM price data.</p>
+${cutsBlock}<h2>Every change</h2>
 ${changes.length ? changeTable(changes) : `<p class="muted">No changes detected yet.</p>`}`,
 }));
 

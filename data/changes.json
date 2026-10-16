@@ -1,1 +1,4198 @@
-[]
+[
+ {
+  "date": "2026-10-13",
+  "key": "gemini-4-argon",
+  "model": "Gemini 4 Argon",
+  "provider": "Google",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
+  "date": "2026-10-09",
+  "key": "gpt-rosalind-discovery",
+  "model": "GPT-Rosalind Discovery",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-10-09",
+  "key": "claude-sonnet-4-5",
+  "model": "Claude Sonnet 4.5",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 1000000,
+  "new": 200000
+ },
+ {
+  "date": "2026-10-08",
+  "key": "mistral-large-4",
+  "model": "Mistral Large 4",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 524288,
+  "new": 1048576
+ },
+ {
+  "date": "2026-10-08",
+  "key": "gemini-omni-flash-preview",
+  "model": "Gemini Omni Flash Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.5 in / $9 out"
+ },
+ {
+  "date": "2026-10-07",
+  "key": "claude-haiku-5-5",
+  "model": "Claude Haiku 5.5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$0.1 in / $0.5 out"
+ },
+ {
+  "date": "2026-10-06",
+  "key": "mistral-large-4",
+  "model": "Mistral Large 4",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.68 in / $2.09 out"
+ },
+ {
+  "date": "2026-10-06",
+  "key": "deep-research-max-preview",
+  "model": "Gemini Deep Research Max Preview",
+  "provider": "Google",
+  "type": "context",
+  "old": 131072,
+  "new": 1048576
+ },
+ {
+  "date": "2026-10-01",
+  "key": "gemini-omni-flash-preview",
+  "model": "Gemini Omni Flash Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-01",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-01",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-29",
+  "key": "gpt-6-1-sol",
+  "model": "GPT-6.1 Sol",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
+  "date": "2026-09-29",
+  "key": "deep-research-pro-preview",
+  "model": "Gemini Deep Research Pro Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$2 in / $12 out"
+ },
+ {
+  "date": "2026-09-28",
+  "key": "claude-sonnet-5-5",
+  "model": "Claude Sonnet 5.5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
+  "date": "2026-09-23",
+  "key": "claude-mythos-preview",
+  "model": "Claude Mythos Preview",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-23",
+  "key": "gpt-5-chat",
+  "model": "GPT-5 Chat",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-23",
+  "key": "deep-research-max-preview",
+  "model": "Gemini Deep Research Max Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$2 in / $12 out"
+ },
+ {
+  "date": "2026-09-22",
+  "key": "grok-code-fast-1",
+  "model": "Grok Code Fast 1",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$1 in / $2 out"
+ },
+ {
+  "date": "2026-09-22",
+  "key": "gpt-6-luna",
+  "model": "GPT-6 Luna",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.1 in / $0.5 out"
+ },
+ {
+  "date": "2026-09-22",
+  "key": "gpt-6-sol",
+  "model": "GPT-6 Sol",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
+  "date": "2026-09-22",
+  "key": "claude-opus-5-5",
+  "model": "Claude Opus 5.5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$4 in / $20 out"
+ },
+ {
+  "date": "2026-09-21",
+  "key": "grok-4-7",
+  "model": "Grok 4.7",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2026-09-16",
+  "key": "gemini-omni-1-1-flash",
+  "model": "Gemini Omni 1.1 Flash",
+  "provider": "Google",
+  "type": "context",
+  "old": 131072,
+  "new": 1048576
+ },
+ {
+  "date": "2026-09-16",
+  "key": "claude-sonnet-4-5",
+  "model": "Claude Sonnet 4.5",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2026-09-14",
+  "key": "gpt-rosalind-research",
+  "model": "GPT-Rosalind Research",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-09-14",
+  "key": "gpt-5-5-cyber",
+  "model": "GPT-5.5 Cyber",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$12.5 in / $75 out"
+ },
+ {
+  "date": "2026-09-12",
+  "key": "gpt-rosalind-research",
+  "model": "GPT-Rosalind Research",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-12",
+  "key": "gpt-5-5-cyber",
+  "model": "GPT-5.5 Cyber",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-13",
+  "key": "gpt-rosalind-research",
+  "model": "GPT-Rosalind Research",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-09-13",
+  "key": "gpt-5-5-cyber",
+  "model": "GPT-5.5 Cyber",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$12.5 in / $75 out"
+ },
+ {
+  "date": "2026-09-11",
+  "key": "deepseek-v4-flash-vision-exp",
+  "model": "DeepSeek V4 Flash Vision Exp",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 1.32,
+  "new": 1.2
+ },
+ {
+  "date": "2026-09-11",
+  "key": "deepseek-v4-flash-vision-exp",
+  "model": "DeepSeek V4 Flash Vision Exp",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.44,
+  "new": 0.3
+ },
+ {
+  "date": "2026-09-11",
+  "key": "deepseek-v4-flash",
+  "model": "DeepSeek V4 Flash",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 1.32,
+  "new": 1.2
+ },
+ {
+  "date": "2026-09-11",
+  "key": "deepseek-v4-flash",
+  "model": "DeepSeek V4 Flash",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.44,
+  "new": 0.3
+ },
+ {
+  "date": "2026-09-11",
+  "key": "deepseek-flash",
+  "model": "DeepSeek Flash",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.3 in / $1.2 out"
+ },
+ {
+  "date": "2026-09-04",
+  "key": "gemini-3-5-live-translate-preview",
+  "model": "Gemini 3.5 Live Translate Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-04",
+  "key": "gemini-3-1-flash-live-preview",
+  "model": "Gemini 3.1 Flash Live Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-04",
+  "key": "claude-mythos-5-1",
+  "model": "Claude Mythos 5.1",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-09-03",
+  "key": "gpt-6-astra",
+  "model": "GPT-6 Astra",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-09-02",
+  "key": "gemini-3-8-flash",
+  "model": "Gemini 3.8 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.75 in / $3.75 out"
+ },
+ {
+  "date": "2026-09-01",
+  "key": "mistral-medium-3-1",
+  "model": "Mistral Medium 3.1",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-09-01",
+  "key": "claude-fable-5-1",
+  "model": "Claude Fable 5.1",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-08-29",
+  "key": "grok-4-1-fast",
+  "model": "Grok 4.1 Fast",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-29",
+  "key": "grok-3-mini-fast",
+  "model": "Grok 3 Mini Fast",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-29",
+  "key": "grok-3-fast",
+  "model": "Grok 3 Fast",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-29",
+  "key": "grok-3",
+  "model": "Grok 3",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-28",
+  "key": "gemini-omni-1-1-flash",
+  "model": "Gemini Omni 1.1 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.5 in / $9 out"
+ },
+ {
+  "date": "2026-08-28",
+  "key": "gemini-omni-flash-preview",
+  "model": "Gemini Omni Flash Preview",
+  "provider": "Google",
+  "type": "context",
+  "old": 1048576,
+  "new": 131072
+ },
+ {
+  "date": "2026-08-27",
+  "key": "grok-vision",
+  "model": "Grok Vision",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-27",
+  "key": "grok",
+  "model": "Grok",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-27",
+  "key": "grok-4-20-multi-agent",
+  "model": "Grok 4.20 Multi Agent",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-27",
+  "key": "grok-2-vision",
+  "model": "Grok 2 Vision",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-27",
+  "key": "voxtral-small",
+  "model": "Voxtral Small",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2026-08-27",
+  "key": "mistral-medium-3",
+  "model": "Mistral Medium 3",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$1.5 in / $7.5 out"
+ },
+ {
+  "date": "2026-08-26",
+  "key": "deepseek-v4-flash-vision-exp",
+  "model": "DeepSeek V4 Flash Vision Exp",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.44 in / $1.32 out"
+ },
+ {
+  "date": "2026-08-21",
+  "key": "gpt-5-6-sol",
+  "model": "GPT-5.6 Sol",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 30,
+  "new": 20
+ },
+ {
+  "date": "2026-08-21",
+  "key": "gpt-5-6-sol",
+  "model": "GPT-5.6 Sol",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 5,
+  "new": 4
+ },
+ {
+  "date": "2026-08-21",
+  "key": "gpt-5-6",
+  "model": "GPT-5.6",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 30,
+  "new": 20
+ },
+ {
+  "date": "2026-08-21",
+  "key": "gpt-5-6",
+  "model": "GPT-5.6",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 5,
+  "new": 4
+ },
+ {
+  "date": "2026-08-20",
+  "key": "grok-code-fast-1",
+  "model": "Grok Code Fast 1",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-20",
+  "key": "grok-4",
+  "model": "Grok 4",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-20",
+  "key": "gemini-3-5-live-translate-preview",
+  "model": "Gemini 3.5 Live Translate Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $21 out"
+ },
+ {
+  "date": "2026-08-20",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 131072,
+  "new": 262144
+ },
+ {
+  "date": "2026-08-20",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 0.18,
+  "new": 0.6
+ },
+ {
+  "date": "2026-08-20",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 0.06,
+  "new": 0.15
+ },
+ {
+  "date": "2026-08-20",
+  "key": "codestral",
+  "model": "Codestral",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
+ },
+ {
+  "date": "2026-08-20",
+  "key": "codestral",
+  "model": "Codestral",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 3,
+  "new": 0.9
+ },
+ {
+  "date": "2026-08-20",
+  "key": "codestral",
+  "model": "Codestral",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 1,
+  "new": 0.3
+ },
+ {
+  "date": "2026-08-20",
+  "key": "gpt-5-6-cyber",
+  "model": "GPT-5.6 Cyber",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$12.5 in / $75 out"
+ },
+ {
+  "date": "2026-08-20",
+  "key": "gpt-5-6-luna",
+  "model": "GPT-5.6 Luna",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 1050000,
+  "new": 922000
+ },
+ {
+  "date": "2026-08-20",
+  "key": "gpt-5-6-terra",
+  "model": "GPT-5.6 Terra",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 1050000,
+  "new": 922000
+ },
+ {
+  "date": "2026-08-20",
+  "key": "gpt-5-6-sol",
+  "model": "GPT-5.6 Sol",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 1050000,
+  "new": 922000
+ },
+ {
+  "date": "2026-08-20",
+  "key": "gpt-5-6",
+  "model": "GPT-5.6",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 1050000,
+  "new": 922000
+ },
+ {
+  "date": "2026-08-19",
+  "key": "deepseek-v4-pro",
+  "model": "DeepSeek V4 Pro",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 0.87,
+  "new": 3.96
+ },
+ {
+  "date": "2026-08-19",
+  "key": "deepseek-v4-pro",
+  "model": "DeepSeek V4 Pro",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.435,
+  "new": 1.32
+ },
+ {
+  "date": "2026-08-19",
+  "key": "deepseek-v4-flash",
+  "model": "DeepSeek V4 Flash",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 0.28,
+  "new": 1.32
+ },
+ {
+  "date": "2026-08-19",
+  "key": "deepseek-v4-flash",
+  "model": "DeepSeek V4 Flash",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.14,
+  "new": 0.44
+ },
+ {
+  "date": "2026-08-17",
+  "key": "gemini-3-6-flash",
+  "model": "Gemini 3.6 Flash",
+  "provider": "Google",
+  "type": "output",
+  "old": 7.5,
+  "new": 3.75
+ },
+ {
+  "date": "2026-08-17",
+  "key": "gemini-3-6-flash",
+  "model": "Gemini 3.6 Flash",
+  "provider": "Google",
+  "type": "input",
+  "old": 1.5,
+  "new": 0.75
+ },
+ {
+  "date": "2026-08-13",
+  "key": "grok-4-6",
+  "model": "Grok 4.6",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2026-08-13",
+  "key": "gemini-3-7-flash",
+  "model": "Gemini 3.7 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.75 in / $3.75 out"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "pixtral-large",
+  "model": "Pixtral Large",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "pixtral-12b",
+  "model": "Pixtral 12B",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "open-mixtral-8x7b",
+  "model": "Open Mixtral 8x7b",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "open-mixtral-8x22b",
+  "model": "Open Mixtral 8x22b",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "open-mistral-7b",
+  "model": "Open Mistral 7B",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "open-codestral-mamba",
+  "model": "Open Codestral Mamba",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "mistral-small-3-2",
+  "model": "Mistral Small 3.2",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "magistral-small-1-2",
+  "model": "Magistral Small 1.2",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "magistral-medium-1-2",
+  "model": "Magistral Medium 1.2",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "labs-devstral-small",
+  "model": "Labs Devstral Small",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "devstral-small",
+  "model": "Devstral Small",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "devstral-medium",
+  "model": "Devstral Medium",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-11",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.06 in / $0.18 out"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-code-fast",
+  "model": "Grok Code Fast",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "claude-opus-4-1",
+  "model": "Claude Opus 4.1",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "claude-4-sonnet",
+  "model": "Claude 4 Sonnet",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "claude-4-opus",
+  "model": "Claude 4 Opus",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "claude-3-haiku",
+  "model": "Claude 3 Haiku",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "claude-mythos-preview",
+  "model": "Claude Mythos Preview",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "claude-mythos-5",
+  "model": "Claude Mythos 5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-build-0-1",
+  "model": "Grok Build 0.1",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$1 in / $2 out"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-code-fast-1",
+  "model": "Grok Code Fast 1",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$1 in / $2 out"
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-4-20",
+  "model": "Grok 4.20",
+  "provider": "xAI",
+  "type": "context",
+  "old": 2000000,
+  "new": 1000000
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-4-20",
+  "model": "Grok 4.20",
+  "provider": "xAI",
+  "type": "output",
+  "old": 6,
+  "new": 2.5
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-4-20",
+  "model": "Grok 4.20",
+  "provider": "xAI",
+  "type": "input",
+  "old": 2,
+  "new": 1.25
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-4-20-multi-agent",
+  "model": "Grok 4.20 Multi Agent",
+  "provider": "xAI",
+  "type": "context",
+  "old": 2000000,
+  "new": 1000000
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-4-20-multi-agent",
+  "model": "Grok 4.20 Multi Agent",
+  "provider": "xAI",
+  "type": "output",
+  "old": 6,
+  "new": 2.5
+ },
+ {
+  "date": "2026-08-10",
+  "key": "grok-4-20-multi-agent",
+  "model": "Grok 4.20 Multi Agent",
+  "provider": "xAI",
+  "type": "input",
+  "old": 2,
+  "new": 1.25
+ },
+ {
+  "date": "2026-08-10",
+  "key": "gpt-4-preview",
+  "model": "GPT-4 Preview",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$10 in / $30 out"
+ },
+ {
+  "date": "2026-07-30",
+  "key": "gpt-5-4-nano",
+  "model": "GPT-5.4 Nano",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 1050000,
+  "new": 272000
+ },
+ {
+  "date": "2026-07-30",
+  "key": "gpt-5-4-mini",
+  "model": "GPT-5.4 Mini",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 1050000,
+  "new": 272000
+ },
+ {
+  "date": "2026-07-30",
+  "key": "gpt-5-6-luna",
+  "model": "GPT-5.6 Luna",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 6,
+  "new": 1.2
+ },
+ {
+  "date": "2026-07-30",
+  "key": "gpt-5-6-luna",
+  "model": "GPT-5.6 Luna",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 1,
+  "new": 0.2
+ },
+ {
+  "date": "2026-07-30",
+  "key": "gpt-5-6-terra",
+  "model": "GPT-5.6 Terra",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 15,
+  "new": 12
+ },
+ {
+  "date": "2026-07-30",
+  "key": "gpt-5-6-terra",
+  "model": "GPT-5.6 Terra",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 2.5,
+  "new": 2
+ },
+ {
+  "date": "2026-07-24",
+  "key": "claude-opus-5",
+  "model": "Claude Opus 5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-07-21",
+  "key": "gemini-3-6-flash",
+  "model": "Gemini 3.6 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.5 in / $7.5 out"
+ },
+ {
+  "date": "2026-07-21",
+  "key": "gemini-3-5-flash-lite",
+  "model": "Gemini 3.5 Flash Lite",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.3 in / $2.5 out"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-realtime-mini",
+  "model": "GPT-Realtime Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-realtime-2-1-mini",
+  "model": "GPT-Realtime 2.1 Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-realtime-2-1",
+  "model": "GPT-Realtime 2.1",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-realtime-2",
+  "model": "GPT-Realtime 2",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-realtime-1-5",
+  "model": "GPT-Realtime 1.5",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-4o-realtime-preview",
+  "model": "GPT-4o Realtime Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-17",
+  "key": "gpt-4o-mini-realtime-preview",
+  "model": "GPT-4o Mini Realtime Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-07-15",
+  "key": "gemini-omni-flash-preview",
+  "model": "Gemini Omni Flash Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.5 in / $9 out"
+ },
+ {
+  "date": "2026-07-09",
+  "key": "gpt-5-6-luna",
+  "model": "GPT-5.6 Luna",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1 in / $6 out"
+ },
+ {
+  "date": "2026-07-09",
+  "key": "gpt-5-6-terra",
+  "model": "GPT-5.6 Terra",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$2.5 in / $15 out"
+ },
+ {
+  "date": "2026-07-09",
+  "key": "gpt-5-6-sol",
+  "model": "GPT-5.6 Sol",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $30 out"
+ },
+ {
+  "date": "2026-07-09",
+  "key": "gpt-5-6",
+  "model": "GPT-5.6",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $30 out"
+ },
+ {
+  "date": "2026-07-08",
+  "key": "grok-4-5",
+  "model": "Grok 4.5",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2026-07-07",
+  "key": "gpt-realtime-2-1-mini",
+  "model": "GPT-Realtime 2.1 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.6 in / $2.4 out"
+ },
+ {
+  "date": "2026-07-07",
+  "key": "gpt-realtime-2-1",
+  "model": "GPT-Realtime 2.1",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$4 in / $24 out"
+ },
+ {
+  "date": "2026-07-01",
+  "key": "claude-sonnet-5",
+  "model": "Claude Sonnet 5",
+  "provider": "Anthropic",
+  "type": "output",
+  "old": 15,
+  "new": 10
+ },
+ {
+  "date": "2026-07-01",
+  "key": "claude-sonnet-5",
+  "model": "Claude Sonnet 5",
+  "provider": "Anthropic",
+  "type": "input",
+  "old": 3,
+  "new": 2
+ },
+ {
+  "date": "2026-06-30",
+  "key": "claude-sonnet-5",
+  "model": "Claude Sonnet 5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2026-06-26",
+  "key": "gpt-5-4-nano",
+  "model": "GPT-5.4 Nano",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 1050000
+ },
+ {
+  "date": "2026-06-26",
+  "key": "gpt-5-4-mini",
+  "model": "GPT-5.4 Mini",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 1050000
+ },
+ {
+  "date": "2026-06-16",
+  "key": "deepseek-v4-pro",
+  "model": "DeepSeek V4 Pro",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.435 in / $0.87 out"
+ },
+ {
+  "date": "2026-06-16",
+  "key": "deepseek-v4-flash",
+  "model": "DeepSeek V4 Flash",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.14 in / $0.28 out"
+ },
+ {
+  "date": "2026-06-16",
+  "key": "mistral-medium-3-5",
+  "model": "Mistral Medium 3.5",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$1.5 in / $7.5 out"
+ },
+ {
+  "date": "2026-06-10",
+  "key": "claude-fable-5",
+  "model": "Claude Fable 5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-06-05",
+  "key": "grok-code-fast-1",
+  "model": "Grok Code Fast 1",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-06-05",
+  "key": "grok-4-fast",
+  "model": "Grok 4 Fast",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-06-05",
+  "key": "grok-code-fast",
+  "model": "Grok Code Fast",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$0.2 in / $1.5 out"
+ },
+ {
+  "date": "2026-06-02",
+  "key": "gemini-2-0-flash-lite-001",
+  "model": "Gemini 2.0 Flash Lite 001",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-06-02",
+  "key": "gemini-2-0-flash-001",
+  "model": "Gemini 2.0 Flash 001",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-05-28",
+  "key": "claude-opus-4-8",
+  "model": "Claude Opus 4.8",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-05-22",
+  "key": "gemini-3-1-flash-lite-preview",
+  "model": "Gemini 3.1 Flash Lite Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-05-22",
+  "key": "gemini-3-1-flash-lite",
+  "model": "Gemini 3.1 Flash Lite",
+  "provider": "Google",
+  "type": "output",
+  "old": 2.7,
+  "new": 1.5
+ },
+ {
+  "date": "2026-05-22",
+  "key": "gemini-3-1-flash-lite",
+  "model": "Gemini 3.1 Flash Lite",
+  "provider": "Google",
+  "type": "input",
+  "old": 0.45,
+  "new": 0.25
+ },
+ {
+  "date": "2026-05-20",
+  "key": "gemini-3-1-flash-lite",
+  "model": "Gemini 3.1 Flash Lite",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.45 in / $2.7 out"
+ },
+ {
+  "date": "2026-05-19",
+  "key": "gemini-3-5-flash",
+  "model": "Gemini 3.5 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.5 in / $9 out"
+ },
+ {
+  "date": "2026-05-15",
+  "key": "claude-sonnet-4",
+  "model": "Claude Sonnet 4",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-05-15",
+  "key": "claude-opus-4",
+  "model": "Claude Opus 4",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-05-11",
+  "key": "gpt-realtime",
+  "model": "GPT-Realtime",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-05-11",
+  "key": "gpt-realtime-2",
+  "model": "GPT-Realtime 2",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$4 in / $16 out"
+ },
+ {
+  "date": "2026-05-07",
+  "key": "grok-4-3",
+  "model": "Grok 4.3",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$1.25 in / $2.5 out"
+ },
+ {
+  "date": "2026-05-02",
+  "key": "claude-3-opus",
+  "model": "Claude 3 Opus",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-04-24",
+  "key": "gpt-5-5",
+  "model": "GPT-5.5",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 1050000
+ },
+ {
+  "date": "2026-04-23",
+  "key": "gpt-5-5",
+  "model": "GPT-5.5",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $30 out"
+ },
+ {
+  "date": "2026-04-16",
+  "key": "claude-opus-4-7",
+  "model": "Claude Opus 4.7",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-03-27",
+  "key": "gpt-4-preview",
+  "model": "GPT-4 Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-27",
+  "key": "gemini-3-1-flash-live-preview",
+  "model": "Gemini 3.1 Flash Live Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.75 in / $4.5 out"
+ },
+ {
+  "date": "2026-03-27",
+  "key": "claude-sonnet-4-6",
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2026-03-26",
+  "key": "claude-sonnet-4-6",
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 1000000,
+  "new": 200000
+ },
+ {
+  "date": "2026-03-23",
+  "key": "claude-sonnet-4-6",
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2026-03-21",
+  "key": "gpt-5-4-nano",
+  "model": "GPT-5.4 Nano",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.2 in / $1.25 out"
+ },
+ {
+  "date": "2026-03-21",
+  "key": "gpt-5-4-mini",
+  "model": "GPT-5.4 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.75 in / $4.5 out"
+ },
+ {
+  "date": "2026-03-18",
+  "key": "gpt-5-4-nano",
+  "model": "GPT-5.4 Nano",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-18",
+  "key": "gpt-5-4-mini",
+  "model": "GPT-5.4 Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-18",
+  "key": "grok-4-20",
+  "model": "Grok 4.20",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2026-03-18",
+  "key": "grok-4-20-multi-agent",
+  "model": "Grok 4.20 Multi Agent",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2026-03-17",
+  "key": "gpt-5-4-nano",
+  "model": "GPT-5.4 Nano",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.2 in / $1.25 out"
+ },
+ {
+  "date": "2026-03-17",
+  "key": "gpt-5-4-mini",
+  "model": "GPT-5.4 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.75 in / $4.5 out"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "o1-mini",
+  "model": "o1 Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "gpt-4-5-preview",
+  "model": "GPT-4.5 Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "gpt-4-32k",
+  "model": "GPT-4 32K",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "gemini-pro-vision",
+  "model": "Gemini Pro Vision",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "gemini-pro",
+  "model": "Gemini Pro",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "gemini-2-5-pro-preview-06-05",
+  "model": "Gemini 2.5 Pro Preview 06.05",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-11",
+  "key": "gemini-2-5-flash-preview-04-17",
+  "model": "Gemini 2.5 Flash Preview 04.17",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-10",
+  "key": "gemini-3-pro-preview",
+  "model": "Gemini 3 Pro Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-09",
+  "key": "gpt-5-4-pro",
+  "model": "GPT-5.4 Pro",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-06",
+  "key": "gpt-5-4-pro",
+  "model": "GPT-5.4 Pro",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$30 in / $180 out"
+ },
+ {
+  "date": "2026-03-06",
+  "key": "gpt-5-4",
+  "model": "GPT-5.4",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$2.5 in / $15 out"
+ },
+ {
+  "date": "2026-03-03",
+  "key": "gemini-3-1-flash-lite-preview",
+  "model": "Gemini 3.1 Flash Lite Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.25 in / $1.5 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "grok-3-mini",
+  "model": "Grok 3 Mini",
+  "provider": "xAI",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "magistral-small",
+  "model": "Magistral Small",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "magistral-medium",
+  "model": "Magistral Medium",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "ministral-3-14b",
+  "model": "Ministral 3 14B",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.2 in / $0.2 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "ministral-3-8b",
+  "model": "Ministral 3 8B",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.15 in / $0.15 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "ministral-3-3b",
+  "model": "Ministral 3 3B",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.1 in / $0.1 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "mistral-small-3-2",
+  "model": "Mistral Small 3.2",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.06 in / $0.18 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "mistral-medium-3-1",
+  "model": "Mistral Medium 3.1",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.4 in / $2 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "mistral-large-3",
+  "model": "Mistral Large 3",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 256000,
+  "new": 262144
+ },
+ {
+  "date": "2026-03-02",
+  "key": "magistral-small-1-2",
+  "model": "Magistral Small 1.2",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.5 in / $1.5 out"
+ },
+ {
+  "date": "2026-03-02",
+  "key": "magistral-medium-1-2",
+  "model": "Magistral Medium 1.2",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$2 in / $5 out"
+ },
+ {
+  "date": "2026-02-27",
+  "key": "gpt-realtime-1-5",
+  "model": "GPT-Realtime 1.5",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$4 in / $16 out"
+ },
+ {
+  "date": "2026-02-20",
+  "key": "devstral",
+  "model": "Devstral",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-02-20",
+  "key": "claude-3-7-sonnet",
+  "model": "Claude 3.7 Sonnet",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-02-20",
+  "key": "devstral-small",
+  "model": "Devstral Small",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 128000,
+  "new": 256000
+ },
+ {
+  "date": "2026-02-20",
+  "key": "devstral-medium",
+  "model": "Devstral Medium",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 128000,
+  "new": 256000
+ },
+ {
+  "date": "2026-02-20",
+  "key": "gemini-3-1-pro-preview",
+  "model": "Gemini 3.1 Pro Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$2 in / $12 out"
+ },
+ {
+  "date": "2026-02-20",
+  "key": "claude-sonnet-4-6",
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2026-02-19",
+  "key": "claude-sonnet-4-6",
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2026-02-19",
+  "key": "devstral",
+  "model": "Devstral",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.4 in / $2 out"
+ },
+ {
+  "date": "2026-02-19",
+  "key": "devstral-small",
+  "model": "Devstral Small",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 256000,
+  "new": 128000
+ },
+ {
+  "date": "2026-02-19",
+  "key": "devstral-medium",
+  "model": "Devstral Medium",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 256000,
+  "new": 128000
+ },
+ {
+  "date": "2026-02-17",
+  "key": "devstral",
+  "model": "Devstral",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2026-02-17",
+  "key": "devstral-small",
+  "model": "Devstral Small",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 128000,
+  "new": 256000
+ },
+ {
+  "date": "2026-02-17",
+  "key": "devstral-medium",
+  "model": "Devstral Medium",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 128000,
+  "new": 256000
+ },
+ {
+  "date": "2026-02-17",
+  "key": "claude-sonnet-4-6",
+  "model": "Claude Sonnet 4.6",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gemini-2-0-flash-lite",
+  "model": "Gemini 2.0 Flash Lite",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gemini-exp",
+  "model": "Gemini Exp",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.3 in / $2.5 out"
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gemini-2-0-flash-lite-001",
+  "model": "Gemini 2.0 Flash Lite 001",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gpt-5-search-api",
+  "model": "GPT-5 Search API",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gemini-pro",
+  "model": "Gemini Pro",
+  "provider": "Google",
+  "type": "context",
+  "old": 32760,
+  "new": 1048576
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gemini-pro",
+  "model": "Gemini Pro",
+  "provider": "Google",
+  "type": "output",
+  "old": 1.05,
+  "new": 10
+ },
+ {
+  "date": "2026-02-12",
+  "key": "gemini-pro",
+  "model": "Gemini Pro",
+  "provider": "Google",
+  "type": "input",
+  "old": 0.35,
+  "new": 1.25
+ },
+ {
+  "date": "2026-02-06",
+  "key": "claude-opus-4-6",
+  "model": "Claude Opus 4.6",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2026-02-05",
+  "key": "claude-opus-4-6",
+  "model": "Claude Opus 4.6",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2026-01-14",
+  "key": "gpt-5-nano",
+  "model": "GPT-5 Nano",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2026-01-14",
+  "key": "gpt-5-mini",
+  "model": "GPT-5 Mini",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2026-01-14",
+  "key": "gpt-5-2",
+  "model": "GPT-5.2",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2026-01-14",
+  "key": "gpt-5-1",
+  "model": "GPT-5.1",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2026-01-14",
+  "key": "gpt-5",
+  "model": "GPT-5",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2026-01-13",
+  "key": "gpt-5-nano",
+  "model": "GPT-5 Nano",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 400000
+ },
+ {
+  "date": "2026-01-13",
+  "key": "gpt-5-mini",
+  "model": "GPT-5 Mini",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 400000
+ },
+ {
+  "date": "2026-01-13",
+  "key": "gpt-5-1",
+  "model": "GPT-5.1",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 400000
+ },
+ {
+  "date": "2026-01-13",
+  "key": "gpt-5",
+  "model": "GPT-5",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 400000
+ },
+ {
+  "date": "2026-01-13",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 1.7,
+  "new": 0.42
+ },
+ {
+  "date": "2026-01-13",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.6,
+  "new": 0.28
+ },
+ {
+  "date": "2026-01-13",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 1.7,
+  "new": 0.42
+ },
+ {
+  "date": "2026-01-13",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.6,
+  "new": 0.28
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-5-pro-preview-05-06",
+  "model": "Gemini 2.5 Pro Preview 05.06",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-5-pro-preview-03-25",
+  "model": "Gemini 2.5 Pro Preview 03.25",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-5-flash-preview-05-20",
+  "model": "Gemini 2.5 Flash Preview 05.20",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-5-flash-lite-preview-06-17",
+  "model": "Gemini 2.5 Flash Lite Preview 06.17",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-0-flash-preview-image-generation",
+  "model": "Gemini 2.0 Flash Preview Image Generation",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-0-flash-live-001",
+  "model": "Gemini 2.0 Flash Live 001",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-2-0-flash-lite-preview-02-05",
+  "model": "Gemini 2.0 Flash Lite Preview 02.05",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-1-5-pro-exp",
+  "model": "Gemini 1.5 Pro Exp",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-06",
+  "key": "gemini-3-flash-preview",
+  "model": "Gemini 3 Flash Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.5 in / $3 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-3-flash-preview",
+  "model": "Gemini 3 Flash Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-5-pro-preview-05-06",
+  "model": "Gemini 2.5 Pro Preview 05.06",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-5-pro-preview-03-25",
+  "model": "Gemini 2.5 Pro Preview 03.25",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-5-flash-preview-05-20",
+  "model": "Gemini 2.5 Flash Preview 05.20",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.3 in / $2.5 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-5-flash-lite-preview-06-17",
+  "model": "Gemini 2.5 Flash Lite Preview 06.17",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-0-flash-preview-image-generation",
+  "model": "Gemini 2.0 Flash Preview Image Generation",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-0-flash-live-001",
+  "model": "Gemini 2.0 Flash Live 001",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.5 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-2-0-flash-lite-preview-02-05",
+  "model": "Gemini 2.0 Flash Lite Preview 02.05",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-1-5-pro-exp",
+  "model": "Gemini 1.5 Pro Exp",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $10.5 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $1.05 out"
+ },
+ {
+  "date": "2026-01-05",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-5-pro-preview-05-06",
+  "model": "Gemini 2.5 Pro Preview 05.06",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-5-pro-preview-03-25",
+  "model": "Gemini 2.5 Pro Preview 03.25",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-5-flash-preview-05-20",
+  "model": "Gemini 2.5 Flash Preview 05.20",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-5-flash-lite-preview-06-17",
+  "model": "Gemini 2.5 Flash Lite Preview 06.17",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-0-flash-preview-image-generation",
+  "model": "Gemini 2.0 Flash Preview Image Generation",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-0-flash-live-001",
+  "model": "Gemini 2.0 Flash Live 001",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-2-0-flash-lite-preview-02-05",
+  "model": "Gemini 2.0 Flash Lite Preview 02.05",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-1-5-pro-exp",
+  "model": "Gemini 1.5 Pro Exp",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2026-01-03",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2025-12-17",
+  "key": "gemini-3-flash-preview",
+  "model": "Gemini 3 Flash Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.5 in / $3 out"
+ },
+ {
+  "date": "2025-12-11",
+  "key": "gpt-5-2",
+  "model": "GPT-5.2",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.75 in / $14 out"
+ },
+ {
+  "date": "2025-12-10",
+  "key": "devstral",
+  "model": "Devstral",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.4 in / $2 out"
+ },
+ {
+  "date": "2025-12-10",
+  "key": "labs-devstral-small",
+  "model": "Labs Devstral Small",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.1 in / $0.3 out"
+ },
+ {
+  "date": "2025-12-05",
+  "key": "mistral-large-3",
+  "model": "Mistral Large 3",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.5 in / $1.5 out"
+ },
+ {
+  "date": "2025-12-02",
+  "key": "deepseek-v3-2",
+  "model": "DeepSeek V3.2",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.28 in / $0.4 out"
+ },
+ {
+  "date": "2025-11-24",
+  "key": "claude-opus-4-5",
+  "model": "Claude Opus 4.5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2025-11-21",
+  "key": "grok-4-1-fast",
+  "model": "Grok 4.1 Fast",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$0.2 in / $0.5 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "o3-mini",
+  "model": "o3 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.1 in / $4.4 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "o1-mini",
+  "model": "o1 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.1 in / $4.4 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "gpt-5-nano",
+  "model": "GPT-5 Nano",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.05 in / $0.4 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "gpt-5-mini",
+  "model": "GPT-5 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.25 in / $2 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "gpt-5-chat",
+  "model": "GPT-5 Chat",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "gpt-5-1",
+  "model": "GPT-5.1",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-11-19",
+  "key": "gpt-5",
+  "model": "GPT-5",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "o3-mini",
+  "model": "o3 Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "o1-mini",
+  "model": "o1 Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "gpt-5-nano",
+  "model": "GPT-5 Nano",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "gpt-5-mini",
+  "model": "GPT-5 Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "gpt-5-chat",
+  "model": "GPT-5 Chat",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "gpt-5-1",
+  "model": "GPT-5.1",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "gpt-5",
+  "model": "GPT-5",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-11-18",
+  "key": "gemini-3-pro-preview",
+  "model": "Gemini 3 Pro Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$2 in / $12 out"
+ },
+ {
+  "date": "2025-11-13",
+  "key": "gpt-5-1",
+  "model": "GPT-5.1",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-10-27",
+  "key": "claude-3-opus",
+  "model": "Claude 3 Opus",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$15 in / $75 out"
+ },
+ {
+  "date": "2025-10-27",
+  "key": "claude-3-haiku",
+  "model": "Claude 3 Haiku",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$0.25 in / $1.25 out"
+ },
+ {
+  "date": "2025-10-15",
+  "key": "claude-haiku-4-5",
+  "model": "Claude Haiku 4.5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$1 in / $5 out"
+ },
+ {
+  "date": "2025-10-07",
+  "key": "gpt-realtime-mini",
+  "model": "GPT-Realtime Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.6 in / $2.4 out"
+ },
+ {
+  "date": "2025-10-02",
+  "key": "claude-3-5-sonnet",
+  "model": "Claude 3.5 Sonnet",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-10-02",
+  "key": "claude-3-5-haiku",
+  "model": "Claude 3.5 Haiku",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-10-01",
+  "key": "gpt-5-chat",
+  "model": "GPT-5 Chat",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 272000,
+  "new": 128000
+ },
+ {
+  "date": "2025-09-29",
+  "key": "claude-sonnet-4-5",
+  "model": "Claude Sonnet 4.5",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2025-09-27",
+  "key": "gpt-5-nano",
+  "model": "GPT-5 Nano",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2025-09-27",
+  "key": "gpt-5-mini",
+  "model": "GPT-5 Mini",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2025-09-27",
+  "key": "gpt-5-chat",
+  "model": "GPT-5 Chat",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2025-09-27",
+  "key": "gpt-5",
+  "model": "GPT-5",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
+  "date": "2025-09-25",
+  "key": "gemini-1-5-pro-002",
+  "model": "Gemini 1.5 Pro 002",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2025-09-25",
+  "key": "gemini-1-5-flash-002",
+  "model": "Gemini 1.5 Flash 002",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2025-09-25",
+  "key": "gpt-3-5-turbo",
+  "model": "GPT-3.5 Turbo",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 2,
+  "new": 1.5
+ },
+ {
+  "date": "2025-09-25",
+  "key": "gpt-3-5-turbo",
+  "model": "GPT-3.5 Turbo",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 1.5,
+  "new": 0.5
+ },
+ {
+  "date": "2025-09-25",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2025-09-24",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 65536,
+  "new": 131072
+ },
+ {
+  "date": "2025-09-24",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 2.19,
+  "new": 1.7
+ },
+ {
+  "date": "2025-09-24",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.55,
+  "new": 0.6
+ },
+ {
+  "date": "2025-09-24",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 65536,
+  "new": 131072
+ },
+ {
+  "date": "2025-09-24",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 1.1,
+  "new": 1.7
+ },
+ {
+  "date": "2025-09-24",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.27,
+  "new": 0.6
+ },
+ {
+  "date": "2025-09-23",
+  "key": "grok-4-fast",
+  "model": "Grok 4 Fast",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$0.2 in / $0.5 out"
+ },
+ {
+  "date": "2025-09-23",
+  "key": "claude-sonnet-4",
+  "model": "Claude Sonnet 4",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2025-09-19",
+  "key": "gemini-2-5-flash-image-preview",
+  "model": "Gemini 2.5 Flash Image Preview",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2025-09-18",
+  "key": "claude-sonnet-4",
+  "model": "Claude Sonnet 4",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 1000000,
+  "new": 200000
+ },
+ {
+  "date": "2025-09-17",
+  "key": "claude-sonnet-4",
+  "model": "Claude Sonnet 4",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2025-09-05",
+  "key": "gemini-2-5-flash-image-preview",
+  "model": "Gemini 2.5 Flash Image Preview",
+  "provider": "Google",
+  "type": "output",
+  "old": 2.5,
+  "new": 30
+ },
+ {
+  "date": "2025-08-29",
+  "key": "gpt-realtime",
+  "model": "GPT-Realtime",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$4 in / $16 out"
+ },
+ {
+  "date": "2025-08-28",
+  "key": "grok-code-fast-1",
+  "model": "Grok Code Fast 1",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$0.2 in / $1.5 out"
+ },
+ {
+  "date": "2025-08-26",
+  "key": "gemini-2-5-flash-image-preview",
+  "model": "Gemini 2.5 Flash Image Preview",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.3 in / $2.5 out"
+ },
+ {
+  "date": "2025-08-19",
+  "key": "claude-4-sonnet",
+  "model": "Claude 4 Sonnet",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": 200000,
+  "new": 1000000
+ },
+ {
+  "date": "2025-08-07",
+  "key": "gpt-5-chat",
+  "model": "GPT-5 Chat",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-08-07",
+  "key": "gpt-5-nano",
+  "model": "GPT-5 Nano",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.05 in / $0.4 out"
+ },
+ {
+  "date": "2025-08-07",
+  "key": "gpt-5-mini",
+  "model": "GPT-5 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.25 in / $2 out"
+ },
+ {
+  "date": "2025-08-07",
+  "key": "gpt-5",
+  "model": "GPT-5",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-08-05",
+  "key": "claude-opus-4-1",
+  "model": "Claude Opus 4.1",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$15 in / $75 out"
+ },
+ {
+  "date": "2025-07-23",
+  "key": "gemini-2-5-flash-lite",
+  "model": "Gemini 2.5 Flash Lite",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2025-07-22",
+  "key": "claude-3-sonnet",
+  "model": "Claude 3 Sonnet",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-07-22",
+  "key": "claude-2-1",
+  "model": "Claude 2.1",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-07-22",
+  "key": "claude-2",
+  "model": "Claude 2",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-07-22",
+  "key": "gemini-2-0-flash-live-001",
+  "model": "Gemini 2.0 Flash Live 001",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.5 out"
+ },
+ {
+  "date": "2025-07-15",
+  "key": "claude-instant-1-2",
+  "model": "Claude Instant 1.2",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-07-15",
+  "key": "claude-instant-1",
+  "model": "Claude Instant 1",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-07-10",
+  "key": "grok-4",
+  "model": "Grok 4",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2025-07-10",
+  "key": "devstral-medium",
+  "model": "Devstral Medium",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.4 in / $2 out"
+ },
+ {
+  "date": "2025-06-27",
+  "key": "deepseek-v3",
+  "model": "DeepSeek V3",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.27 in / $1.1 out"
+ },
+ {
+  "date": "2025-06-27",
+  "key": "deepseek-r1",
+  "model": "DeepSeek R1",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.55 in / $2.19 out"
+ },
+ {
+  "date": "2025-06-19",
+  "key": "gemini-2-5-flash-lite-preview-06-17",
+  "model": "Gemini 2.5 Flash Lite Preview 06.17",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2025-06-19",
+  "key": "gemini-2-5-flash-preview-05-20",
+  "model": "Gemini 2.5 Flash Preview 05.20",
+  "provider": "Google",
+  "type": "output",
+  "old": 0.6,
+  "new": 2.5
+ },
+ {
+  "date": "2025-06-19",
+  "key": "gemini-2-5-flash-preview-05-20",
+  "model": "Gemini 2.5 Flash Preview 05.20",
+  "provider": "Google",
+  "type": "input",
+  "old": 0.15,
+  "new": 0.3
+ },
+ {
+  "date": "2025-06-18",
+  "key": "gemini-2-5-flash",
+  "model": "Gemini 2.5 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.3 in / $2.5 out"
+ },
+ {
+  "date": "2025-06-17",
+  "key": "gemini-2-5-pro",
+  "model": "Gemini 2.5 Pro",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-06-14",
+  "key": "magistral-small",
+  "model": "Magistral Small",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.5 in / $1.5 out"
+ },
+ {
+  "date": "2025-06-11",
+  "key": "o3-pro",
+  "model": "o3 Pro",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-06-10",
+  "key": "magistral-medium",
+  "model": "Magistral Medium",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$2 in / $5 out"
+ },
+ {
+  "date": "2025-06-10",
+  "key": "o3",
+  "model": "o3",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 40,
+  "new": 8
+ },
+ {
+  "date": "2025-06-10",
+  "key": "o3",
+  "model": "o3",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 10,
+  "new": 2
+ },
+ {
+  "date": "2025-06-10",
+  "key": "o3-pro",
+  "model": "o3 Pro",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$20 in / $80 out"
+ },
+ {
+  "date": "2025-06-06",
+  "key": "gemini-2-5-pro-preview-06-05",
+  "model": "Gemini 2.5 Pro Preview 06.05",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-06-03",
+  "key": "claude-4-sonnet",
+  "model": "Claude 4 Sonnet",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2025-06-03",
+  "key": "claude-4-opus",
+  "model": "Claude 4 Opus",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$15 in / $75 out"
+ },
+ {
+  "date": "2025-05-28",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 32000,
+  "new": 131072
+ },
+ {
+  "date": "2025-05-28",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 8.1,
+  "new": 2
+ },
+ {
+  "date": "2025-05-28",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 2.7,
+  "new": 0.4
+ },
+ {
+  "date": "2025-05-26",
+  "key": "gemini-1-5-pro-001",
+  "model": "Gemini 1.5 Pro 001",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2025-05-26",
+  "key": "gemini-1-5-flash-001",
+  "model": "Gemini 1.5 Flash 001",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2025-05-23",
+  "key": "devstral-small",
+  "model": "Devstral Small",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.1 in / $0.3 out"
+ },
+ {
+  "date": "2025-05-22",
+  "key": "claude-sonnet-4",
+  "model": "Claude Sonnet 4",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2025-05-22",
+  "key": "claude-opus-4",
+  "model": "Claude Opus 4",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$15 in / $75 out"
+ },
+ {
+  "date": "2025-05-20",
+  "key": "gemini-2-0-flash-preview-image-generation",
+  "model": "Gemini 2.0 Flash Preview Image Generation",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2025-05-20",
+  "key": "gemini-2-5-flash-preview-05-20",
+  "model": "Gemini 2.5 Flash Preview 05.20",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.15 in / $0.6 out"
+ },
+ {
+  "date": "2025-05-06",
+  "key": "gemini-2-5-pro-preview-05-06",
+  "model": "Gemini 2.5 Pro Preview 05.06",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.25 in / $10 out"
+ },
+ {
+  "date": "2025-04-18",
+  "key": "gemini-2-5-flash-preview-04-17",
+  "model": "Gemini 2.5 Flash Preview 04.17",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.15 in / $0.6 out"
+ },
+ {
+  "date": "2025-04-16",
+  "key": "o4-mini",
+  "model": "o4 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.1 in / $4.4 out"
+ },
+ {
+  "date": "2025-04-16",
+  "key": "o3",
+  "model": "o3",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$10 in / $40 out"
+ },
+ {
+  "date": "2025-04-14",
+  "key": "gpt-4-1-nano",
+  "model": "GPT-4.1 Nano",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2025-04-14",
+  "key": "gpt-4-1-mini",
+  "model": "GPT-4.1 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.4 in / $1.6 out"
+ },
+ {
+  "date": "2025-04-14",
+  "key": "gpt-4-1",
+  "model": "GPT-4.1",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$2 in / $8 out"
+ },
+ {
+  "date": "2025-04-12",
+  "key": "gemini-2-5-pro-preview-03-25",
+  "model": "Gemini 2.5 Pro Preview 03.25",
+  "provider": "Google",
+  "type": "output",
+  "old": 1,
+  "new": 10
+ },
+ {
+  "date": "2025-04-11",
+  "key": "grok-3-mini-fast",
+  "model": "Grok 3 Mini Fast",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$0.6 in / $4 out"
+ },
+ {
+  "date": "2025-04-11",
+  "key": "grok-3-mini",
+  "model": "Grok 3 Mini",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$0.3 in / $0.5 out"
+ },
+ {
+  "date": "2025-04-11",
+  "key": "grok-3-fast",
+  "model": "Grok 3 Fast",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$5 in / $25 out"
+ },
+ {
+  "date": "2025-04-11",
+  "key": "grok-3",
+  "model": "Grok 3",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2025-04-05",
+  "key": "gemini-2-5-pro-preview-03-25",
+  "model": "Gemini 2.5 Pro Preview 03.25",
+  "provider": "Google",
+  "type": "added",
+  "note": "$1.25 in / $1 out"
+ },
+ {
+  "date": "2025-03-25",
+  "key": "gemini-2-0-flash-lite",
+  "model": "Gemini 2.0 Flash Lite",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2025-03-10",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 3,
+  "new": 0.3
+ },
+ {
+  "date": "2025-03-10",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 1,
+  "new": 0.1
+ },
+ {
+  "date": "2025-03-02",
+  "key": "claude-3-opus",
+  "model": "Claude 3 Opus",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-03-02",
+  "key": "claude-3-haiku",
+  "model": "Claude 3 Haiku",
+  "provider": "Anthropic",
+  "type": "removed"
+ },
+ {
+  "date": "2025-02-27",
+  "key": "gpt-4-5-preview",
+  "model": "GPT-4.5 Preview",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$75 in / $150 out"
+ },
+ {
+  "date": "2025-02-24",
+  "key": "claude-3-7-sonnet",
+  "model": "Claude 3.7 Sonnet",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2025-02-07",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "output",
+  "old": 0.28,
+  "new": 1.1
+ },
+ {
+  "date": "2025-02-07",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "input",
+  "old": 0.14,
+  "new": 0.27
+ },
+ {
+  "date": "2025-02-06",
+  "key": "gemini-2-0-flash-lite-preview-02-05",
+  "model": "Gemini 2.0 Flash Lite Preview 02.05",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2025-02-06",
+  "key": "gemini-2-0-flash-001",
+  "model": "Gemini 2.0 Flash 001",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.1 in / $0.4 out"
+ },
+ {
+  "date": "2025-02-03",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 128000,
+  "new": 65536
+ },
+ {
+  "date": "2025-02-03",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 64000,
+  "new": 65536
+ },
+ {
+  "date": "2025-02-03",
+  "key": "open-mixtral-8x22b",
+  "model": "Open Mixtral 8x22b",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 64000,
+  "new": 65336
+ },
+ {
+  "date": "2025-01-31",
+  "key": "o3-mini",
+  "model": "o3 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$1.1 in / $4.4 out"
+ },
+ {
+  "date": "2025-01-31",
+  "key": "o1-mini",
+  "model": "o1 Mini",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 12,
+  "new": 4.4
+ },
+ {
+  "date": "2025-01-31",
+  "key": "o1-mini",
+  "model": "o1 Mini",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 3,
+  "new": 1.1
+ },
+ {
+  "date": "2025-01-29",
+  "key": "gpt-4-vision-preview",
+  "model": "GPT-4 Vision Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2025-01-29",
+  "key": "grok-vision",
+  "model": "Grok Vision",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$5 in / $15 out"
+ },
+ {
+  "date": "2025-01-29",
+  "key": "grok-2-vision",
+  "model": "Grok 2 Vision",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
+  "date": "2025-01-22",
+  "key": "deepseek-reasoner",
+  "model": "DeepSeek Reasoner",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.55 in / $2.19 out"
+ },
+ {
+  "date": "2025-01-06",
+  "key": "pixtral-large",
+  "model": "Pixtral Large",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2025-01-06",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 9,
+  "new": 6
+ },
+ {
+  "date": "2025-01-06",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 3,
+  "new": 2
+ },
+ {
+  "date": "2024-12-17",
+  "key": "o1-preview",
+  "model": "o1 Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2024-12-17",
+  "key": "gpt-4o-mini-realtime-preview",
+  "model": "GPT-4o Mini Realtime Preview",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.6 in / $2.4 out"
+ },
+ {
+  "date": "2024-12-17",
+  "key": "gpt-4o-realtime-preview",
+  "model": "GPT-4o Realtime Preview",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $20 out"
+ },
+ {
+  "date": "2024-12-17",
+  "key": "o1",
+  "model": "o1",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$15 in / $60 out"
+ },
+ {
+  "date": "2024-11-12",
+  "key": "gpt-4o",
+  "model": "GPT-4o",
+  "provider": "OpenAI",
+  "type": "output",
+  "old": 15,
+  "new": 10
+ },
+ {
+  "date": "2024-11-12",
+  "key": "gpt-4o",
+  "model": "GPT-4o",
+  "provider": "OpenAI",
+  "type": "input",
+  "old": 5,
+  "new": 2.5
+ },
+ {
+  "date": "2024-11-05",
+  "key": "claude-3-5-haiku",
+  "model": "Claude 3.5 Haiku",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$1 in / $5 out"
+ },
+ {
+  "date": "2024-11-01",
+  "key": "grok",
+  "model": "Grok",
+  "provider": "xAI",
+  "type": "added",
+  "note": "$5 in / $15 out"
+ },
+ {
+  "date": "2024-09-27",
+  "key": "pixtral-12b",
+  "model": "Pixtral 12B",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.15 in / $0.15 out"
+ },
+ {
+  "date": "2024-09-25",
+  "key": "gemini-1-5-pro-002",
+  "model": "Gemini 1.5 Pro 002",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $10.5 out"
+ },
+ {
+  "date": "2024-09-25",
+  "key": "gemini-1-5-flash-001",
+  "model": "Gemini 1.5 Flash 001",
+  "provider": "Google",
+  "type": "context",
+  "old": 1000000,
+  "new": 1048576
+ },
+ {
+  "date": "2024-09-25",
+  "key": "gemini-1-5-flash-002",
+  "model": "Gemini 1.5 Flash 002",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2024-09-21",
+  "key": "gemini-1-5-pro-001",
+  "model": "Gemini 1.5 Pro 001",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $10.5 out"
+ },
+ {
+  "date": "2024-09-21",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
+ },
+ {
+  "date": "2024-09-15",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2024-09-15",
+  "key": "gemini-1-5-flash-001",
+  "model": "Gemini 1.5 Flash 001",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.075 in / $0.3 out"
+ },
+ {
+  "date": "2024-09-13",
+  "key": "o1-mini",
+  "model": "o1 Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$3 in / $12 out"
+ },
+ {
+  "date": "2024-09-13",
+  "key": "o1-preview",
+  "model": "o1 Preview",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$15 in / $60 out"
+ },
+ {
+  "date": "2024-09-09",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "output",
+  "old": 1.05,
+  "new": 0.3
+ },
+ {
+  "date": "2024-09-09",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "input",
+  "old": 0.35,
+  "new": 0.075
+ },
+ {
+  "date": "2024-08-17",
+  "key": "gemini-gemma-2-9b-it",
+  "model": "Gemma 2 9B IT",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-08-17",
+  "key": "gemini-gemma-2-27b-it",
+  "model": "Gemma 2 27B IT",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-08-17",
+  "key": "gemini-1-5-pro-exp",
+  "model": "Gemini 1.5 Pro Exp",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $10.5 out"
+ },
+ {
+  "date": "2024-08-17",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "input",
+  "old": 0.35,
+  "new": 3.5
+ },
+ {
+  "date": "2024-08-17",
+  "key": "deepseek-coder",
+  "model": "DeepSeek Coder",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
+ },
+ {
+  "date": "2024-08-17",
+  "key": "open-codestral-mamba",
+  "model": "Open Codestral Mamba",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.25 in / $0.25 out"
+ },
+ {
+  "date": "2024-08-17",
+  "key": "open-mistral-nemo",
+  "model": "Open Mistral Nemo",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.3 in / $0.3 out"
+ },
+ {
+  "date": "2024-08-17",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
+ },
+ {
+  "date": "2024-08-17",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 12,
+  "new": 9
+ },
+ {
+  "date": "2024-08-17",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 4,
+  "new": 3
+ },
+ {
+  "date": "2024-08-17",
+  "key": "gpt-4o-mini",
+  "model": "GPT-4o Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.15 in / $0.6 out"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "gemini-gemma-2-9b-it",
+  "model": "Gemma 2 9B IT",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "gemini-gemma-2-27b-it",
+  "model": "Gemma 2 27B IT",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "gemini-1-5-pro-exp",
+  "model": "Gemini 1.5 Pro Exp",
+  "provider": "Google",
+  "type": "removed"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "open-codestral-mamba",
+  "model": "Open Codestral Mamba",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "open-mistral-nemo",
+  "model": "Open Mistral Nemo",
+  "provider": "Mistral",
+  "type": "removed"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "gpt-4o-mini",
+  "model": "GPT-4o Mini",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2024-08-15",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "input",
+  "old": 3.5,
+  "new": 0.35
+ },
+ {
+  "date": "2024-08-15",
+  "key": "deepseek-coder",
+  "model": "DeepSeek Coder",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 128000,
+  "new": 32000
+ },
+ {
+  "date": "2024-08-15",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 128000,
+  "new": 32000
+ },
+ {
+  "date": "2024-08-15",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 9,
+  "new": 12
+ },
+ {
+  "date": "2024-08-15",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 3,
+  "new": 4
+ },
+ {
+  "date": "2024-08-01",
+  "key": "gemini-1-5-pro-exp",
+  "model": "Gemini 1.5 Pro Exp",
+  "provider": "Google",
+  "type": "added",
+  "note": "$3.5 in / $10.5 out"
+ },
+ {
+  "date": "2024-07-24",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
+ },
+ {
+  "date": "2024-07-24",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 12,
+  "new": 9
+ },
+ {
+  "date": "2024-07-24",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 4,
+  "new": 3
+ },
+ {
+  "date": "2024-07-20",
+  "key": "open-codestral-mamba",
+  "model": "Open Codestral Mamba",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.25 in / $0.25 out"
+ },
+ {
+  "date": "2024-07-20",
+  "key": "open-mistral-nemo",
+  "model": "Open Mistral Nemo",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.3 in / $0.3 out"
+ },
+ {
+  "date": "2024-07-18",
+  "key": "gemini-gemma-2-9b-it",
+  "model": "Gemma 2 9B IT",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-07-18",
+  "key": "gemini-gemma-2-27b-it",
+  "model": "Gemma 2 27B IT",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-07-18",
+  "key": "gpt-4o-mini",
+  "model": "GPT-4o Mini",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$0.15 in / $0.6 out"
+ },
+ {
+  "date": "2024-07-06",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "input",
+  "old": 0.35,
+  "new": 3.5
+ },
+ {
+  "date": "2024-07-04",
+  "key": "deepseek-coder",
+  "model": "DeepSeek Coder",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
+ },
+ {
+  "date": "2024-06-20",
+  "key": "claude-3-5-sonnet",
+  "model": "Claude 3.5 Sonnet",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2024-06-20",
+  "key": "deepseek-coder",
+  "model": "DeepSeek Coder",
+  "provider": "DeepSeek",
+  "type": "context",
+  "old": 16000,
+  "new": 32000
+ },
+ {
+  "date": "2024-06-17",
+  "key": "gemini-pro-vision",
+  "model": "Gemini Pro Vision",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-06-17",
+  "key": "gemini-1-5-pro",
+  "model": "Gemini 1.5 Pro",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-06-17",
+  "key": "gemini-pro",
+  "model": "Gemini Pro",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-06-17",
+  "key": "gemini-1-5-flash",
+  "model": "Gemini 1.5 Flash",
+  "provider": "Google",
+  "type": "added",
+  "note": "$0.35 in / $1.05 out"
+ },
+ {
+  "date": "2024-05-31",
+  "key": "codestral",
+  "model": "Codestral",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$1 in / $3 out"
+ },
+ {
+  "date": "2024-05-31",
+  "key": "open-mixtral-8x22b",
+  "model": "Open Mixtral 8x22b",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2024-05-31",
+  "key": "open-mixtral-8x7b",
+  "model": "Open Mixtral 8x7b",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 6,
+  "new": 0.7
+ },
+ {
+  "date": "2024-05-31",
+  "key": "open-mixtral-8x7b",
+  "model": "Open Mixtral 8x7b",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 2,
+  "new": 0.7
+ },
+ {
+  "date": "2024-05-31",
+  "key": "open-mistral-7b",
+  "model": "Open Mistral 7B",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.25 in / $0.25 out"
+ },
+ {
+  "date": "2024-05-31",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 24,
+  "new": 12
+ },
+ {
+  "date": "2024-05-31",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 8,
+  "new": 4
+ },
+ {
+  "date": "2024-05-31",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 6,
+  "new": 3
+ },
+ {
+  "date": "2024-05-31",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 2,
+  "new": 1
+ },
+ {
+  "date": "2024-05-31",
+  "key": "mistral-tiny",
+  "model": "Mistral Tiny",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 0.46,
+  "new": 0.25
+ },
+ {
+  "date": "2024-05-31",
+  "key": "mistral-tiny",
+  "model": "Mistral Tiny",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 0.15,
+  "new": 0.25
+ },
+ {
+  "date": "2024-05-13",
+  "key": "gpt-4o",
+  "model": "GPT-4o",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$5 in / $15 out"
+ },
+ {
+  "date": "2024-05-07",
+  "key": "deepseek-coder",
+  "model": "DeepSeek Coder",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.14 in / $0.28 out"
+ },
+ {
+  "date": "2024-05-07",
+  "key": "deepseek-chat",
+  "model": "DeepSeek Chat",
+  "provider": "DeepSeek",
+  "type": "added",
+  "note": "$0.14 in / $0.28 out"
+ },
+ {
+  "date": "2024-04-17",
+  "key": "open-mixtral-8x7b",
+  "model": "Open Mixtral 8x7b",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$2 in / $6 out"
+ },
+ {
+  "date": "2024-04-09",
+  "key": "gpt-4-turbo-preview",
+  "model": "GPT-4 Turbo Preview",
+  "provider": "OpenAI",
+  "type": "removed"
+ },
+ {
+  "date": "2024-04-09",
+  "key": "gpt-4-turbo",
+  "model": "GPT-4 Turbo",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$10 in / $30 out"
+ },
+ {
+  "date": "2024-04-04",
+  "key": "gpt-4-turbo-preview",
+  "model": "GPT-4 Turbo Preview",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 128000,
+  "new": 8192
+ },
+ {
+  "date": "2024-04-03",
+  "key": "gpt-4-turbo-preview",
+  "model": "GPT-4 Turbo Preview",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 8192,
+  "new": 128000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-3-sonnet",
+  "model": "Claude 3 Sonnet",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 200000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-3-opus",
+  "model": "Claude 3 Opus",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 200000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-3-haiku",
+  "model": "Claude 3 Haiku",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 200000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-2-1",
+  "model": "Claude 2.1",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 200000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-2",
+  "model": "Claude 2",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 100000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-instant-1-2",
+  "model": "Claude Instant 1.2",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 100000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "context",
+  "old": null,
+  "new": 32000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "context",
+  "old": null,
+  "new": 32000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "context",
+  "old": null,
+  "new": 32000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "mistral-tiny",
+  "model": "Mistral Tiny",
+  "provider": "Mistral",
+  "type": "context",
+  "old": null,
+  "new": 32000
+ },
+ {
+  "date": "2024-03-23",
+  "key": "claude-instant-1",
+  "model": "Claude Instant 1",
+  "provider": "Anthropic",
+  "type": "context",
+  "old": null,
+  "new": 100000
+ },
+ {
+  "date": "2024-03-19",
+  "key": "mistral-large",
+  "model": "Mistral Large",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$8 in / $24 out"
+ },
+ {
+  "date": "2024-03-19",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 8.2,
+  "new": 8.1
+ },
+ {
+  "date": "2024-03-19",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 2.73,
+  "new": 2.7
+ },
+ {
+  "date": "2024-03-19",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "output",
+  "old": 1.97,
+  "new": 6
+ },
+ {
+  "date": "2024-03-19",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "input",
+  "old": 0.66,
+  "new": 2
+ },
+ {
+  "date": "2024-03-13",
+  "key": "claude-3-haiku",
+  "model": "Claude 3 Haiku",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$0.25 in / $1.25 out"
+ },
+ {
+  "date": "2024-03-07",
+  "key": "gpt-3-5-turbo",
+  "model": "GPT-3.5 Turbo",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": 4097,
+  "new": 16385
+ },
+ {
+  "date": "2024-03-04",
+  "key": "claude-3-sonnet",
+  "model": "Claude 3 Sonnet",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
+  "date": "2024-03-04",
+  "key": "claude-3-opus",
+  "model": "Claude 3 Opus",
+  "provider": "Anthropic",
+  "type": "added",
+  "note": "$15 in / $75 out"
+ },
+ {
+  "date": "2024-02-07",
+  "key": "gpt-4-turbo-preview",
+  "model": "GPT-4 Turbo Preview",
+  "provider": "OpenAI",
+  "type": "added",
+  "note": "$10 in / $30 out"
+ },
+ {
+  "date": "2024-01-09",
+  "key": "gpt-3-5-turbo-16k",
+  "model": "GPT-3.5 Turbo 16K",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": null,
+  "new": 16385
+ },
+ {
+  "date": "2024-01-09",
+  "key": "gpt-3-5-turbo",
+  "model": "GPT-3.5 Turbo",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": null,
+  "new": 4097
+ },
+ {
+  "date": "2024-01-09",
+  "key": "gpt-4-vision-preview",
+  "model": "GPT-4 Vision Preview",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": null,
+  "new": 128000
+ },
+ {
+  "date": "2024-01-09",
+  "key": "gpt-4-preview",
+  "model": "GPT-4 Preview",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": null,
+  "new": 128000
+ },
+ {
+  "date": "2024-01-09",
+  "key": "gpt-4-32k",
+  "model": "GPT-4 32K",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": null,
+  "new": 32768
+ },
+ {
+  "date": "2024-01-09",
+  "key": "gpt-4",
+  "model": "GPT-4",
+  "provider": "OpenAI",
+  "type": "context",
+  "old": null,
+  "new": 8192
+ },
+ {
+  "date": "2023-12-14",
+  "key": "mistral-medium",
+  "model": "Mistral Medium",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$2.73 in / $8.2 out"
+ },
+ {
+  "date": "2023-12-14",
+  "key": "mistral-small",
+  "model": "Mistral Small",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.66 in / $1.97 out"
+ },
+ {
+  "date": "2023-12-14",
+  "key": "mistral-tiny",
+  "model": "Mistral Tiny",
+  "provider": "Mistral",
+  "type": "added",
+  "note": "$0.15 in / $0.46 out"
+ },
+ {
+  "date": "2023-11-22",
+  "key": "claude-2-1",
+  "model": "Claude 2.1",
+  "provider": "Anthropic",
+  "type": "output",
+  "old": 32.68,
+  "new": 24
+ },
+ {
+  "date": "2023-11-22",
+  "key": "claude-2-1",
+  "model": "Claude 2.1",
+  "provider": "Anthropic",
+  "type": "input",
+  "old": 11.02,
+  "new": 8
+ },
+ {
+  "date": "2023-11-22",
+  "key": "claude-2",
+  "model": "Claude 2",
+  "provider": "Anthropic",
+  "type": "output",
+  "old": 32.68,
+  "new": 24
+ },
+ {
+  "date": "2023-11-22",
+  "key": "claude-2",
+  "model": "Claude 2",
+  "provider": "Anthropic",
+  "type": "input",
+  "old": 11.02,
+  "new": 8
+ },
+ {
+  "date": "2023-11-22",
+  "key": "claude-instant-1-2",
+  "model": "Claude Instant 1.2",
+  "provider": "Anthropic",
+  "type": "output",
+  "old": 5.51,
+  "new": 0.551
+ },
+ {
+  "date": "2023-11-22",
+  "key": "claude-instant-1-2",
+  "model": "Claude Instant 1.2",
+  "provider": "Anthropic",
+  "type": "input",
+  "old": 1.63,
+  "new": 0.163
+ }
+]
