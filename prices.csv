@@ -1,0 +1,101 @@
+key,name,provider,input,output,cached_input,batch_input,batch_output,context,max_output,vision,reasoning,caching,preview,retires
+ministral-3-3b,Ministral 3 3B,Mistral,0.1,0.1,0.01,,,131072,131072,true,false,false,false,
+gpt-5-nano,GPT-5 Nano,OpenAI,0.05,0.4,0.005,0.025,0.2,272000,128000,true,true,true,false,2026-12-11
+ministral-3-8b,Ministral 3 8B,Mistral,0.15,0.15,0.015,,,262144,262144,true,false,false,false,
+deepseek-coder,DeepSeek Coder,DeepSeek,0.14,0.28,0.014,,,128000,4096,false,false,true,false,
+gemini-2-5-flash-lite,Gemini 2.5 Flash Lite,Google,0.1,0.4,0.01,0.05,0.2,1048576,65536,true,true,true,false,
+gpt-4-1-nano,GPT-4.1 Nano,OpenAI,0.1,0.4,0.025,0.05,0.2,1047576,32768,true,false,true,false,2026-10-23
+voxtral-small,Voxtral Small,Mistral,0.1,0.4,0.01,,,32768,32768,false,false,false,false,
+gpt-6-luna,GPT-6 Luna,OpenAI,0.1,0.5,0.01,0.05,0.25,922000,128000,true,true,true,false,
+ministral-3-14b,Ministral 3 14B,Mistral,0.2,0.2,0.02,,,262144,262144,true,false,false,false,
+claude-haiku-5-5,Claude Haiku 5.5,Anthropic,0.1,0.5,0.01,0.05,0.25,1000000,128000,true,true,true,false,
+mistral-tiny,Mistral Tiny,Mistral,0.25,0.25,0.025,,,32000,8191,false,false,false,false,
+gpt-4o-mini,GPT-4o Mini,OpenAI,0.15,0.6,0.075,0.075,0.3,128000,16384,true,false,true,false,2027-01-14
+mistral-small,Mistral Small,Mistral,0.15,0.6,0.015,,,262144,262144,true,true,false,false,
+open-mistral-nemo,Open Mistral Nemo,Mistral,0.3,0.3,0.03,,,128000,128000,false,false,false,false,
+deepseek-v3-2,DeepSeek V3.2,DeepSeek,0.28,0.4,0.028,,,163840,163840,false,true,true,false,
+codestral,Codestral,Mistral,0.3,0.9,0.03,,,128000,128000,false,false,false,false,
+gpt-5-6-luna,GPT-5.6 Luna,OpenAI,0.2,1.2,0.02,0.1,0.6,922000,128000,true,true,true,false,
+gpt-5-4-nano,GPT-5.4 Nano,OpenAI,0.2,1.25,0.02,0.1,0.625,272000,128000,true,true,true,false,2027-04-01
+deepseek-v3,DeepSeek V3,DeepSeek,0.27,1.1,0.07,,,65536,8192,false,false,true,false,
+gemini-gemma-2-27b-it,Gemma 2 27B IT,Google,0.35,1.05,,,,,8192,true,false,false,false,
+gemini-gemma-2-9b-it,Gemma 2 9B IT,Google,0.35,1.05,,,,,8192,true,false,false,false,
+deepseek-flash,DeepSeek Flash,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,false,
+deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,false,
+deepseek-v4-flash-vision-exp,DeepSeek V4 Flash Vision Exp,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,true,
+gemini-3-1-flash-lite,Gemini 3.1 Flash Lite,Google,0.25,1.5,0.025,0.125,0.75,1048576,65536,true,true,true,false,2027-05-07
+gpt-5-mini,GPT-5 Mini,OpenAI,0.25,2,0.025,0.125,1,272000,128000,true,true,true,false,2026-12-11
+gpt-4-1-mini,GPT-4.1 Mini,OpenAI,0.4,1.6,0.1,0.2,0.8,1047576,32768,true,false,true,false,2027-01-14
+gpt-3-5-turbo,GPT-3.5 Turbo,OpenAI,0.5,1.5,,,,16385,4096,false,false,true,false,2026-10-23
+mistral-large-3,Mistral Large 3,Mistral,0.5,1.5,0.05,,,262144,262144,true,false,false,false,
+gemini-2-5-flash,Gemini 2.5 Flash,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,
+gemini-3-5-flash-lite,Gemini 3.5 Flash Lite,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,
+gemini-exp,Gemini Exp,Google,0.3,2.5,0.03,,,1048576,65535,true,true,true,true,
+deepseek-r1,DeepSeek R1,DeepSeek,0.55,2.19,0.14,,,65536,8192,false,true,true,false,
+mistral-large-4,Mistral Large 4,Mistral,0.68,2.09,0.068,,,1048576,,true,true,true,false,
+gemini-3-flash-preview,Gemini 3 Flash Preview,Google,0.5,3,0.05,0.25,1.5,1048576,65536,true,true,true,true,
+grok-build-0-1,Grok Build 0.1,xAI,1,2,0.2,,,256000,256000,true,true,true,false,
+grok-code-fast,Grok Code Fast,xAI,1,2,0.2,,,256000,256000,true,true,true,false,
+grok-code-fast-1,Grok Code Fast 1,xAI,1,2,0.2,,,256000,256000,true,true,true,false,
+gemini-3-6-flash,Gemini 3.6 Flash,Google,0.75,3.75,0.075,0.375,1.875,1048576,65536,true,true,true,false,
+gemini-3-7-flash,Gemini 3.7 Flash,Google,0.75,3.75,0.075,0.375,1.875,1048576,65536,true,true,true,false,
+gemini-3-8-flash,Gemini 3.8 Flash,Google,0.75,3.75,0.075,0.375,1.875,1048576,65536,true,true,true,false,
+grok-4-20,Grok 4.20,xAI,1.25,2.5,0.2,1,2,1000000,1000000,true,true,true,false,
+grok-4-3,Grok 4.3,xAI,1.25,2.5,0.2,1,2,1000000,1000000,true,true,true,false,
+gpt-5-4-mini,GPT-5.4 Mini,OpenAI,0.75,4.5,0.075,0.375,2.25,272000,128000,true,true,true,false,
+o3-mini,o3 Mini,OpenAI,1.1,4.4,0.55,0.55,2.2,200000,100000,false,true,true,false,2026-10-23
+o4-mini,o4 Mini,OpenAI,1.1,4.4,0.275,0.55,2.2,200000,100000,true,true,true,false,2026-10-23
+deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,1.32,3.96,0.044,,,1000000,393216,false,true,true,false,
+claude-haiku-4-5,Claude Haiku 4.5,Anthropic,1,5,0.1,0.5,2.5,200000,64000,true,true,true,false,
+mistral-medium-3,Mistral Medium 3,Mistral,1.5,7.5,0.15,,,262144,262144,true,true,false,false,
+mistral-medium-3-5,Mistral Medium 3.5,Mistral,1.5,7.5,0.15,,,262144,262144,true,true,false,false,
+grok-4-5,Grok 4.5,xAI,2,6,0.3,,,500000,500000,true,true,true,false,
+grok-4-6,Grok 4.6,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
+grok-4-7,Grok 4.7,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
+gpt-3-5-turbo-16k,GPT-3.5 Turbo 16K,OpenAI,3,4,,,,16385,4096,false,false,true,false,2026-10-23
+gemini-3-5-flash,Gemini 3.5 Flash,Google,1.5,9,0.15,0.75,4.5,1048576,65536,true,true,true,false,
+gemini-omni-flash-preview,Gemini Omni Flash Preview,Google,1.5,9,,,,131072,65536,true,true,false,true,2026-10-22
+gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,1048576,65536,true,true,false,false,
+gemini-2-5-pro,Gemini 2.5 Pro,Google,1.25,10,0.125,0.625,5,1048576,65536,true,true,true,false,
+gpt-5,GPT-5,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2026-12-11
+gpt-5-1,GPT-5.1,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2027-04-01
+gpt-5-search-api,GPT-5 Search API,OpenAI,1.25,10,0.125,,,272000,128000,true,false,true,false,
+gpt-4-1,GPT-4.1,OpenAI,2,8,0.5,1,4,1047576,32768,true,false,true,false,2027-01-14
+o3,o3,OpenAI,2,8,0.5,1,4,200000,100000,true,true,true,false,2026-12-11
+claude-sonnet-5,Claude Sonnet 5,Anthropic,2,10,0.2,1,5,1000000,128000,true,true,true,false,
+claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2,10,0.1,1,5,1000000,128000,true,true,true,false,
+gpt-6-sol,GPT-6 Sol,OpenAI,2,10,0.2,1,5,922000,128000,true,true,true,false,
+gpt-6-1-sol,GPT-6.1 Sol,OpenAI,2,10,0.1,1,5,922000,128000,true,true,true,false,
+gemini-4-argon,Gemini 4 Argon,Google,2,10,0.1,1,5,1048576,1048576,true,true,true,false,
+gpt-4o,GPT-4o,OpenAI,2.5,10,1.25,1.25,5,128000,16384,true,false,true,false,2027-01-14
+deep-research-max-preview,Gemini Deep Research Max Preview,Google,2,12,,1,6,1048576,65536,true,false,false,true,
+deep-research-pro-preview,Gemini Deep Research Pro Preview,Google,2,12,,1,6,1048576,65536,true,false,true,true,2026-10-23
+gemini-3-1-pro-preview,Gemini 3.1 Pro Preview,Google,2,12,0.2,1,6,1048576,65536,true,true,true,true,
+gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2,12,0.2,1,6,922000,128000,true,true,true,false,
+gpt-5-2,GPT-5.2,OpenAI,1.75,14,0.175,0.875,7,272000,128000,true,true,true,false,
+gpt-5-4,GPT-5.4,OpenAI,2.5,15,0.25,1.25,7.5,1050000,128000,true,true,true,false,
+claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,3,15,0.3,1.5,7.5,200000,64000,true,true,true,false,2026-11-30
+claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,3,15,0.3,1.5,7.5,1000000,128000,true,true,true,false,
+claude-opus-5-5,Claude Opus 5.5,Anthropic,4,20,0.2,2,10,1000000,128000,true,true,true,false,
+gpt-5-6,GPT-5.6,OpenAI,4,20,0.4,2,10,922000,128000,true,true,true,false,
+gpt-5-6-sol,GPT-5.6 Sol,OpenAI,4,20,0.4,2,10,922000,128000,true,true,true,false,
+claude-opus-4-5,Claude Opus 4.5,Anthropic,5,25,0.5,2.5,12.5,200000,64000,true,true,true,false,
+claude-opus-4-6,Claude Opus 4.6,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
+claude-opus-4-7,Claude Opus 4.7,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
+claude-opus-5,Claude Opus 5,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
+claude-opus-4-8,Claude Opus 4.8,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
+gpt-rosalind-research,GPT-Rosalind Research,OpenAI,5,25,0.5,,,,,false,false,false,false,
+gpt-rosalind-discovery,GPT-Rosalind Discovery,OpenAI,5,25,0.5,,,,,false,false,false,false,
+gpt-5-5,GPT-5.5,OpenAI,5,30,0.5,2.5,15,1050000,128000,true,true,true,false,
+gpt-4-preview,GPT-4 Preview,OpenAI,10,30,,,,128000,4096,false,false,true,true,2026-10-23
+gpt-4-turbo,GPT-4 Turbo,OpenAI,10,30,,,,128000,4096,true,false,true,false,2026-10-23
+claude-fable-5,Claude Fable 5,Anthropic,10,50,1,5,25,1000000,128000,true,true,true,false,
+claude-fable-5-1,Claude Fable 5.1,Anthropic,10,50,0.25,5,25,1000000,128000,true,true,true,false,
+gpt-6-astra,GPT-6 Astra,OpenAI,10,50,1,5,25,922000,128000,true,true,true,false,
+claude-mythos-5,Claude Mythos 5,Anthropic,10,50,1,5,25,1000000,128000,true,true,true,false,
+claude-mythos-5-1,Claude Mythos 5.1,Anthropic,10,50,0.25,5,25,1000000,128000,true,true,true,false,
+o1,o1,OpenAI,15,60,7.5,7.5,30,200000,100000,true,true,true,false,2026-10-23
+gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,12.5,75,1.25,,,400000,128000,true,true,true,false,
+gpt-5-5-cyber,GPT-5.5 Cyber,OpenAI,12.5,75,1.25,,,,,false,true,false,false,
+gpt-5-5-cyber-preview,GPT-5.5 Cyber Preview,OpenAI,12.5,75,1.25,,,,,false,true,false,true,
+gpt-4,GPT-4,OpenAI,30,60,,,,8192,4096,false,false,true,false,2026-10-23
