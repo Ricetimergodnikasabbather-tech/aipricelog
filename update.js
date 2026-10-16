@@ -58,6 +58,11 @@ const longDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString("en-US", { y
 const shortDate = d => new Date(`${d}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
 const monthYear = new Date(`${today}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
 const slugOf = p => p.toLowerCase();
+// What people actually type: "claude api pricing", not "anthropic api pricing".
+const SEARCH_NAME = { OpenAI: "OpenAI", Anthropic: "Claude", Google: "Gemini", xAI: "Grok", DeepSeek: "DeepSeek", Mistral: "Mistral AI" };
+const short = n => (Number.isInteger(n) ? `$${n}` : usd(n));
+const clip = (s, n = 155) => (s.length <= n ? s : `${s.slice(0, n - 1).replace(/[\s,.;:]+\S*$/, "")}…`);
+const costOf = (m, i, o) => { const long = m.longAt && i > m.longAt; return (i * (long ? m.longIn : m.input) + o * (long ? m.longOut ?? m.output : m.output)) / 1e6; };
 const COLORS = { OpenAI: "#10a37f", Anthropic: "#d97757", Google: "#4285f4", xAI: "#8a8f98", DeepSeek: "#4d6bfe", Mistral: "#fa520f" };
 const dot = p => `<span class="dot" style="background:${COLORS[p]}"></span>`;
 const modelUrl = key => `/models/${key}/`;
@@ -84,8 +89,8 @@ const badge = m => {
   let b = "";
   if (c?.type === "added") b += `<span class="badge new">New ${shortDate(c.date)}</span>`;
   else if (c && c.type !== "context") b += `<span class="badge ${c.new > c.old ? "up" : "down"}">${c.new > c.old ? "↑" : "↓"} ${shortDate(c.date)}</span>`;
-  if (m.preview) b += `<span class="badge">Preview</span>`;
-  if (m.deprecates) b += `<span class="badge warn" title="Scheduled to be retired">Retires ${shortDate(m.deprecates)}</span>`;
+  if (m.preview && !/preview/i.test(m.name)) b += `<span class="badge">Preview</span>`;
+  if (m.deprecates) b += `<span class="badge warn" title="Scheduled to be retired">Retires ${shortDate(m.deprecates)}${m.deprecates.slice(0, 4) === today.slice(0, 4) ? "" : ` ${m.deprecates.slice(0, 4)}`}</span>`;
   return b;
 };
 
@@ -138,7 +143,8 @@ td.cost{font-weight:700}
 .crumbs{font-size:.85rem;color:var(--muted);margin-top:18px}.crumbs a{color:var(--muted)}
 .prose{max-width:760px}.prose p{margin:0 0 12px}
 footer{border-top:1px solid var(--line);margin-top:48px;color:var(--muted);font-size:.85rem}footer .wrap{padding:22px 16px 40px}footer a{color:var(--muted)}
-@media (max-width:640px){.hide-sm{display:none}th,td{padding:8px 9px}input[type=number]{width:100%}.calc .row label{flex:1 1 40%}}`;
+tr.nofit td{opacity:.45}
+@media (max-width:640px){.hide-sm{display:none}#prices td:first-child{white-space:normal;min-width:150px;max-width:48vw}#prices .badge{margin:2px 4px 0 0}th,td{padding:8px 9px}input[type=number]{width:100%}.calc .row label{flex:1 1 40%}}`;
 
 const page = ({ title, desc, path, body, head = "" }) => `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title>
@@ -161,7 +167,7 @@ const PRESETS = [
 ];
 const priceTable = rows => `
 <section class="card calc" aria-label="Cost calculator">
-  <div><b>What would it cost you?</b> <span class="muted">Pick a typical task or enter your own numbers. A token is roughly ¾ of a word.</span></div>
+  <div><b>What would it cost you?</b> <span class="muted">Pick a typical task or enter your own numbers. A token is roughly ¾ of a word. Long-prompt surcharges are applied where providers charge them.</span></div>
   <div class="row" id="presets">${PRESETS.map(([n, i, o, r], k) => `<button class="chip" type="button" aria-pressed="${k === 0}" data-i="${i}" data-o="${o}" data-r="${r}">${n}</button>`).join("")}</div>
   <div class="row">
     <label>Input tokens per request<input type="number" id="ti" min="0" value="${PRESETS[0][1]}"></label>
@@ -177,13 +183,13 @@ const priceTable = rows => `
   <label class="check"><input type="checkbox" data-cap="vision">Vision</label>
   <label class="check"><input type="checkbox" data-cap="reasoning">Reasoning</label>
   <label class="check"><input type="checkbox" data-cap="caching">Caching</label>
-  <label class="check"><input type="checkbox" id="np">Hide previews</label>
+  <label class="check"><input type="checkbox" id="np" checked>Hide previews</label>
 </div>
 <p class="muted" id="sortnote" style="margin:4px 0 8px;font-size:.86rem">Sorted by <b>your estimated monthly cost, cheapest first</b>. Click any column to sort by it. Tiers go by output price: Budget under $2, Standard $2–15, Premium $15+ per 1M tokens.</p>
 <div class="tablewrap"><table id="prices"><thead><tr>
 <th data-k="name">Model</th><th class="n" data-k="cost">Your cost / mo <span class="arr">▲</span></th><th class="n" data-k="in">Input / 1M</th><th class="n" data-k="out">Output / 1M</th><th class="n hide-sm" data-k="cached">Cached input</th><th class="n hide-sm" data-k="ctx">Context</th>
 </tr></thead><tbody>${rows
-  .map(m => `<tr data-name="${esc((m.name + " " + m.provider + " " + m.apiNames.join(" ")).toLowerCase())}" data-in="${m.input}" data-out="${m.output}" data-cached="${m.cached ?? ""}" data-ctx="${m.context ?? 0}" data-tier="${tier(m)}" data-vision="${+m.vision}" data-reasoning="${+m.reasoning}" data-caching="${+m.caching}" data-preview="${+m.preview}">
+  .map(m => `<tr data-name="${esc((m.name + " " + m.provider + " " + m.apiNames.join(" ")).toLowerCase())}" data-in="${m.input}" data-out="${m.output}" data-cached="${m.cached ?? ""}" data-li="${m.longIn ?? ""}" data-lo="${m.longOut ?? ""}" data-la="${m.longAt ?? ""}" data-ctx="${m.context ?? 0}" data-max="${m.maxOutput ?? 0}" data-tier="${tier(m)}" data-vision="${+m.vision}" data-reasoning="${+m.reasoning}" data-caching="${+m.caching}" data-preview="${+m.preview}">
 <td>${dot(m.provider)}<a href="${modelUrl(m.key)}">${esc(m.name)}</a>${badge(m)}<span class="prov">${m.provider} · ${tier(m)}</span></td><td class="n cost">–</td><td class="n">${usd(m.input)}</td><td class="n">${usd(m.output)}</td><td class="n hide-sm">${usd(m.cached)}</td><td class="n hide-sm">${ctx(m.context)}</td></tr>`)
   .join("")}</tbody></table></div>
 <p class="muted" id="shown" style="font-size:.86rem"></p>
@@ -191,17 +197,20 @@ const priceTable = rows => `
 (()=>{const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const tb=$('#prices tbody'),rows=[...tb.rows];let sortK='cost',asc=true;
 const fmt=n=>n<0.01?'$'+ +n.toPrecision(2):n<100?'$'+n.toFixed(2):'$'+Math.round(n).toLocaleString('en-US');
-function cost(r){return(+$('#ti').value*r.dataset.in+ +$('#to').value*r.dataset.out)/1e6*+$('#tr').value}
-function val(r,k){return k==='name'?r.dataset.name:k==='cost'?cost(r):k==='cached'?(r.dataset.cached===''?Infinity:+r.dataset.cached):+r.dataset[k]}
+function cost(r){const i=+$('#ti').value,o=+$('#to').value,d=r.dataset,L=d.la&&i>+d.la;return(i*(L?+d.li:+d.in)+o*(L&&d.lo?+d.lo:+d.out))/1e6*+$('#tr').value}
+function fits(r){const c=+r.dataset.ctx,mx=+r.dataset.max;return(!c||+$('#ti').value+ +$('#to').value<=c)&&(!mx||+$('#to').value<=mx)}
+function val(r,k){return k==='name'?r.dataset.name:k==='cost'?(fits(r)?cost(r):Infinity):k==='cached'?(r.dataset.cached===''?Infinity:+r.dataset.cached):+r.dataset[k]}
 function render(){const q=$('#q').value.toLowerCase().trim(),tiers=$$('[data-tier][aria-pressed=true]').map(b=>b.dataset.tier),
 caps=$$('[data-cap]:checked').map(c=>c.dataset.cap),np=$('#np').checked;let n=0;
-for(const r of rows){r.cells[1].textContent=fmt(cost(r));
+for(const r of rows){const f=fits(r);r.cells[1].textContent=f?fmt(cost(r)):"Too long";r.cells[1].title=f?'':'Request is larger than this model can take';r.classList.toggle('nofit',!f);
 const ok=(!q||r.dataset.name.includes(q))&&(!tiers.length||tiers.includes(r.dataset.tier))&&caps.every(c=>r.dataset[c]==='1')&&!(np&&r.dataset.preview==='1');r.hidden=!ok;n+=ok}
 rows.sort((a,b)=>{const x=val(a,sortK),y=val(b,sortK);const d=typeof x==='string'?x.localeCompare(y):x-y;return asc?d:-d}).forEach(r=>tb.appendChild(r));
 $$('#prices th[data-k]').forEach(th=>{const a=th.querySelector('.arr');if(a)a.remove();if(th.dataset.k===sortK)th.insertAdjacentHTML('beforeend',' <span class="arr">'+(asc?'▲':'▼')+'</span>')});
 const label={name:'model name',cost:'your estimated monthly cost',in:'input price',out:'output price',cached:'cached input price',ctx:'context window'}[sortK];
 $('#sortnote b').textContent=label+(asc?(sortK==='name'?', A to Z':sortK==='ctx'?', smallest first':', cheapest first'):(sortK==='name'?', Z to A':sortK==='ctx'?', largest first':', most expensive first'));
-$('#shown').textContent='Showing '+n+' of '+rows.length+' models.'}
+$('#shown').textContent='Showing '+n+' of '+rows.length+' models.';
+history.replaceState(null,'','#i='+$('#ti').value+'&o='+$('#to').value+'&r='+$('#tr').value)}
+const h=new URLSearchParams(location.hash.slice(1));if(h.has('i')){$('#ti').value=h.get('i');$('#to').value=h.get('o')||0;$('#tr').value=h.get('r')||0;$$('#presets .chip').forEach(x=>x.setAttribute('aria-pressed',x.dataset.i===h.get('i')&&x.dataset.o===h.get('o')&&x.dataset.r===h.get('r')))}
 $$('#prices th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;asc=k===sortK?!asc:k!=='ctx';sortK=k;render()}));
 $$('#presets .chip').forEach(b=>b.addEventListener('click',()=>{$$('#presets .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));$('#ti').value=b.dataset.i;$('#to').value=b.dataset.o;$('#tr').value=b.dataset.r;render()}));
 ['#ti','#to','#tr'].forEach(s=>$(s).addEventListener('input',()=>{$$('#presets .chip').forEach(x=>x.setAttribute('aria-pressed','false'));render()}));
@@ -237,9 +246,10 @@ const write = (path, html) => {
 
 // --- 7. Home ---
 write("/", page({
-  title: `AI API Pricing Compared: ${count} Models from OpenAI, Claude, Gemini, Grok (${monthYear}) | AI Price Log`,
-  desc: `Compare API prices for ${count} AI models from OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral. Estimate your monthly cost, filter by features, and see every dated price change. Checked daily.`,
+  title: `AI API Pricing Compared: GPT, Claude, Gemini, Grok (${monthYear})`,
+  desc: clip(`API prices for ${count} models from OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral, checked daily. Estimate your monthly cost and see every dated price change.`),
   path: "/",
+  head: `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Dataset", name: "AI API prices and price change history", description: `Daily API prices per million tokens for ${count} AI models from OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral, with a dated log of price changes since ${trackingStart}.`, url: `${SITE_URL}/`, license: "https://creativecommons.org/licenses/by/4.0/", isAccessibleForFree: true, dateModified: today, temporalCoverage: `${trackingStart}/${today}`, creator: { "@type": "Organization", name: "AI Price Log", url: SITE_URL }, distribution: [{ "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE_URL}/prices.json` }, { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${SITE_URL}/prices.csv` }] })}</script>`,
   body: `<h1>AI API pricing, compared</h1>
 <p class="lead">Current prices for ${count} models from OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral. Estimate what your workload would cost on each one, then check the dated log of every price change.</p>
 <div class="stats"><span><b>${count}</b> models</span><span><b>6</b> providers</span><span>Checked <b>${today} ${checkedAt} UTC</b></span><span><b>${changes.length}</b> changes logged since ${trackingStart}</span></div>
@@ -248,6 +258,31 @@ ${picks}
 ${recentBlock(8)}
 <h2>How to read these prices</h2><div class="prose"><p>AI APIs charge per token. A token is about ¾ of a word, so 1 million tokens is roughly 750,000 words. <b>Input</b> is the text you send (your prompt, documents, chat history). <b>Output</b> is the text the model writes back, and it usually costs 4–8 times more. <b>Cached input</b> is the discounted rate when you resend the same long prompt, which matters for chatbots and agents.</p><p>The calculator multiplies your token counts by each model's standard rate. Batch processing, long-context surcharges and regional pricing can change the real bill; each model page lists those rates where providers publish them.</p></div>`,
 }));
+
+// Step chart of input/output price over time, from the change log. Only drawn when the price has moved.
+function priceChart(m, hist) {
+  const moves = hist.filter(c => (c.type === "input" || c.type === "output") && c.old != null && c.new != null).reverse();
+  if (!moves.length) return "";
+  const start = hist.at(-1).date;
+  const series = { input: [[start, moves.find(c => c.type === "input")?.old ?? m.input]], output: [[start, moves.find(c => c.type === "output")?.old ?? m.output]] };
+  for (const c of moves) series[c.type].push([c.date, c.new]);
+  for (const k of ["input", "output"]) series[k].push([today, m[k]]);
+  const t = d => Date.parse(d), t0 = t(start), t1 = Math.max(t(today), t0 + 864e5);
+  const max = Math.max(...series.output.map(p => p[1]), ...series.input.map(p => p[1]));
+  const W = 640, H = 170, P = 44, x = d => P + ((t(d) - t0) / (t1 - t0)) * (W - P - 8), y = v => H - 22 - (v / max) * (H - 40);
+  const path = pts => pts.map(([d, v], i) => (i ? `H${x(d).toFixed(1)}V${y(v).toFixed(1)}` : `M${x(d).toFixed(1)} ${y(v).toFixed(1)}`)).join("");
+  return `<figure class="card" style="margin:0 0 12px"><svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(m.name)} price history chart">
+<line x1="${P}" x2="${W - 8}" y1="${H - 22}" y2="${H - 22}" stroke="var(--line)"/>
+<text x="${P - 6}" y="${y(max) + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${usd(max)}</text>
+<text x="${P - 6}" y="${H - 18}" text-anchor="end" font-size="11" fill="var(--muted)">$0</text>
+<text x="${P}" y="${H - 4}" font-size="11" fill="var(--muted)">${start}</text><text x="${W - 8}" y="${H - 4}" text-anchor="end" font-size="11" fill="var(--muted)">${today}</text>
+<path d="${path(series.output)}" fill="none" stroke="var(--accent)" stroke-width="2.5"/><path d="${path(series.input)}" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="5 4"/>
+</svg><figcaption class="muted" style="font-size:.82rem">Per 1M tokens. <span style="color:var(--accent)">━ Output</span> · ┅ Input</figcaption></figure>`;
+}
+const ordinal = n => `${n}${["th", "st", "nd", "rd"][(n % 100 > 10 && n % 100 < 14) || n % 10 > 3 ? 0 : n % 10]}`;
+const firstListed = key => changesFor(key).filter(c => c.type === "added").at(-1)?.date;
+const pctDiff = (a, b) => Math.round(((a - b) / b) * 100);
+const PRICING_PAGE = { OpenAI: "https://openai.com/api/pricing/", Anthropic: "https://www.anthropic.com/pricing#api", Google: "https://ai.google.dev/gemini-api/docs/pricing", xAI: "https://docs.x.ai/docs/models", DeepSeek: "https://api-docs.deepseek.com/quick_start/pricing", Mistral: "https://mistral.ai/pricing#api-pricing" };
 
 // --- 8. Model pages ---
 for (const m of list) {
@@ -261,19 +296,34 @@ for (const m of list) {
     ["Cache write", m.cacheWrite],
     ["Batch input", m.batchIn],
     ["Batch output", m.batchOut],
-    [m.longAt && `Input above ${m.longAt} tokens`, m.longIn],
-    [m.longAt && `Output above ${m.longAt} tokens`, m.longOut],
+    [m.longAt && `Input, prompts over ${ctx(m.longAt)} tokens`, m.longIn],
+    [m.longAt && `Output, prompts over ${ctx(m.longAt)} tokens`, m.longOut],
   ].filter(([l, v]) => l && v != null);
   const ex = PRESETS.map(([n, i, o]) => {
-    const per = (i * m.input + o * m.output) / 1e6;
+    const per = costOf(m, i, o);
     return `<tr><td>${n}</td><td class="n">${i.toLocaleString("en-US")} in / ${o.toLocaleString("en-US")} out</td><td class="n">${money(per)}</td><td class="n">${money(per * 1000)}</td></tr>`;
   }).join("");
   const mini = rows => `<div class="tablewrap"><table><thead><tr><th>Model</th><th class="n">Input / 1M</th><th class="n">Output / 1M</th></tr></thead><tbody>${rows
     .map(x => `<tr><td>${dot(x.provider)}<a href="${modelUrl(x.key)}">${esc(x.name)}</a></td><td class="n">${usd(x.input)}</td><td class="n">${usd(x.output)}</td></tr>`).join("")}</tbody></table></div>`;
-  const price = `$${+m.input.toFixed(3)} / $${+m.output.toFixed(3)}`;
+  const provList = list.filter(x => x.provider === m.provider);
+  const provRank = provList.findIndex(x => x.key === m.key) + 1;
+  const rival = list.filter(x => x.provider !== m.provider && !x.preview && tier(x) === tier(m)).sort((a, b) => Math.abs(a.blend - m.blend) - Math.abs(b.blend - m.blend))[0];
+  const twins = list.filter(x => x.key !== m.key && x.input === m.input && x.output === m.output);
+  const first = firstListed(m.key);
+  const moved = hist.filter(c => (c.type === "input" || c.type === "output") && c.old != null && c.new != null);
+  const cuts = moved.filter(c => c.new < c.old).length, rises = moved.filter(c => c.new > c.old).length;
+  const facts = [
+    `It is the ${provRank === 1 ? "cheapest" : provRank === provList.length ? "most expensive" : `${ordinal(provRank)} cheapest`} of ${provList.length} ${SEARCH_NAME[m.provider]} models tracked here, by blended price.`,
+    rival && `The closest ${tier(m)}-tier model from another provider is <a href="${modelUrl(rival.key)}">${esc(rival.name)}</a> (${rival.provider}) at ${usd(rival.input)} / ${usd(rival.output)}${rival.blend === m.blend ? ", the same blended price" : `; ${esc(m.name)} is ${Math.abs(pctDiff(m.blend, rival.blend))}% ${m.blend > rival.blend ? "more expensive" : "cheaper"}`}.`,
+    twins.length && `Same list price as ${twins.slice(0, 4).map(x => `<a href="${modelUrl(x.key)}">${esc(x.name)}</a>`).join(", ")}${twins.length > 4 ? ` and ${twins.length - 4} more` : ""}.`,
+    first && `First listed in the LiteLLM price data on ${longDate(first)}.`,
+    (cuts || rises) && `Its price has been cut ${cuts} time${cuts === 1 ? "" : "s"} and raised ${rises} time${rises === 1 ? "" : "s"} since.`,
+    m.longAt && `Prompts longer than ${ctx(m.longAt)} tokens are billed at ${usd(m.longIn)} input / ${usd(m.longOut ?? m.output)} output.`,
+  ].filter(Boolean);
+  const src = m.source ?? PRICING_PAGE[m.provider];
   write(modelUrl(m.key), page({
-    title: `${m.name} API Pricing: ${price} per 1M Tokens (${monthYear}) | AI Price Log`,
-    desc: `${m.name} costs ${usd(m.input)} per million input tokens and ${usd(m.output)} per million output tokens${m.cached ? `, ${usd(m.cached)} cached` : ""}. Context ${ctx(m.context)}. Cost examples, every rate, and dated price history.`,
+    title: `${m.name} API Pricing: ${short(m.input)} / ${short(m.output)} per 1M (${monthYear})`,
+    desc: clip(`${m.name} API costs ${usd(m.input)} per 1M input tokens and ${usd(m.output)} per 1M output${m.cached ? `, ${usd(m.cached)} cached` : ""}. ${ctx(m.context)} context. Cost examples and dated price history.`),
     path: modelUrl(m.key),
     head: `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
       { "@type": "ListItem", position: 1, name: "AI Price Log", item: `${SITE_URL}/` },
@@ -283,6 +333,7 @@ for (const m of list) {
 <h1>${esc(m.name)} API pricing</h1>
 <p class="lead">As of ${longDate(today)}, ${esc(m.name)} costs <b>${usd(m.input)}</b> per million input tokens and <b>${usd(m.output)}</b> per million output tokens on the ${m.provider} API.${m.cached ? ` Cached input is ${usd(m.cached)} per million.` : ""}${m.deprecates ? ` ${m.provider} plans to retire it on ${longDate(m.deprecates)}.` : ""}</p>
 <div>${badge(m)}</div>
+<p class="prose">${facts.join(" ")}</p>
 <div class="kv card" style="margin-top:14px">
 <div><span>Input / 1M tokens</span><b class="big">${usd(m.input)}</b></div>
 <div><span>Output / 1M tokens</span><b class="big">${usd(m.output)}</b></div>
@@ -293,9 +344,9 @@ for (const m of list) {
 <div class="tablewrap"><table><thead><tr><th>Rate</th><th class="n">Per 1M tokens</th></tr></thead><tbody>${rateRows.map(([l, v]) => `<tr><td>${l}</td><td class="n">${usd(v)}</td></tr>`).join("")}</tbody></table></div>
 <h2>What it costs in practice</h2>
 <div class="tablewrap"><table><thead><tr><th>Task</th><th class="n">Tokens</th><th class="n">Per request</th><th class="n">Per 1,000 requests</th></tr></thead><tbody>${ex}</tbody></table></div>
-<p class="muted" style="font-size:.86rem">Standard rates, no caching or batch discount. <a href="/">Compare your own numbers across all models →</a></p>
+<p class="muted" style="font-size:.86rem">Standard rates, no caching or batch discount${m.longAt ? `; prompts over ${ctx(m.longAt)} tokens are billed at the higher long-prompt rate` : ""}. <a href="/">Compare your own numbers across all models →</a></p>
 <h2>Price history</h2>
-${hist.length ? changeTable(hist) : `<p class="muted">No price changes recorded since tracking began on ${trackingStart}. When the price moves, it will show up here with the date.</p>`}
+${priceChart(m, hist)}${hist.length ? changeTable(hist) + `<p class="muted" style="font-size:.82rem">Dates are when each change first appeared in the LiteLLM price data, usually within days of the provider's announcement.</p>` : `<p class="muted">No price changes recorded since tracking began on ${trackingStart}. When the price moves, it will show up here with the date.</p>`}
 <h2>Details</h2>
 <div class="tablewrap"><table><tbody>
 <tr><td>Provider</td><td><a href="/${slugOf(m.provider)}/">${m.provider}</a></td></tr>
@@ -303,7 +354,7 @@ ${hist.length ? changeTable(hist) : `<p class="muted">No price changes recorded 
 <tr><td>Features</td><td style="white-space:normal">${caps(m).join(", ") || "–"}</td></tr>
 <tr><td>API model names</td><td style="white-space:normal"><code>${m.apiNames.map(esc).join("</code>, <code>")}</code></td></tr>
 ${m.deprecates ? `<tr><td>Retirement date</td><td>${longDate(m.deprecates)}</td></tr>` : ""}
-${m.source ? `<tr><td>Official pricing</td><td><a href="${esc(m.source)}" rel="nofollow noopener">${esc(new URL(m.source).hostname)}</a></td></tr>` : ""}
+<tr><td>Official pricing</td><td><a href="${esc(src)}" rel="nofollow noopener">${esc(new URL(src).hostname)}</a></td></tr>
 </tbody></table></div>
 <h2>Models at a similar price</h2>${mini(near)}
 ${sameProv.length ? `<h2>Other ${m.provider} models</h2>${mini(sameProv)}` : ""}`,
@@ -317,11 +368,11 @@ for (const p of Object.values(PROVIDERS)) {
   const top = [...rows].filter(m => !m.preview).sort((a, b) => b.blend - a.blend)[0];
   const low = rows.filter(m => !m.preview)[0];
   write(`/${slugOf(p)}/`, page({
-    title: `${p} API Pricing: All ${rows.length} Models Compared (${monthYear}) | AI Price Log`,
-    desc: `Every ${p} API model and its price per million tokens, from ${low ? `${low.name} at ${usd(low.input)} in` : ""} to ${top ? `${top.name} at ${usd(top.input)} in` : ""}. Cost calculator and dated price history, checked daily.`,
+    title: `${SEARCH_NAME[p]} API Pricing${SEARCH_NAME[p].startsWith(p) ? "" : ` (${p})`}: ${rows.length} Models, ${monthYear}`,
+    desc: clip(`Every ${SEARCH_NAME[p]} API model and its price per 1M tokens${low && top ? `, from ${low.name} at ${usd(low.input)} input to ${top.name} at ${usd(top.input)}` : ""}. Cost calculator and price history.`),
     path: `/${slugOf(p)}/`,
     body: `<div class="crumbs"><a href="/">All prices</a> › ${p}</div>
-<h1>${p} API pricing</h1>
+<h1>${SEARCH_NAME[p]} API pricing${SEARCH_NAME[p].startsWith(p) ? "" : ` <span class="muted" style="font-weight:500">(${p})</span>`}</h1>
 <p class="lead">${rows.length} ${p} models, checked ${longDate(today)}.${low && top ? ` Prices run from ${usd(low.input)} input / ${usd(low.output)} output per million tokens (${esc(low.name)}) up to ${usd(top.input)} / ${usd(top.output)} (${esc(top.name)}).` : ""}</p>
 ${priceTable(rows)}
 ${pc.length ? `<h2>Recent ${p} price changes</h2>${changeTable(pc)}` : ""}`,
@@ -330,7 +381,7 @@ ${pc.length ? `<h2>Recent ${p} price changes</h2>${changeTable(pc)}` : ""}`,
 
 // --- 10. Change log, about, feeds, data ---
 write("/changes.html", page({
-  title: "AI API Price Change Log: Every Price Change, Dated | AI Price Log",
+  title: "AI API Price Change Log: Every Price Change, Dated",
   desc: "A dated log of every AI API price change, new model and context-window change across OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral.",
   path: "/changes.html",
   body: `<h1>AI price change log</h1><p class="lead">Every price change, new model and context-window change, newest first. Tracking since ${trackingStart}. <a href="/feed.xml">Subscribe by RSS</a>.</p>
@@ -338,7 +389,7 @@ ${changes.length ? changeTable(changes) : `<p class="muted">No changes detected 
 }));
 
 write("/about.html", page({
-  title: "How AI Price Log Works | AI Price Log",
+  title: "How AI Price Log Works",
   desc: "Where AI Price Log's data comes from, how often it updates, and how models and prices are cleaned up.",
   path: "/about.html",
   body: `<h1>How this works</h1><div class="prose">

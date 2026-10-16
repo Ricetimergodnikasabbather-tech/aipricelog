@@ -36,6 +36,13 @@ export function prettyName(key) {
   return out.join(" ").replace(/^GPT (\S+)/, "GPT-$1").replace(/^Gemini Gemma/, "Gemma").replace(/^Deep Research/, "Gemini Deep Research");
 }
 
+// Some models charge more once the prompt passes a size (100K, 128K, 200K, 272K tokens). Use the lowest threshold.
+function longContext(v) {
+  const at = Object.keys(v).map(f => f.match(/^input_cost_per_token_above_(\d+)k_tokens$/)?.[1]).filter(Boolean).map(Number).sort((a, b) => a - b)[0];
+  if (!at) return { longIn: null, longOut: null, longAt: null };
+  return { longIn: per1M(v[`input_cost_per_token_above_${at}k_tokens`]), longOut: per1M(v[`output_cost_per_token_above_${at}k_tokens`]), longAt: at * 1000 };
+}
+
 export function normalize(raw, today) {
   const groups = {};
   for (const [fullKey, v] of Object.entries(raw)) {
@@ -69,9 +76,7 @@ export function normalize(raw, today) {
       cacheWrite: per1M(v.cache_creation_input_token_cost),
       batchIn: per1M(v.input_cost_per_token_batches),
       batchOut: per1M(v.output_cost_per_token_batches),
-      longIn: per1M(v.input_cost_per_token_above_200k_tokens ?? v.input_cost_per_token_above_272k_tokens),
-      longOut: per1M(v.output_cost_per_token_above_200k_tokens ?? v.output_cost_per_token_above_272k_tokens),
-      longAt: v.input_cost_per_token_above_200k_tokens ? "200K" : v.input_cost_per_token_above_272k_tokens ? "272K" : null,
+      ...longContext(v),
       context: v.max_input_tokens || null,
       maxOutput: v.max_output_tokens || null,
       vision: !!v.supports_vision,
@@ -96,6 +101,17 @@ export function normalize(raw, today) {
     if (!target) continue;
     models[target].apiNames = [...new Set([...models[target].apiNames, ...m.apiNames])].sort();
     delete models[key];
+  }
+  // Same model listed twice at one price: "gpt-5-5-cyber" + "-preview", "grok-code-fast" + "-1".
+  for (const key of Object.keys(models)) {
+    const m = models[key];
+    if (!m) continue;
+    const twin = Object.keys(models).find(k => k !== key && models[k]?.provider === m.provider && models[k].input === m.input && models[k].output === m.output &&
+      (k === `${key}-preview` || (/^\d+$/.test(k.slice(key.length + 1)) && k.startsWith(`${key}-`) && !/\d$/.test(key))));
+    if (!twin) continue;
+    const keep = twin.endsWith("-preview") ? key : twin, drop = keep === key ? twin : key;
+    models[keep].apiNames = [...new Set([...models[keep].apiNames, ...models[drop].apiNames])].sort();
+    delete models[drop];
   }
   return models;
 }
