@@ -1,7 +1,7 @@
 // Daily: fetch open LLM price data, save a dated snapshot, log changes vs the last snapshot, rebuild the site.
 // Usage: node update.js   (OUT=. in GitHub Actions; defaults to ./site for local previews)
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, rmSync } from "node:fs";
-import { normalize, PROVIDERS } from "./lib.js";
+import { normalize, diff, cleanHistory, PROVIDERS } from "./lib.js";
 
 const SOURCE = "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json";
 const SITE_URL = "https://aipricelog.com";
@@ -28,18 +28,11 @@ writeFileSync(`data/snapshots/${today}.json`, JSON.stringify(models, null, 1));
 const changesFile = "data/changes.json";
 let changes = existsSync(changesFile) ? JSON.parse(readFileSync(changesFile, "utf-8")) : [];
 if (prev) {
-  const fresh = [];
-  for (const [key, m] of Object.entries(models)) {
-    const p = prev[key];
-    if (!p) { fresh.push({ date: today, key, model: m.name, provider: m.provider, type: "added", note: `$${m.input} in / $${m.output} out` }); continue; }
-    for (const f of ["input", "output", "context"]) {
-      if (p[f] !== m[f]) fresh.push({ date: today, key, model: m.name, provider: m.provider, type: f, old: p[f], new: m[f] });
-    }
-  }
-  for (const [key, p] of Object.entries(prev)) {
-    if (!models[key]) fresh.push({ date: today, key, model: p.name ?? key, provider: p.provider, type: "removed" });
-  }
-  changes = [...fresh, ...changes.filter(c => c.date !== today)];
+  // The LiteLLM commit behind today's data, so every change links to its source. Optional: the build works without it.
+  const commit = await fetch("https://api.github.com/repos/BerriAI/litellm/commits?path=model_prices_and_context_window.json&per_page=1")
+    .then(r => r.json()).then(j => j[0]?.sha).catch(() => undefined);
+  const fresh = diff(prev, models, today, commit);
+  changes = cleanHistory([...fresh, ...changes.filter(c => c.date !== today)]);
   console.log(`${fresh.length} change(s) logged`);
 } else {
   console.log("no earlier snapshot: change log starts today");
@@ -74,6 +67,7 @@ const caps = m => [m.vision && "Vision", m.reasoning && "Reasoning", m.caching &
 const describe = c => {
   if (c.type === "added") return `New model listed: ${esc(c.note)}`;
   if (c.type === "removed") return "Removed from listings";
+  if (c.type === "version") return `Name now points to a newer version: ${esc(c.note)}`;
   const label = c.type === "context" ? "Context window" : `${c.type[0].toUpperCase()}${c.type.slice(1)} price`;
   const fmt = c.type === "context" ? ctx : usd;
   if (c.old == null || c.new == null) return `${label}: ${fmt(c.old)} → ${fmt(c.new)}`;
@@ -82,7 +76,7 @@ const describe = c => {
   return `${label}: ${fmt(c.old)} → <span class="${cls}">${fmt(c.new)} (${pct > 0 ? "+" : ""}${pct}%)</span>`;
 };
 const changeTable = rows => `<div class="tablewrap"><table class="log"><thead><tr><th>Date</th><th>Model</th><th>Change</th></tr></thead><tbody>${rows
-  .map(c => `<tr><td class="n">${c.date}</td><td>${dot(c.provider)}${models[c.key] ? `<a href="${modelUrl(c.key)}">${esc(c.model)}</a>` : esc(c.model)}</td><td>${describe(c)}</td></tr>`)
+  .map(c => `<tr><td class="n">${c.date}</td><td>${dot(c.provider)}${models[c.key] ? `<a href="${modelUrl(c.key)}">${esc(c.model)}</a>` : esc(c.model)}</td><td>${describe(c)}${c.commit ? ` <a class="src" href="https://github.com/BerriAI/litellm/commits/${c.commit}/model_prices_and_context_window.json" rel="nofollow noopener" title="See the source data change">source</a>` : ""}</td></tr>`)
   .join("")}</tbody></table></div>`;
 const badge = m => {
   const c = recentChange(m.key);
@@ -132,7 +126,7 @@ td a{color:var(--fg);text-decoration:none;font-weight:600}td a:hover{color:var(-
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
 .badge{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;font-size:.72rem;background:var(--soft);color:var(--muted);font-weight:500}
 .badge.new{color:var(--accent)}.badge.down{color:var(--down)}.badge.up{color:var(--up)}.badge.warn{color:var(--warn)}
-td.cost{font-weight:700}
+td.cost{font-weight:700}a.src{font-size:.75rem;color:var(--muted);font-weight:400;margin-left:6px}
 .up{color:var(--up)}.down{color:var(--down)}.muted{color:var(--muted)}a{color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .pick h3{margin:0 0 4px;font-size:.8rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
@@ -190,7 +184,7 @@ const priceTable = rows => `
 <th data-k="name">Model</th><th class="n" data-k="cost">Your cost / mo <span class="arr">▲</span></th><th class="n" data-k="in">Input / 1M</th><th class="n" data-k="out">Output / 1M</th><th class="n hide-sm" data-k="cached">Cached input</th><th class="n hide-sm" data-k="ctx">Context</th>
 </tr></thead><tbody>${rows
   .map(m => `<tr data-name="${esc((m.name + " " + m.provider + " " + m.apiNames.join(" ")).toLowerCase())}" data-in="${m.input}" data-out="${m.output}" data-cached="${m.cached ?? ""}" data-li="${m.longIn ?? ""}" data-lo="${m.longOut ?? ""}" data-la="${m.longAt ?? ""}" data-ctx="${m.context ?? 0}" data-max="${m.maxOutput ?? 0}" data-tier="${tier(m)}" data-vision="${+m.vision}" data-reasoning="${+m.reasoning}" data-caching="${+m.caching}" data-preview="${+m.preview}">
-<td>${dot(m.provider)}<a href="${modelUrl(m.key)}">${esc(m.name)}</a>${badge(m)}<span class="prov">${m.provider} · ${tier(m)}</span></td><td class="n cost">–</td><td class="n">${usd(m.input)}</td><td class="n">${usd(m.output)}</td><td class="n hide-sm">${usd(m.cached)}</td><td class="n hide-sm">${ctx(m.context)}</td></tr>`)
+<td>${dot(m.provider)}<a href="${modelUrl(m.key)}">${esc(m.name)}</a>${badge(m)}<span class="prov">${m.provider} · ${tier(m)}</span></td><td class="n cost">${money(costOf(m, PRESETS[0][1], PRESETS[0][2]) * PRESETS[0][3])}</td><td class="n">${usd(m.input)}</td><td class="n">${usd(m.output)}</td><td class="n hide-sm">${usd(m.cached)}</td><td class="n hide-sm">${ctx(m.context)}</td></tr>`)
   .join("")}</tbody></table></div>
 <p class="muted" id="shown" style="font-size:.86rem"></p>
 <script>
@@ -215,7 +209,8 @@ $$('#prices th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th
 $$('#presets .chip').forEach(b=>b.addEventListener('click',()=>{$$('#presets .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));$('#ti').value=b.dataset.i;$('#to').value=b.dataset.o;$('#tr').value=b.dataset.r;render()}));
 ['#ti','#to','#tr'].forEach(s=>$(s).addEventListener('input',()=>{$$('#presets .chip').forEach(x=>x.setAttribute('aria-pressed','false'));render()}));
 $$('[data-tier]').forEach(b=>b.addEventListener('click',()=>{b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')!=='true');render()}));
-$$('#filters input').forEach(i=>i.addEventListener('input',render));render()})();
+$$('#filters input').forEach(i=>i.addEventListener('input',render));
+addEventListener('hashchange',()=>{const h=new URLSearchParams(location.hash.slice(1));if(h.has('i')){$('#ti').value=h.get('i');$('#to').value=h.get('o')||0;$('#tr').value=h.get('r')||0;render()}});render()})();
 </script>`;
 
 // --- 6. Auto "cheapest" picks: objective, from data only ---
@@ -270,9 +265,12 @@ ${cutsBlock}
 
 // Step chart of input/output price over time, from the change log. Only drawn when the price has moved.
 function priceChart(m, hist) {
-  const moves = hist.filter(c => (c.type === "input" || c.type === "output") && c.old != null && c.new != null).reverse();
+  // Only chart the current version: stop at the last time the name was re-pointed to another model.
+  const v = hist.findIndex(c => c.type === "version");
+  const cur = v === -1 ? hist : hist.slice(0, v + 1);
+  const moves = cur.filter(c => (c.type === "input" || c.type === "output") && c.old != null && c.new != null).reverse();
   if (!moves.length) return "";
-  const start = hist.at(-1).date;
+  const start = cur.at(-1).date;
   const series = { input: [[start, moves.find(c => c.type === "input")?.old ?? m.input]], output: [[start, moves.find(c => c.type === "output")?.old ?? m.output]] };
   for (const c of moves) series[c.type].push([c.date, c.new]);
   for (const k of ["input", "output"]) series[k].push([today, m[k]]);

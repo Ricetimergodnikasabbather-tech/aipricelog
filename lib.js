@@ -5,7 +5,7 @@
 export const PROVIDERS = { openai: "OpenAI", anthropic: "Anthropic", gemini: "Google", xai: "xAI", deepseek: "DeepSeek", mistral: "Mistral" };
 
 // Not general chat models, or not the provider's own model.
-const SKIP = /^ft:|audio|tts|robotics|customtools|vibe-cli|fim|computer-use|search-preview|glm|^chat-latest$|daybreak/;
+const SKIP = /^ft:|audio|tts|robotics|customtools|vibe-cli|fim|computer-use|search-preview|glm|gemma|^gemini-exp|^chat-latest$|daybreak/;
 const NOISE = new Set(["latest", "beta", "experimental", "reasoning", "non", "gv2"]);
 
 const per1M = v => (v ? +(v * 1e6).toFixed(4) : null);
@@ -89,6 +89,7 @@ export function normalize(raw, today) {
       deprecates: deps[0] ?? null,
       apiNames: [...new Set(same.map(m => m.name))].sort(),
       source: v.source ?? null,
+      src: pick.name, // which LiteLLM entry the price came from; a change here means the name now points at another model
     };
   }
   // "mistral-large" (a -latest alias) at the same price as "mistral-large-3": fold the alias into the versioned model.
@@ -102,18 +103,65 @@ export function normalize(raw, today) {
     models[target].apiNames = [...new Set([...models[target].apiNames, ...m.apiNames])].sort();
     delete models[key];
   }
-  // Same model listed twice at one price: "gpt-5-5-cyber" + "-preview", "grok-code-fast" + "-1".
+  // Same model listed twice at one price: "gpt-5-5-cyber" + "-preview", "grok-code-fast" + "-1", "deepseek-flash" + "v4".
   for (const key of Object.keys(models)) {
     const m = models[key];
     if (!m) continue;
     const twin = Object.keys(models).find(k => k !== key && models[k]?.provider === m.provider && models[k].input === m.input && models[k].output === m.output &&
-      (k === `${key}-preview` || (/^\d+$/.test(k.slice(key.length + 1)) && k.startsWith(`${key}-`) && !/\d$/.test(key))));
+      (k === `${key}-preview` || (/^\d+$/.test(k.slice(key.length + 1)) && k.startsWith(`${key}-`) && !/\d$/.test(key)) ||
+       (models[k].context === m.context && k.split("-").filter(t => !/^v\d/.test(t)).join("-") === key && k.split("-").some(t => /^v\d/.test(t)))));
     if (!twin) continue;
     const keep = twin.endsWith("-preview") ? key : twin, drop = keep === key ? twin : key;
     models[keep].apiNames = [...new Set([...models[keep].apiNames, ...models[drop].apiNames])].sort();
     delete models[drop];
   }
   return models;
+}
+
+// Changes between two snapshots. A price that moves on the same day the entry was re-pointed
+// (new source entry or new context window) is a version swap, not a price change.
+export function diff(prev, models, date, commit) {
+  const out = [];
+  const base = (key, m) => ({ date, key, model: m.name, provider: m.provider, ...(commit && { commit }) });
+  for (const [key, m] of Object.entries(models)) {
+    const p = prev[key];
+    if (!p) { out.push({ ...base(key, m), type: "added", note: `$${m.input} in / $${m.output} out` }); continue; }
+    const priceMoved = p.input !== m.input || p.output !== m.output;
+    const repointed = (p.src && m.src && p.src !== m.src) || p.context !== m.context;
+    if (priceMoved && repointed) out.push({ ...base(key, m), type: "version", note: `$${p.input} / $${p.output} → $${m.input} / $${m.output}` });
+    else for (const f of ["input", "output"]) if (p[f] !== m[f]) out.push({ ...base(key, m), type: f, old: p[f], new: m[f] });
+    if (p.context !== m.context) out.push({ ...base(key, m), type: "context", old: p.context, new: m.context });
+  }
+  for (const [key, p] of Object.entries(prev)) if (!models[key]) out.push({ ...base(key, p), type: "removed" });
+  return out;
+}
+
+// Drop data-entry noise from a newest-first change list:
+// - price fixes within 7 days of listing become part of the "listed at" price
+// - a removal undone within 30 days (and its re-add) never happened
+export function cleanHistory(changes) {
+  const days = (a, b) => (Date.parse(b) - Date.parse(a)) / 864e5;
+  const drop = new Set();
+  const asc = changes.map((c, i) => [c, i]).reverse();
+  for (const [c, i] of asc) {
+    if (c.type === "removed") {
+      const back = asc.find(([d, j]) => j < i && d.key === c.key && d.type === "added" && days(c.date, d.date) <= 30);
+      if (back) { drop.add(i); drop.add(back[1]); }
+    }
+    if (c.type === "input" || c.type === "output") {
+      const added = asc.filter(([d, j]) => j > i && d.key === c.key && d.type === "added" && !drop.has(j)).at(-1);
+      if (added && days(added[0].date, c.date) <= 7) {
+        drop.add(i);
+        added[0].fixed = { ...added[0].fixed, [c.type]: c.new };
+      }
+    }
+  }
+  return changes.filter((_, i) => !drop.has(i)).map(c => {
+    if (!c.fixed) return c;
+    const [, inp, out] = c.note.match(/\$([\d.]+) in \/ \$([\d.]+) out/) ?? [];
+    const { fixed, ...rest } = c;
+    return { ...rest, note: `$${fixed.input ?? inp} in / $${fixed.output ?? out} out` };
+  });
 }
 
 // Self-check: node lib.js
@@ -140,5 +188,17 @@ if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, "/").replace(/
   const m = normalize(raw, "2026-10-16");
   assert.deepEqual(Object.keys(m), ["claude-x-1"]);
   assert.deepEqual(m["claude-x-1"].apiNames, ["claude-x-1", "claude-x-1-20250101"]);
+  const h = cleanHistory([
+    { date: "2026-07-03", key: "a", type: "output", old: 15, new: 10 },
+    { date: "2026-07-01", key: "a", type: "added", note: "$3 in / $15 out" },
+    { date: "2026-05-10", key: "b", type: "added", note: "$1 in / $2 out" },
+    { date: "2026-05-01", key: "b", type: "removed" },
+    { date: "2026-01-01", key: "c", type: "output", old: 4, new: 2 },
+  ]);
+  assert.deepEqual(h.map(c => c.key + c.type), ["aadded", "coutput"]);
+  assert.equal(h[0].note, "$3 in / $10 out");
+  const d = diff({ x: { name: "X", provider: "P", input: 1, output: 2, context: 1000, src: "x-latest" } },
+                 { x: { name: "X", provider: "P", input: 2, output: 4, context: 2000, src: "x-latest" } }, "2026-01-01");
+  assert.deepEqual(d.map(c => c.type), ["version", "context"]);
   console.log("lib.js self-check ok");
 }

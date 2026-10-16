@@ -4,6 +4,7 @@
   "key": "gemini-4-argon",
   "model": "Gemini 4 Argon",
   "provider": "Google",
+  "commit": "426ab45f2dac1db821f98c6b53aadfa0cd53dbdc",
   "type": "added",
   "note": "$2 in / $10 out"
  },
@@ -12,6 +13,7 @@
   "key": "gpt-rosalind-discovery",
   "model": "GPT-Rosalind Discovery",
   "provider": "OpenAI",
+  "commit": "985574f3dc02f831c96d7293e2cf22b116ef5d7f",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -20,6 +22,7 @@
   "key": "claude-sonnet-4-5",
   "model": "Claude Sonnet 4.5",
   "provider": "Anthropic",
+  "commit": "985574f3dc02f831c96d7293e2cf22b116ef5d7f",
   "type": "context",
   "old": 1000000,
   "new": 200000
@@ -29,23 +32,17 @@
   "key": "mistral-large-4",
   "model": "Mistral Large 4",
   "provider": "Mistral",
+  "commit": "4df5006f2955afc2c9a9eed58edafd59ca26f5d8",
   "type": "context",
   "old": 524288,
   "new": 1048576
- },
- {
-  "date": "2026-10-08",
-  "key": "gemini-omni-flash-preview",
-  "model": "Gemini Omni Flash Preview",
-  "provider": "Google",
-  "type": "added",
-  "note": "$1.5 in / $9 out"
  },
  {
   "date": "2026-10-07",
   "key": "claude-haiku-5-5",
   "model": "Claude Haiku 5.5",
   "provider": "Anthropic",
+  "commit": "dcf92b44baab5a0dced4242017ec9d6173ce9ea1",
   "type": "added",
   "note": "$0.1 in / $0.5 out"
  },
@@ -54,6 +51,7 @@
   "key": "mistral-large-4",
   "model": "Mistral Large 4",
   "provider": "Mistral",
+  "commit": "1cdc0ecbf3777609a405cdf135ddec2ec26a23ac",
   "type": "added",
   "note": "$0.68 in / $2.09 out"
  },
@@ -62,22 +60,17 @@
   "key": "deep-research-max-preview",
   "model": "Gemini Deep Research Max Preview",
   "provider": "Google",
+  "commit": "1cdc0ecbf3777609a405cdf135ddec2ec26a23ac",
   "type": "context",
   "old": 131072,
   "new": 1048576
  },
  {
   "date": "2026-10-01",
-  "key": "gemini-omni-flash-preview",
-  "model": "Gemini Omni Flash Preview",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-10-01",
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
+  "commit": "58763b3021d866ce8429166bb588692986b43d8c",
   "type": "removed"
  },
  {
@@ -85,6 +78,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "58763b3021d866ce8429166bb588692986b43d8c",
   "type": "removed"
  },
  {
@@ -92,6 +86,7 @@
   "key": "gpt-6-1-sol",
   "model": "GPT-6.1 Sol",
   "provider": "OpenAI",
+  "commit": "cd0ac30881d3b28187525164fb1406533d2c2a0b",
   "type": "added",
   "note": "$2 in / $10 out"
  },
@@ -100,6 +95,7 @@
   "key": "deep-research-pro-preview",
   "model": "Gemini Deep Research Pro Preview",
   "provider": "Google",
+  "commit": "cd0ac30881d3b28187525164fb1406533d2c2a0b",
   "type": "added",
   "note": "$2 in / $12 out"
  },
@@ -108,6 +104,7 @@
   "key": "claude-sonnet-5-5",
   "model": "Claude Sonnet 5.5",
   "provider": "Anthropic",
+  "commit": "7b2cbf6e7f6c22d8d057858187e88c73e5025883",
   "type": "added",
   "note": "$2 in / $10 out"
  },
@@ -116,6 +113,7 @@
   "key": "claude-mythos-preview",
   "model": "Claude Mythos Preview",
   "provider": "Anthropic",
+  "commit": "a5b9b6da4dc7bd8d95dc0af4a920a77a4a1f85b4",
   "type": "removed"
  },
  {
@@ -123,6 +121,7 @@
   "key": "gpt-5-chat",
   "model": "GPT-5 Chat",
   "provider": "OpenAI",
+  "commit": "a5b9b6da4dc7bd8d95dc0af4a920a77a4a1f85b4",
   "type": "removed"
  },
  {
@@ -130,6 +129,7 @@
   "key": "deep-research-max-preview",
   "model": "Gemini Deep Research Max Preview",
   "provider": "Google",
+  "commit": "a5b9b6da4dc7bd8d95dc0af4a920a77a4a1f85b4",
   "type": "added",
   "note": "$2 in / $12 out"
  },
@@ -138,6 +138,7 @@
   "key": "grok-code-fast-1",
   "model": "Grok Code Fast 1",
   "provider": "xAI",
+  "commit": "721d39f476428a0e8f5991fef94669e53bd20df1",
   "type": "added",
   "note": "$1 in / $2 out"
  },
@@ -146,6 +147,7 @@
   "key": "gpt-6-luna",
   "model": "GPT-6 Luna",
   "provider": "OpenAI",
+  "commit": "721d39f476428a0e8f5991fef94669e53bd20df1",
   "type": "added",
   "note": "$0.1 in / $0.5 out"
  },
@@ -154,6 +156,7 @@
   "key": "gpt-6-sol",
   "model": "GPT-6 Sol",
   "provider": "OpenAI",
+  "commit": "721d39f476428a0e8f5991fef94669e53bd20df1",
   "type": "added",
   "note": "$2 in / $10 out"
  },
@@ -162,6 +165,7 @@
   "key": "claude-opus-5-5",
   "model": "Claude Opus 5.5",
   "provider": "Anthropic",
+  "commit": "721d39f476428a0e8f5991fef94669e53bd20df1",
   "type": "added",
   "note": "$4 in / $20 out"
  },
@@ -170,6 +174,7 @@
   "key": "grok-4-7",
   "model": "Grok 4.7",
   "provider": "xAI",
+  "commit": "5a8c4f48e41619b670dad5eec7e2dc3b48811e99",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -178,6 +183,7 @@
   "key": "gemini-omni-1-1-flash",
   "model": "Gemini Omni 1.1 Flash",
   "provider": "Google",
+  "commit": "47b2479c94c5b00270b74fe4d22aff6be0add6cf",
   "type": "context",
   "old": 131072,
   "new": 1048576
@@ -187,45 +193,17 @@
   "key": "claude-sonnet-4-5",
   "model": "Claude Sonnet 4.5",
   "provider": "Anthropic",
+  "commit": "47b2479c94c5b00270b74fe4d22aff6be0add6cf",
   "type": "context",
   "old": 200000,
   "new": 1000000
  },
  {
-  "date": "2026-09-14",
-  "key": "gpt-rosalind-research",
-  "model": "GPT-Rosalind Research",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$5 in / $25 out"
- },
- {
-  "date": "2026-09-14",
-  "key": "gpt-5-5-cyber",
-  "model": "GPT-5.5 Cyber",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$12.5 in / $75 out"
- },
- {
-  "date": "2026-09-12",
-  "key": "gpt-rosalind-research",
-  "model": "GPT-Rosalind Research",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2026-09-12",
-  "key": "gpt-5-5-cyber",
-  "model": "GPT-5.5 Cyber",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
   "date": "2026-09-13",
   "key": "gpt-rosalind-research",
   "model": "GPT-Rosalind Research",
   "provider": "OpenAI",
+  "commit": "6423acc11a1577d70fa7a0aadd7ece09ca21505b",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -234,6 +212,7 @@
   "key": "gpt-5-5-cyber",
   "model": "GPT-5.5 Cyber",
   "provider": "OpenAI",
+  "commit": "6423acc11a1577d70fa7a0aadd7ece09ca21505b",
   "type": "added",
   "note": "$12.5 in / $75 out"
  },
@@ -242,6 +221,7 @@
   "key": "deepseek-v4-flash-vision-exp",
   "model": "DeepSeek V4 Flash Vision Exp",
   "provider": "DeepSeek",
+  "commit": "17fde7a261c6c3aff6a2eea72d0a883fd7c17c51",
   "type": "output",
   "old": 1.32,
   "new": 1.2
@@ -251,6 +231,7 @@
   "key": "deepseek-v4-flash-vision-exp",
   "model": "DeepSeek V4 Flash Vision Exp",
   "provider": "DeepSeek",
+  "commit": "17fde7a261c6c3aff6a2eea72d0a883fd7c17c51",
   "type": "input",
   "old": 0.44,
   "new": 0.3
@@ -260,6 +241,7 @@
   "key": "deepseek-v4-flash",
   "model": "DeepSeek V4 Flash",
   "provider": "DeepSeek",
+  "commit": "17fde7a261c6c3aff6a2eea72d0a883fd7c17c51",
   "type": "output",
   "old": 1.32,
   "new": 1.2
@@ -269,23 +251,17 @@
   "key": "deepseek-v4-flash",
   "model": "DeepSeek V4 Flash",
   "provider": "DeepSeek",
+  "commit": "17fde7a261c6c3aff6a2eea72d0a883fd7c17c51",
   "type": "input",
   "old": 0.44,
   "new": 0.3
- },
- {
-  "date": "2026-09-11",
-  "key": "deepseek-flash",
-  "model": "DeepSeek Flash",
-  "provider": "DeepSeek",
-  "type": "added",
-  "note": "$0.3 in / $1.2 out"
  },
  {
   "date": "2026-09-04",
   "key": "gemini-3-5-live-translate-preview",
   "model": "Gemini 3.5 Live Translate Preview",
   "provider": "Google",
+  "commit": "842623529048ceb836c746f8b99835260142a229",
   "type": "removed"
  },
  {
@@ -293,6 +269,7 @@
   "key": "gemini-3-1-flash-live-preview",
   "model": "Gemini 3.1 Flash Live Preview",
   "provider": "Google",
+  "commit": "842623529048ceb836c746f8b99835260142a229",
   "type": "removed"
  },
  {
@@ -300,6 +277,7 @@
   "key": "claude-mythos-5-1",
   "model": "Claude Mythos 5.1",
   "provider": "Anthropic",
+  "commit": "842623529048ceb836c746f8b99835260142a229",
   "type": "added",
   "note": "$10 in / $50 out"
  },
@@ -308,6 +286,7 @@
   "key": "gpt-6-astra",
   "model": "GPT-6 Astra",
   "provider": "OpenAI",
+  "commit": "43f31b0a4bde40d640a1dfdcc7a5fc2d4a8059c6",
   "type": "added",
   "note": "$10 in / $50 out"
  },
@@ -316,6 +295,7 @@
   "key": "gemini-3-8-flash",
   "model": "Gemini 3.8 Flash",
   "provider": "Google",
+  "commit": "f18cb0cdb48ce0338a30af940d557842eee4fb19",
   "type": "added",
   "note": "$0.75 in / $3.75 out"
  },
@@ -324,6 +304,7 @@
   "key": "mistral-medium-3-1",
   "model": "Mistral Medium 3.1",
   "provider": "Mistral",
+  "commit": "e2c3f51c46aa2a11a930b6c19bc28e4144a38a1e",
   "type": "removed"
  },
  {
@@ -331,6 +312,7 @@
   "key": "claude-fable-5-1",
   "model": "Claude Fable 5.1",
   "provider": "Anthropic",
+  "commit": "e2c3f51c46aa2a11a930b6c19bc28e4144a38a1e",
   "type": "added",
   "note": "$10 in / $50 out"
  },
@@ -339,6 +321,7 @@
   "key": "grok-4-1-fast",
   "model": "Grok 4.1 Fast",
   "provider": "xAI",
+  "commit": "70e2f4e68fb8f9ca153f1631063352d7a82808d3",
   "type": "removed"
  },
  {
@@ -346,6 +329,7 @@
   "key": "grok-3-mini-fast",
   "model": "Grok 3 Mini Fast",
   "provider": "xAI",
+  "commit": "70e2f4e68fb8f9ca153f1631063352d7a82808d3",
   "type": "removed"
  },
  {
@@ -353,6 +337,7 @@
   "key": "grok-3-fast",
   "model": "Grok 3 Fast",
   "provider": "xAI",
+  "commit": "70e2f4e68fb8f9ca153f1631063352d7a82808d3",
   "type": "removed"
  },
  {
@@ -360,6 +345,7 @@
   "key": "grok-3",
   "model": "Grok 3",
   "provider": "xAI",
+  "commit": "70e2f4e68fb8f9ca153f1631063352d7a82808d3",
   "type": "removed"
  },
  {
@@ -367,6 +353,7 @@
   "key": "gemini-omni-1-1-flash",
   "model": "Gemini Omni 1.1 Flash",
   "provider": "Google",
+  "commit": "27c09248e4af0b4649ea909acf5cb0d3b2d06192",
   "type": "added",
   "note": "$1.5 in / $9 out"
  },
@@ -375,6 +362,7 @@
   "key": "gemini-omni-flash-preview",
   "model": "Gemini Omni Flash Preview",
   "provider": "Google",
+  "commit": "27c09248e4af0b4649ea909acf5cb0d3b2d06192",
   "type": "context",
   "old": 1048576,
   "new": 131072
@@ -384,6 +372,7 @@
   "key": "grok-vision",
   "model": "Grok Vision",
   "provider": "xAI",
+  "commit": "837bcba32d0093a5f6263c27d0dc32a29e7c0c7b",
   "type": "removed"
  },
  {
@@ -391,6 +380,7 @@
   "key": "grok",
   "model": "Grok",
   "provider": "xAI",
+  "commit": "837bcba32d0093a5f6263c27d0dc32a29e7c0c7b",
   "type": "removed"
  },
  {
@@ -398,6 +388,7 @@
   "key": "grok-4-20-multi-agent",
   "model": "Grok 4.20 Multi Agent",
   "provider": "xAI",
+  "commit": "837bcba32d0093a5f6263c27d0dc32a29e7c0c7b",
   "type": "removed"
  },
  {
@@ -405,6 +396,7 @@
   "key": "grok-2-vision",
   "model": "Grok 2 Vision",
   "provider": "xAI",
+  "commit": "837bcba32d0093a5f6263c27d0dc32a29e7c0c7b",
   "type": "removed"
  },
  {
@@ -412,6 +404,7 @@
   "key": "voxtral-small",
   "model": "Voxtral Small",
   "provider": "Mistral",
+  "commit": "837bcba32d0093a5f6263c27d0dc32a29e7c0c7b",
   "type": "added",
   "note": "$0.1 in / $0.4 out"
  },
@@ -420,6 +413,7 @@
   "key": "mistral-medium-3",
   "model": "Mistral Medium 3",
   "provider": "Mistral",
+  "commit": "837bcba32d0093a5f6263c27d0dc32a29e7c0c7b",
   "type": "added",
   "note": "$1.5 in / $7.5 out"
  },
@@ -428,6 +422,7 @@
   "key": "deepseek-v4-flash-vision-exp",
   "model": "DeepSeek V4 Flash Vision Exp",
   "provider": "DeepSeek",
+  "commit": "d8595cb647328a7384bbbb4cb4bfc8a0f51a0c29",
   "type": "added",
   "note": "$0.44 in / $1.32 out"
  },
@@ -436,6 +431,7 @@
   "key": "gpt-5-6-sol",
   "model": "GPT-5.6 Sol",
   "provider": "OpenAI",
+  "commit": "4e191273508e79f18396a1f307ef776af57d6817",
   "type": "output",
   "old": 30,
   "new": 20
@@ -445,6 +441,7 @@
   "key": "gpt-5-6-sol",
   "model": "GPT-5.6 Sol",
   "provider": "OpenAI",
+  "commit": "4e191273508e79f18396a1f307ef776af57d6817",
   "type": "input",
   "old": 5,
   "new": 4
@@ -454,6 +451,7 @@
   "key": "gpt-5-6",
   "model": "GPT-5.6",
   "provider": "OpenAI",
+  "commit": "4e191273508e79f18396a1f307ef776af57d6817",
   "type": "output",
   "old": 30,
   "new": 20
@@ -463,6 +461,7 @@
   "key": "gpt-5-6",
   "model": "GPT-5.6",
   "provider": "OpenAI",
+  "commit": "4e191273508e79f18396a1f307ef776af57d6817",
   "type": "input",
   "old": 5,
   "new": 4
@@ -472,6 +471,7 @@
   "key": "grok-code-fast-1",
   "model": "Grok Code Fast 1",
   "provider": "xAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "removed"
  },
  {
@@ -479,6 +479,7 @@
   "key": "grok-4",
   "model": "Grok 4",
   "provider": "xAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "removed"
  },
  {
@@ -486,6 +487,7 @@
   "key": "gemini-3-5-live-translate-preview",
   "model": "Gemini 3.5 Live Translate Preview",
   "provider": "Google",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "added",
   "note": "$3.5 in / $21 out"
  },
@@ -494,6 +496,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "context",
   "old": 131072,
   "new": 262144
@@ -503,24 +506,16 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
-  "type": "output",
-  "old": 0.18,
-  "new": 0.6
- },
- {
-  "date": "2026-08-20",
-  "key": "mistral-small",
-  "model": "Mistral Small",
-  "provider": "Mistral",
-  "type": "input",
-  "old": 0.06,
-  "new": 0.15
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
+  "type": "version",
+  "note": "$0.06 / $0.18 → $0.15 / $0.6"
  },
  {
   "date": "2026-08-20",
   "key": "codestral",
   "model": "Codestral",
   "provider": "Mistral",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "context",
   "old": 32000,
   "new": 128000
@@ -530,24 +525,16 @@
   "key": "codestral",
   "model": "Codestral",
   "provider": "Mistral",
-  "type": "output",
-  "old": 3,
-  "new": 0.9
- },
- {
-  "date": "2026-08-20",
-  "key": "codestral",
-  "model": "Codestral",
-  "provider": "Mistral",
-  "type": "input",
-  "old": 1,
-  "new": 0.3
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
+  "type": "version",
+  "note": "$1 / $3 → $0.3 / $0.9"
  },
  {
   "date": "2026-08-20",
   "key": "gpt-5-6-cyber",
   "model": "GPT-5.6 Cyber",
   "provider": "OpenAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "added",
   "note": "$12.5 in / $75 out"
  },
@@ -556,6 +543,7 @@
   "key": "gpt-5-6-luna",
   "model": "GPT-5.6 Luna",
   "provider": "OpenAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "context",
   "old": 1050000,
   "new": 922000
@@ -565,6 +553,7 @@
   "key": "gpt-5-6-terra",
   "model": "GPT-5.6 Terra",
   "provider": "OpenAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "context",
   "old": 1050000,
   "new": 922000
@@ -574,6 +563,7 @@
   "key": "gpt-5-6-sol",
   "model": "GPT-5.6 Sol",
   "provider": "OpenAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "context",
   "old": 1050000,
   "new": 922000
@@ -583,6 +573,7 @@
   "key": "gpt-5-6",
   "model": "GPT-5.6",
   "provider": "OpenAI",
+  "commit": "ecd18c5a82bd2403cf9937b3ff0a6983c77ecbc7",
   "type": "context",
   "old": 1050000,
   "new": 922000
@@ -592,6 +583,7 @@
   "key": "deepseek-v4-pro",
   "model": "DeepSeek V4 Pro",
   "provider": "DeepSeek",
+  "commit": "42cffe93c821ce60a8a6f24d95cd01d995e52f32",
   "type": "output",
   "old": 0.87,
   "new": 3.96
@@ -601,6 +593,7 @@
   "key": "deepseek-v4-pro",
   "model": "DeepSeek V4 Pro",
   "provider": "DeepSeek",
+  "commit": "42cffe93c821ce60a8a6f24d95cd01d995e52f32",
   "type": "input",
   "old": 0.435,
   "new": 1.32
@@ -610,6 +603,7 @@
   "key": "deepseek-v4-flash",
   "model": "DeepSeek V4 Flash",
   "provider": "DeepSeek",
+  "commit": "42cffe93c821ce60a8a6f24d95cd01d995e52f32",
   "type": "output",
   "old": 0.28,
   "new": 1.32
@@ -619,6 +613,7 @@
   "key": "deepseek-v4-flash",
   "model": "DeepSeek V4 Flash",
   "provider": "DeepSeek",
+  "commit": "42cffe93c821ce60a8a6f24d95cd01d995e52f32",
   "type": "input",
   "old": 0.14,
   "new": 0.44
@@ -628,6 +623,7 @@
   "key": "gemini-3-6-flash",
   "model": "Gemini 3.6 Flash",
   "provider": "Google",
+  "commit": "94a29e07085dd9d8f2269ee93e899ef0e374cdc7",
   "type": "output",
   "old": 7.5,
   "new": 3.75
@@ -637,6 +633,7 @@
   "key": "gemini-3-6-flash",
   "model": "Gemini 3.6 Flash",
   "provider": "Google",
+  "commit": "94a29e07085dd9d8f2269ee93e899ef0e374cdc7",
   "type": "input",
   "old": 1.5,
   "new": 0.75
@@ -646,6 +643,7 @@
   "key": "grok-4-6",
   "model": "Grok 4.6",
   "provider": "xAI",
+  "commit": "4ea5749642de69e86e9414b1557eb8d00660c63c",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -654,6 +652,7 @@
   "key": "gemini-3-7-flash",
   "model": "Gemini 3.7 Flash",
   "provider": "Google",
+  "commit": "4ea5749642de69e86e9414b1557eb8d00660c63c",
   "type": "added",
   "note": "$0.75 in / $3.75 out"
  },
@@ -662,6 +661,7 @@
   "key": "pixtral-large",
   "model": "Pixtral Large",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -669,6 +669,7 @@
   "key": "pixtral-12b",
   "model": "Pixtral 12B",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -676,6 +677,7 @@
   "key": "open-mixtral-8x7b",
   "model": "Open Mixtral 8x7b",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -683,6 +685,7 @@
   "key": "open-mixtral-8x22b",
   "model": "Open Mixtral 8x22b",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -690,6 +693,7 @@
   "key": "open-mistral-7b",
   "model": "Open Mistral 7B",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -697,6 +701,7 @@
   "key": "open-codestral-mamba",
   "model": "Open Codestral Mamba",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -704,6 +709,7 @@
   "key": "mistral-small-3-2",
   "model": "Mistral Small 3.2",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -711,6 +717,7 @@
   "key": "magistral-small-1-2",
   "model": "Magistral Small 1.2",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -718,6 +725,7 @@
   "key": "magistral-medium-1-2",
   "model": "Magistral Medium 1.2",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -725,6 +733,7 @@
   "key": "labs-devstral-small",
   "model": "Labs Devstral Small",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -732,6 +741,7 @@
   "key": "devstral-small",
   "model": "Devstral Small",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -739,6 +749,7 @@
   "key": "devstral-medium",
   "model": "Devstral Medium",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "removed"
  },
  {
@@ -746,6 +757,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "e5e6728c8ecd8957b69fdc71d9147a821ca81318",
   "type": "added",
   "note": "$0.06 in / $0.18 out"
  },
@@ -754,6 +766,7 @@
   "key": "grok-code-fast",
   "model": "Grok Code Fast",
   "provider": "xAI",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "removed"
  },
  {
@@ -761,6 +774,7 @@
   "key": "claude-opus-4-1",
   "model": "Claude Opus 4.1",
   "provider": "Anthropic",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "removed"
  },
  {
@@ -768,6 +782,7 @@
   "key": "claude-4-sonnet",
   "model": "Claude 4 Sonnet",
   "provider": "Anthropic",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "removed"
  },
  {
@@ -775,6 +790,7 @@
   "key": "claude-4-opus",
   "model": "Claude 4 Opus",
   "provider": "Anthropic",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "removed"
  },
  {
@@ -782,6 +798,7 @@
   "key": "claude-3-haiku",
   "model": "Claude 3 Haiku",
   "provider": "Anthropic",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "removed"
  },
  {
@@ -789,6 +806,7 @@
   "key": "claude-mythos-preview",
   "model": "Claude Mythos Preview",
   "provider": "Anthropic",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "added",
   "note": "$10 in / $50 out"
  },
@@ -797,6 +815,7 @@
   "key": "claude-mythos-5",
   "model": "Claude Mythos 5",
   "provider": "Anthropic",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "added",
   "note": "$10 in / $50 out"
  },
@@ -805,6 +824,7 @@
   "key": "grok-build-0-1",
   "model": "Grok Build 0.1",
   "provider": "xAI",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "added",
   "note": "$1 in / $2 out"
  },
@@ -813,6 +833,7 @@
   "key": "grok-code-fast-1",
   "model": "Grok Code Fast 1",
   "provider": "xAI",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "added",
   "note": "$1 in / $2 out"
  },
@@ -821,6 +842,7 @@
   "key": "grok-4-20",
   "model": "Grok 4.20",
   "provider": "xAI",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "context",
   "old": 2000000,
   "new": 1000000
@@ -830,24 +852,16 @@
   "key": "grok-4-20",
   "model": "Grok 4.20",
   "provider": "xAI",
-  "type": "output",
-  "old": 6,
-  "new": 2.5
- },
- {
-  "date": "2026-08-10",
-  "key": "grok-4-20",
-  "model": "Grok 4.20",
-  "provider": "xAI",
-  "type": "input",
-  "old": 2,
-  "new": 1.25
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
+  "type": "version",
+  "note": "$2 / $6 → $1.25 / $2.5"
  },
  {
   "date": "2026-08-10",
   "key": "grok-4-20-multi-agent",
   "model": "Grok 4.20 Multi Agent",
   "provider": "xAI",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "context",
   "old": 2000000,
   "new": 1000000
@@ -857,24 +871,16 @@
   "key": "grok-4-20-multi-agent",
   "model": "Grok 4.20 Multi Agent",
   "provider": "xAI",
-  "type": "output",
-  "old": 6,
-  "new": 2.5
- },
- {
-  "date": "2026-08-10",
-  "key": "grok-4-20-multi-agent",
-  "model": "Grok 4.20 Multi Agent",
-  "provider": "xAI",
-  "type": "input",
-  "old": 2,
-  "new": 1.25
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
+  "type": "version",
+  "note": "$2 / $6 → $1.25 / $2.5"
  },
  {
   "date": "2026-08-10",
   "key": "gpt-4-preview",
   "model": "GPT-4 Preview",
   "provider": "OpenAI",
+  "commit": "9de3315dad89e44aa7250e5a0a5af576be3ca30e",
   "type": "added",
   "note": "$10 in / $30 out"
  },
@@ -883,6 +889,7 @@
   "key": "gpt-5-4-nano",
   "model": "GPT-5.4 Nano",
   "provider": "OpenAI",
+  "commit": "bf1a8fe40329eb018ef420057766ce95a43baaa3",
   "type": "context",
   "old": 1050000,
   "new": 272000
@@ -892,6 +899,7 @@
   "key": "gpt-5-4-mini",
   "model": "GPT-5.4 Mini",
   "provider": "OpenAI",
+  "commit": "bf1a8fe40329eb018ef420057766ce95a43baaa3",
   "type": "context",
   "old": 1050000,
   "new": 272000
@@ -901,6 +909,7 @@
   "key": "gpt-5-6-luna",
   "model": "GPT-5.6 Luna",
   "provider": "OpenAI",
+  "commit": "bf1a8fe40329eb018ef420057766ce95a43baaa3",
   "type": "output",
   "old": 6,
   "new": 1.2
@@ -910,6 +919,7 @@
   "key": "gpt-5-6-luna",
   "model": "GPT-5.6 Luna",
   "provider": "OpenAI",
+  "commit": "bf1a8fe40329eb018ef420057766ce95a43baaa3",
   "type": "input",
   "old": 1,
   "new": 0.2
@@ -919,6 +929,7 @@
   "key": "gpt-5-6-terra",
   "model": "GPT-5.6 Terra",
   "provider": "OpenAI",
+  "commit": "bf1a8fe40329eb018ef420057766ce95a43baaa3",
   "type": "output",
   "old": 15,
   "new": 12
@@ -928,6 +939,7 @@
   "key": "gpt-5-6-terra",
   "model": "GPT-5.6 Terra",
   "provider": "OpenAI",
+  "commit": "bf1a8fe40329eb018ef420057766ce95a43baaa3",
   "type": "input",
   "old": 2.5,
   "new": 2
@@ -937,6 +949,7 @@
   "key": "claude-opus-5",
   "model": "Claude Opus 5",
   "provider": "Anthropic",
+  "commit": "593b12dc566ed0bf69f0cc70f59b50c4e6521b29",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -945,6 +958,7 @@
   "key": "gemini-3-6-flash",
   "model": "Gemini 3.6 Flash",
   "provider": "Google",
+  "commit": "e411d637b350c5403ed55627e8d38a6fbf963c2c",
   "type": "added",
   "note": "$1.5 in / $7.5 out"
  },
@@ -953,6 +967,7 @@
   "key": "gemini-3-5-flash-lite",
   "model": "Gemini 3.5 Flash Lite",
   "provider": "Google",
+  "commit": "e411d637b350c5403ed55627e8d38a6fbf963c2c",
   "type": "added",
   "note": "$0.3 in / $2.5 out"
  },
@@ -961,6 +976,7 @@
   "key": "gpt-realtime-mini",
   "model": "GPT-Realtime Mini",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -968,6 +984,7 @@
   "key": "gpt-realtime-2-1-mini",
   "model": "GPT-Realtime 2.1 Mini",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -975,6 +992,7 @@
   "key": "gpt-realtime-2-1",
   "model": "GPT-Realtime 2.1",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -982,6 +1000,7 @@
   "key": "gpt-realtime-2",
   "model": "GPT-Realtime 2",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -989,6 +1008,7 @@
   "key": "gpt-realtime-1-5",
   "model": "GPT-Realtime 1.5",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -996,6 +1016,7 @@
   "key": "gpt-4o-realtime-preview",
   "model": "GPT-4o Realtime Preview",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -1003,6 +1024,7 @@
   "key": "gpt-4o-mini-realtime-preview",
   "model": "GPT-4o Mini Realtime Preview",
   "provider": "OpenAI",
+  "commit": "d9661222492a098555f40cb8b50014054bea5ab8",
   "type": "removed"
  },
  {
@@ -1010,6 +1032,7 @@
   "key": "gemini-omni-flash-preview",
   "model": "Gemini Omni Flash Preview",
   "provider": "Google",
+  "commit": "f1f33f560f7a39e86f7a2e5b26b9fa032f9dcaba",
   "type": "added",
   "note": "$1.5 in / $9 out"
  },
@@ -1018,6 +1041,7 @@
   "key": "gpt-5-6-luna",
   "model": "GPT-5.6 Luna",
   "provider": "OpenAI",
+  "commit": "f90b3efb2e2a737324769ce28f2a4b556ce207cb",
   "type": "added",
   "note": "$1 in / $6 out"
  },
@@ -1026,6 +1050,7 @@
   "key": "gpt-5-6-terra",
   "model": "GPT-5.6 Terra",
   "provider": "OpenAI",
+  "commit": "f90b3efb2e2a737324769ce28f2a4b556ce207cb",
   "type": "added",
   "note": "$2.5 in / $15 out"
  },
@@ -1034,6 +1059,7 @@
   "key": "gpt-5-6-sol",
   "model": "GPT-5.6 Sol",
   "provider": "OpenAI",
+  "commit": "f90b3efb2e2a737324769ce28f2a4b556ce207cb",
   "type": "added",
   "note": "$5 in / $30 out"
  },
@@ -1042,6 +1068,7 @@
   "key": "gpt-5-6",
   "model": "GPT-5.6",
   "provider": "OpenAI",
+  "commit": "f90b3efb2e2a737324769ce28f2a4b556ce207cb",
   "type": "added",
   "note": "$5 in / $30 out"
  },
@@ -1050,6 +1077,7 @@
   "key": "grok-4-5",
   "model": "Grok 4.5",
   "provider": "xAI",
+  "commit": "e1b9ec1cd62ce436b863db1fa07179693592b364",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -1058,6 +1086,7 @@
   "key": "gpt-realtime-2-1-mini",
   "model": "GPT-Realtime 2.1 Mini",
   "provider": "OpenAI",
+  "commit": "bd6cabee83a77f9cf9b3e9754eb977fb167416df",
   "type": "added",
   "note": "$0.6 in / $2.4 out"
  },
@@ -1066,40 +1095,25 @@
   "key": "gpt-realtime-2-1",
   "model": "GPT-Realtime 2.1",
   "provider": "OpenAI",
+  "commit": "bd6cabee83a77f9cf9b3e9754eb977fb167416df",
   "type": "added",
   "note": "$4 in / $24 out"
- },
- {
-  "date": "2026-07-01",
-  "key": "claude-sonnet-5",
-  "model": "Claude Sonnet 5",
-  "provider": "Anthropic",
-  "type": "output",
-  "old": 15,
-  "new": 10
- },
- {
-  "date": "2026-07-01",
-  "key": "claude-sonnet-5",
-  "model": "Claude Sonnet 5",
-  "provider": "Anthropic",
-  "type": "input",
-  "old": 3,
-  "new": 2
  },
  {
   "date": "2026-06-30",
   "key": "claude-sonnet-5",
   "model": "Claude Sonnet 5",
   "provider": "Anthropic",
+  "commit": "6d43c21ec641baee73e486ec3f9b72c1c36a850d",
   "type": "added",
-  "note": "$3 in / $15 out"
+  "note": "$2 in / $10 out"
  },
  {
   "date": "2026-06-26",
   "key": "gpt-5-4-nano",
   "model": "GPT-5.4 Nano",
   "provider": "OpenAI",
+  "commit": "5a1c7839be05e84aa57d463b71478141387a0f0a",
   "type": "context",
   "old": 272000,
   "new": 1050000
@@ -1109,6 +1123,7 @@
   "key": "gpt-5-4-mini",
   "model": "GPT-5.4 Mini",
   "provider": "OpenAI",
+  "commit": "5a1c7839be05e84aa57d463b71478141387a0f0a",
   "type": "context",
   "old": 272000,
   "new": 1050000
@@ -1118,6 +1133,7 @@
   "key": "deepseek-v4-pro",
   "model": "DeepSeek V4 Pro",
   "provider": "DeepSeek",
+  "commit": "1ccc1e5b23bfb65aeb935b95caf44e5a0bbd62dc",
   "type": "added",
   "note": "$0.435 in / $0.87 out"
  },
@@ -1126,6 +1142,7 @@
   "key": "deepseek-v4-flash",
   "model": "DeepSeek V4 Flash",
   "provider": "DeepSeek",
+  "commit": "1ccc1e5b23bfb65aeb935b95caf44e5a0bbd62dc",
   "type": "added",
   "note": "$0.14 in / $0.28 out"
  },
@@ -1134,6 +1151,7 @@
   "key": "mistral-medium-3-5",
   "model": "Mistral Medium 3.5",
   "provider": "Mistral",
+  "commit": "1ccc1e5b23bfb65aeb935b95caf44e5a0bbd62dc",
   "type": "added",
   "note": "$1.5 in / $7.5 out"
  },
@@ -1142,6 +1160,7 @@
   "key": "claude-fable-5",
   "model": "Claude Fable 5",
   "provider": "Anthropic",
+  "commit": "3b40ac987fb4fe08061b67dda91b286dc41bee28",
   "type": "added",
   "note": "$10 in / $50 out"
  },
@@ -1150,6 +1169,7 @@
   "key": "grok-code-fast-1",
   "model": "Grok Code Fast 1",
   "provider": "xAI",
+  "commit": "d671a09c204ac26d4678b0a0c48714d3d2b921bb",
   "type": "removed"
  },
  {
@@ -1157,6 +1177,7 @@
   "key": "grok-4-fast",
   "model": "Grok 4 Fast",
   "provider": "xAI",
+  "commit": "d671a09c204ac26d4678b0a0c48714d3d2b921bb",
   "type": "removed"
  },
  {
@@ -1164,6 +1185,7 @@
   "key": "grok-code-fast",
   "model": "Grok Code Fast",
   "provider": "xAI",
+  "commit": "d671a09c204ac26d4678b0a0c48714d3d2b921bb",
   "type": "added",
   "note": "$0.2 in / $1.5 out"
  },
@@ -1172,6 +1194,7 @@
   "key": "gemini-2-0-flash-lite-001",
   "model": "Gemini 2.0 Flash Lite 001",
   "provider": "Google",
+  "commit": "b84f7f82f7313c25435d4af45618473f3361ef65",
   "type": "removed"
  },
  {
@@ -1179,6 +1202,7 @@
   "key": "gemini-2-0-flash-001",
   "model": "Gemini 2.0 Flash 001",
   "provider": "Google",
+  "commit": "b84f7f82f7313c25435d4af45618473f3361ef65",
   "type": "removed"
  },
  {
@@ -1186,6 +1210,7 @@
   "key": "claude-opus-4-8",
   "model": "Claude Opus 4.8",
   "provider": "Anthropic",
+  "commit": "bae04591b2861eedb26c55ea007d11f9f49deaa7",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -1194,39 +1219,24 @@
   "key": "gemini-3-1-flash-lite-preview",
   "model": "Gemini 3.1 Flash Lite Preview",
   "provider": "Google",
+  "commit": "e9f0eddbd1d8f0e4053aaf822ff023e5711563b1",
   "type": "removed"
- },
- {
-  "date": "2026-05-22",
-  "key": "gemini-3-1-flash-lite",
-  "model": "Gemini 3.1 Flash Lite",
-  "provider": "Google",
-  "type": "output",
-  "old": 2.7,
-  "new": 1.5
- },
- {
-  "date": "2026-05-22",
-  "key": "gemini-3-1-flash-lite",
-  "model": "Gemini 3.1 Flash Lite",
-  "provider": "Google",
-  "type": "input",
-  "old": 0.45,
-  "new": 0.25
  },
  {
   "date": "2026-05-20",
   "key": "gemini-3-1-flash-lite",
   "model": "Gemini 3.1 Flash Lite",
   "provider": "Google",
+  "commit": "b7e978a5c37601df89847c9d079f20f461525995",
   "type": "added",
-  "note": "$0.45 in / $2.7 out"
+  "note": "$0.25 in / $1.5 out"
  },
  {
   "date": "2026-05-19",
   "key": "gemini-3-5-flash",
   "model": "Gemini 3.5 Flash",
   "provider": "Google",
+  "commit": "3c3d131f017af22e09a1b32d033238a3933085dc",
   "type": "added",
   "note": "$1.5 in / $9 out"
  },
@@ -1235,6 +1245,7 @@
   "key": "claude-sonnet-4",
   "model": "Claude Sonnet 4",
   "provider": "Anthropic",
+  "commit": "f9ba70d35712dd0fa835837b9c5a76a677e475f3",
   "type": "removed"
  },
  {
@@ -1242,6 +1253,7 @@
   "key": "claude-opus-4",
   "model": "Claude Opus 4",
   "provider": "Anthropic",
+  "commit": "f9ba70d35712dd0fa835837b9c5a76a677e475f3",
   "type": "removed"
  },
  {
@@ -1249,6 +1261,7 @@
   "key": "gpt-realtime",
   "model": "GPT-Realtime",
   "provider": "OpenAI",
+  "commit": "480142533658915ea7eb56bb1af0ee0fcb3d385a",
   "type": "removed"
  },
  {
@@ -1256,6 +1269,7 @@
   "key": "gpt-realtime-2",
   "model": "GPT-Realtime 2",
   "provider": "OpenAI",
+  "commit": "480142533658915ea7eb56bb1af0ee0fcb3d385a",
   "type": "added",
   "note": "$4 in / $16 out"
  },
@@ -1264,6 +1278,7 @@
   "key": "grok-4-3",
   "model": "Grok 4.3",
   "provider": "xAI",
+  "commit": "fee5900acc98b4034b1f3d02581d9a05401b9007",
   "type": "added",
   "note": "$1.25 in / $2.5 out"
  },
@@ -1272,6 +1287,7 @@
   "key": "claude-3-opus",
   "model": "Claude 3 Opus",
   "provider": "Anthropic",
+  "commit": "a30bcc9a41ef5108a1a8946ad5c5322863d1ffa2",
   "type": "removed"
  },
  {
@@ -1279,6 +1295,7 @@
   "key": "gpt-5-5",
   "model": "GPT-5.5",
   "provider": "OpenAI",
+  "commit": "70492cee4282541256fb9ac963be94412b1a109c",
   "type": "context",
   "old": 272000,
   "new": 1050000
@@ -1288,6 +1305,7 @@
   "key": "gpt-5-5",
   "model": "GPT-5.5",
   "provider": "OpenAI",
+  "commit": "3950f5ea72ffd176779e5929af138290cc4b7914",
   "type": "added",
   "note": "$5 in / $30 out"
  },
@@ -1296,6 +1314,7 @@
   "key": "claude-opus-4-7",
   "model": "Claude Opus 4.7",
   "provider": "Anthropic",
+  "commit": "44c992416cfab1d911299ed6d57fa6ad974af1a7",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -1304,6 +1323,7 @@
   "key": "gpt-4-preview",
   "model": "GPT-4 Preview",
   "provider": "OpenAI",
+  "commit": "8c2c6a40a6c4b22dabd43ca829b75f8822c312b6",
   "type": "removed"
  },
  {
@@ -1311,6 +1331,7 @@
   "key": "gemini-3-1-flash-live-preview",
   "model": "Gemini 3.1 Flash Live Preview",
   "provider": "Google",
+  "commit": "8c2c6a40a6c4b22dabd43ca829b75f8822c312b6",
   "type": "added",
   "note": "$0.75 in / $4.5 out"
  },
@@ -1319,6 +1340,7 @@
   "key": "claude-sonnet-4-6",
   "model": "Claude Sonnet 4.6",
   "provider": "Anthropic",
+  "commit": "8c2c6a40a6c4b22dabd43ca829b75f8822c312b6",
   "type": "context",
   "old": 200000,
   "new": 1000000
@@ -1328,6 +1350,7 @@
   "key": "claude-sonnet-4-6",
   "model": "Claude Sonnet 4.6",
   "provider": "Anthropic",
+  "commit": "92654bad37d159dc08daf58b75b0bd0586edab44",
   "type": "context",
   "old": 1000000,
   "new": 200000
@@ -1337,45 +1360,17 @@
   "key": "claude-sonnet-4-6",
   "model": "Claude Sonnet 4.6",
   "provider": "Anthropic",
+  "commit": "b8189ea1de1751ba14f797145e5809e852e96ff7",
   "type": "context",
   "old": 200000,
   "new": 1000000
- },
- {
-  "date": "2026-03-21",
-  "key": "gpt-5-4-nano",
-  "model": "GPT-5.4 Nano",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$0.2 in / $1.25 out"
- },
- {
-  "date": "2026-03-21",
-  "key": "gpt-5-4-mini",
-  "model": "GPT-5.4 Mini",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$0.75 in / $4.5 out"
- },
- {
-  "date": "2026-03-18",
-  "key": "gpt-5-4-nano",
-  "model": "GPT-5.4 Nano",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2026-03-18",
-  "key": "gpt-5-4-mini",
-  "model": "GPT-5.4 Mini",
-  "provider": "OpenAI",
-  "type": "removed"
  },
  {
   "date": "2026-03-18",
   "key": "grok-4-20",
   "model": "Grok 4.20",
   "provider": "xAI",
+  "commit": "8e61b32b8e76b3318cd74532fa4dcf1af51803c4",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -1384,6 +1379,7 @@
   "key": "grok-4-20-multi-agent",
   "model": "Grok 4.20 Multi Agent",
   "provider": "xAI",
+  "commit": "8e61b32b8e76b3318cd74532fa4dcf1af51803c4",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -1392,6 +1388,7 @@
   "key": "gpt-5-4-nano",
   "model": "GPT-5.4 Nano",
   "provider": "OpenAI",
+  "commit": "0ecea85bd0e6f4187f22176f7317d3fb1f498847",
   "type": "added",
   "note": "$0.2 in / $1.25 out"
  },
@@ -1400,6 +1397,7 @@
   "key": "gpt-5-4-mini",
   "model": "GPT-5.4 Mini",
   "provider": "OpenAI",
+  "commit": "0ecea85bd0e6f4187f22176f7317d3fb1f498847",
   "type": "added",
   "note": "$0.75 in / $4.5 out"
  },
@@ -1408,6 +1406,7 @@
   "key": "o1-mini",
   "model": "o1 Mini",
   "provider": "OpenAI",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1415,6 +1414,7 @@
   "key": "gpt-4-5-preview",
   "model": "GPT-4.5 Preview",
   "provider": "OpenAI",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1422,6 +1422,7 @@
   "key": "gpt-4-32k",
   "model": "GPT-4 32K",
   "provider": "OpenAI",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1429,6 +1430,7 @@
   "key": "gemini-pro-vision",
   "model": "Gemini Pro Vision",
   "provider": "Google",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1436,6 +1438,7 @@
   "key": "gemini-pro",
   "model": "Gemini Pro",
   "provider": "Google",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1443,6 +1446,7 @@
   "key": "gemini-2-5-pro-preview-06-05",
   "model": "Gemini 2.5 Pro Preview 06.05",
   "provider": "Google",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1450,6 +1454,7 @@
   "key": "gemini-2-5-flash-preview-04-17",
   "model": "Gemini 2.5 Flash Preview 04.17",
   "provider": "Google",
+  "commit": "1a3fdc7ae39193c264dcc817250e5a7aa7f9eade",
   "type": "removed"
  },
  {
@@ -1457,6 +1462,7 @@
   "key": "gemini-3-pro-preview",
   "model": "Gemini 3 Pro Preview",
   "provider": "Google",
+  "commit": "e88dc2e428c5cb6b77e8799dfb441ad24c3b199c",
   "type": "removed"
  },
  {
@@ -1464,6 +1470,7 @@
   "key": "gpt-5-4-pro",
   "model": "GPT-5.4 Pro",
   "provider": "OpenAI",
+  "commit": "f44e67b0f199d4dc9aaf8c8f134b1ee3afb5a1ee",
   "type": "removed"
  },
  {
@@ -1471,6 +1478,7 @@
   "key": "gpt-5-4-pro",
   "model": "GPT-5.4 Pro",
   "provider": "OpenAI",
+  "commit": "0e78aa4cf17898fd7b2f7371db218ef9026a995d",
   "type": "added",
   "note": "$30 in / $180 out"
  },
@@ -1479,6 +1487,7 @@
   "key": "gpt-5-4",
   "model": "GPT-5.4",
   "provider": "OpenAI",
+  "commit": "0e78aa4cf17898fd7b2f7371db218ef9026a995d",
   "type": "added",
   "note": "$2.5 in / $15 out"
  },
@@ -1487,6 +1496,7 @@
   "key": "gemini-3-1-flash-lite-preview",
   "model": "Gemini 3.1 Flash Lite Preview",
   "provider": "Google",
+  "commit": "007bea10b810324f0c7eb29530551ba922d9c920",
   "type": "added",
   "note": "$0.25 in / $1.5 out"
  },
@@ -1495,6 +1505,7 @@
   "key": "grok-3-mini",
   "model": "Grok 3 Mini",
   "provider": "xAI",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "removed"
  },
  {
@@ -1502,6 +1513,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "removed"
  },
  {
@@ -1509,6 +1521,7 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "removed"
  },
  {
@@ -1516,6 +1529,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "removed"
  },
  {
@@ -1523,6 +1537,7 @@
   "key": "magistral-small",
   "model": "Magistral Small",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "removed"
  },
  {
@@ -1530,6 +1545,7 @@
   "key": "magistral-medium",
   "model": "Magistral Medium",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "removed"
  },
  {
@@ -1537,6 +1553,7 @@
   "key": "ministral-3-14b",
   "model": "Ministral 3 14B",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$0.2 in / $0.2 out"
  },
@@ -1545,6 +1562,7 @@
   "key": "ministral-3-8b",
   "model": "Ministral 3 8B",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$0.15 in / $0.15 out"
  },
@@ -1553,6 +1571,7 @@
   "key": "ministral-3-3b",
   "model": "Ministral 3 3B",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$0.1 in / $0.1 out"
  },
@@ -1561,6 +1580,7 @@
   "key": "mistral-small-3-2",
   "model": "Mistral Small 3.2",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$0.06 in / $0.18 out"
  },
@@ -1569,6 +1589,7 @@
   "key": "mistral-medium-3-1",
   "model": "Mistral Medium 3.1",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$0.4 in / $2 out"
  },
@@ -1577,6 +1598,7 @@
   "key": "mistral-large-3",
   "model": "Mistral Large 3",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "context",
   "old": 256000,
   "new": 262144
@@ -1586,6 +1608,7 @@
   "key": "magistral-small-1-2",
   "model": "Magistral Small 1.2",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$0.5 in / $1.5 out"
  },
@@ -1594,6 +1617,7 @@
   "key": "magistral-medium-1-2",
   "model": "Magistral Medium 1.2",
   "provider": "Mistral",
+  "commit": "86d5b4c632f4b3e3279e64b1cd0426d985a00dfc",
   "type": "added",
   "note": "$2 in / $5 out"
  },
@@ -1602,6 +1626,7 @@
   "key": "gpt-realtime-1-5",
   "model": "GPT-Realtime 1.5",
   "provider": "OpenAI",
+  "commit": "7d084dfb9d034a04a267678e2bb7a1382fba1898",
   "type": "added",
   "note": "$4 in / $16 out"
  },
@@ -1610,6 +1635,7 @@
   "key": "devstral",
   "model": "Devstral",
   "provider": "Mistral",
+  "commit": "03ecdf9284c3f1135482c92dc8a07c7e17ff6d80",
   "type": "removed"
  },
  {
@@ -1617,6 +1643,7 @@
   "key": "claude-3-7-sonnet",
   "model": "Claude 3.7 Sonnet",
   "provider": "Anthropic",
+  "commit": "03ecdf9284c3f1135482c92dc8a07c7e17ff6d80",
   "type": "removed"
  },
  {
@@ -1624,6 +1651,7 @@
   "key": "devstral-small",
   "model": "Devstral Small",
   "provider": "Mistral",
+  "commit": "03ecdf9284c3f1135482c92dc8a07c7e17ff6d80",
   "type": "context",
   "old": 128000,
   "new": 256000
@@ -1633,6 +1661,7 @@
   "key": "devstral-medium",
   "model": "Devstral Medium",
   "provider": "Mistral",
+  "commit": "03ecdf9284c3f1135482c92dc8a07c7e17ff6d80",
   "type": "context",
   "old": 128000,
   "new": 256000
@@ -1642,37 +1671,16 @@
   "key": "gemini-3-1-pro-preview",
   "model": "Gemini 3.1 Pro Preview",
   "provider": "Google",
+  "commit": "03ecdf9284c3f1135482c92dc8a07c7e17ff6d80",
   "type": "added",
   "note": "$2 in / $12 out"
  },
  {
-  "date": "2026-02-20",
-  "key": "claude-sonnet-4-6",
-  "model": "Claude Sonnet 4.6",
-  "provider": "Anthropic",
-  "type": "added",
-  "note": "$3 in / $15 out"
- },
- {
-  "date": "2026-02-19",
-  "key": "claude-sonnet-4-6",
-  "model": "Claude Sonnet 4.6",
-  "provider": "Anthropic",
-  "type": "removed"
- },
- {
-  "date": "2026-02-19",
-  "key": "devstral",
-  "model": "Devstral",
-  "provider": "Mistral",
-  "type": "added",
-  "note": "$0.4 in / $2 out"
- },
- {
   "date": "2026-02-19",
   "key": "devstral-small",
   "model": "Devstral Small",
   "provider": "Mistral",
+  "commit": "26d27803eb487a1b6b7881e2bdb74775b23c824b",
   "type": "context",
   "old": 256000,
   "new": 128000
@@ -1682,22 +1690,17 @@
   "key": "devstral-medium",
   "model": "Devstral Medium",
   "provider": "Mistral",
+  "commit": "26d27803eb487a1b6b7881e2bdb74775b23c824b",
   "type": "context",
   "old": 256000,
   "new": 128000
  },
  {
   "date": "2026-02-17",
-  "key": "devstral",
-  "model": "Devstral",
-  "provider": "Mistral",
-  "type": "removed"
- },
- {
-  "date": "2026-02-17",
   "key": "devstral-small",
   "model": "Devstral Small",
   "provider": "Mistral",
+  "commit": "d04612229dd01c94ca16858076240f05a4b11b85",
   "type": "context",
   "old": 128000,
   "new": 256000
@@ -1707,6 +1710,7 @@
   "key": "devstral-medium",
   "model": "Devstral Medium",
   "provider": "Mistral",
+  "commit": "d04612229dd01c94ca16858076240f05a4b11b85",
   "type": "context",
   "old": 128000,
   "new": 256000
@@ -1716,6 +1720,7 @@
   "key": "claude-sonnet-4-6",
   "model": "Claude Sonnet 4.6",
   "provider": "Anthropic",
+  "commit": "d04612229dd01c94ca16858076240f05a4b11b85",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -1724,21 +1729,15 @@
   "key": "gemini-2-0-flash-lite",
   "model": "Gemini 2.0 Flash Lite",
   "provider": "Google",
+  "commit": "69f78ae64fcbce67b4e9c0d67bc5f476ec7e438d",
   "type": "removed"
- },
- {
-  "date": "2026-02-12",
-  "key": "gemini-exp",
-  "model": "Gemini Exp",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.3 in / $2.5 out"
  },
  {
   "date": "2026-02-12",
   "key": "gemini-2-0-flash-lite-001",
   "model": "Gemini 2.0 Flash Lite 001",
   "provider": "Google",
+  "commit": "69f78ae64fcbce67b4e9c0d67bc5f476ec7e438d",
   "type": "added",
   "note": "$0.075 in / $0.3 out"
  },
@@ -1747,6 +1746,7 @@
   "key": "gpt-5-search-api",
   "model": "GPT-5 Search API",
   "provider": "OpenAI",
+  "commit": "69f78ae64fcbce67b4e9c0d67bc5f476ec7e438d",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -1755,6 +1755,7 @@
   "key": "gemini-pro",
   "model": "Gemini Pro",
   "provider": "Google",
+  "commit": "69f78ae64fcbce67b4e9c0d67bc5f476ec7e438d",
   "type": "context",
   "old": 32760,
   "new": 1048576
@@ -1764,24 +1765,16 @@
   "key": "gemini-pro",
   "model": "Gemini Pro",
   "provider": "Google",
-  "type": "output",
-  "old": 1.05,
-  "new": 10
- },
- {
-  "date": "2026-02-12",
-  "key": "gemini-pro",
-  "model": "Gemini Pro",
-  "provider": "Google",
-  "type": "input",
-  "old": 0.35,
-  "new": 1.25
+  "commit": "69f78ae64fcbce67b4e9c0d67bc5f476ec7e438d",
+  "type": "version",
+  "note": "$0.35 / $1.05 → $1.25 / $10"
  },
  {
   "date": "2026-02-06",
   "key": "claude-opus-4-6",
   "model": "Claude Opus 4.6",
   "provider": "Anthropic",
+  "commit": "0a55571f75cc6cad02aa3c5722ddafa5377053a8",
   "type": "context",
   "old": 200000,
   "new": 1000000
@@ -1791,6 +1784,7 @@
   "key": "claude-opus-4-6",
   "model": "Claude Opus 4.6",
   "provider": "Anthropic",
+  "commit": "b7b48fd8ba789b4b60c5030890113b04e37e83e2",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -1799,6 +1793,7 @@
   "key": "gpt-5-nano",
   "model": "GPT-5 Nano",
   "provider": "OpenAI",
+  "commit": "62eee47618cc6549a484fc4096ab79ffa1a07b64",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -1808,6 +1803,7 @@
   "key": "gpt-5-mini",
   "model": "GPT-5 Mini",
   "provider": "OpenAI",
+  "commit": "62eee47618cc6549a484fc4096ab79ffa1a07b64",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -1817,6 +1813,7 @@
   "key": "gpt-5-2",
   "model": "GPT-5.2",
   "provider": "OpenAI",
+  "commit": "62eee47618cc6549a484fc4096ab79ffa1a07b64",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -1826,6 +1823,7 @@
   "key": "gpt-5-1",
   "model": "GPT-5.1",
   "provider": "OpenAI",
+  "commit": "62eee47618cc6549a484fc4096ab79ffa1a07b64",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -1835,6 +1833,7 @@
   "key": "gpt-5",
   "model": "GPT-5",
   "provider": "OpenAI",
+  "commit": "62eee47618cc6549a484fc4096ab79ffa1a07b64",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -1844,6 +1843,7 @@
   "key": "gpt-5-nano",
   "model": "GPT-5 Nano",
   "provider": "OpenAI",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "context",
   "old": 272000,
   "new": 400000
@@ -1853,6 +1853,7 @@
   "key": "gpt-5-mini",
   "model": "GPT-5 Mini",
   "provider": "OpenAI",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "context",
   "old": 272000,
   "new": 400000
@@ -1862,6 +1863,7 @@
   "key": "gpt-5-1",
   "model": "GPT-5.1",
   "provider": "OpenAI",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "context",
   "old": 272000,
   "new": 400000
@@ -1871,6 +1873,7 @@
   "key": "gpt-5",
   "model": "GPT-5",
   "provider": "OpenAI",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "context",
   "old": 272000,
   "new": 400000
@@ -1880,6 +1883,7 @@
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "output",
   "old": 1.7,
   "new": 0.42
@@ -1889,6 +1893,7 @@
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "input",
   "old": 0.6,
   "new": 0.28
@@ -1898,6 +1903,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "output",
   "old": 1.7,
   "new": 0.42
@@ -1907,6 +1913,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "2b79d37e39603cdceb38cbd2f3f5c5e432396151",
   "type": "input",
   "old": 0.6,
   "new": 0.28
@@ -1916,6 +1923,7 @@
   "key": "gemini-2-5-pro-preview-05-06",
   "model": "Gemini 2.5 Pro Preview 05.06",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1923,6 +1931,7 @@
   "key": "gemini-2-5-pro-preview-03-25",
   "model": "Gemini 2.5 Pro Preview 03.25",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1930,6 +1939,7 @@
   "key": "gemini-2-5-flash-preview-05-20",
   "model": "Gemini 2.5 Flash Preview 05.20",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1937,6 +1947,7 @@
   "key": "gemini-2-5-flash-lite-preview-06-17",
   "model": "Gemini 2.5 Flash Lite Preview 06.17",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1944,6 +1955,7 @@
   "key": "gemini-2-0-flash-preview-image-generation",
   "model": "Gemini 2.0 Flash Preview Image Generation",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1951,6 +1963,7 @@
   "key": "gemini-2-0-flash-live-001",
   "model": "Gemini 2.0 Flash Live 001",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1958,6 +1971,7 @@
   "key": "gemini-2-0-flash-lite-preview-02-05",
   "model": "Gemini 2.0 Flash Lite Preview 02.05",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1965,6 +1979,7 @@
   "key": "gemini-1-5-pro-exp",
   "model": "Gemini 1.5 Pro Exp",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1972,6 +1987,7 @@
   "key": "gemini-1-5-pro",
   "model": "Gemini 1.5 Pro",
   "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -1979,171 +1995,7 @@
   "key": "gemini-1-5-flash",
   "model": "Gemini 1.5 Flash",
   "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-06",
-  "key": "gemini-3-flash-preview",
-  "model": "Gemini 3 Flash Preview",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.5 in / $3 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-3-flash-preview",
-  "model": "Gemini 3 Flash Preview",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-5-pro-preview-05-06",
-  "model": "Gemini 2.5 Pro Preview 05.06",
-  "provider": "Google",
-  "type": "added",
-  "note": "$1.25 in / $10 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-5-pro-preview-03-25",
-  "model": "Gemini 2.5 Pro Preview 03.25",
-  "provider": "Google",
-  "type": "added",
-  "note": "$1.25 in / $10 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-5-flash-preview-05-20",
-  "model": "Gemini 2.5 Flash Preview 05.20",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.3 in / $2.5 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-5-flash-lite-preview-06-17",
-  "model": "Gemini 2.5 Flash Lite Preview 06.17",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.1 in / $0.4 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-0-flash-preview-image-generation",
-  "model": "Gemini 2.0 Flash Preview Image Generation",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.1 in / $0.4 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-0-flash-live-001",
-  "model": "Gemini 2.0 Flash Live 001",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.35 in / $1.5 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-2-0-flash-lite-preview-02-05",
-  "model": "Gemini 2.0 Flash Lite Preview 02.05",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.075 in / $0.3 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-1-5-pro-exp",
-  "model": "Gemini 1.5 Pro Exp",
-  "provider": "Google",
-  "type": "added",
-  "note": "$3.5 in / $10.5 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-1-5-pro",
-  "model": "Gemini 1.5 Pro",
-  "provider": "Google",
-  "type": "added",
-  "note": "$3.5 in / $1.05 out"
- },
- {
-  "date": "2026-01-05",
-  "key": "gemini-1-5-flash",
-  "model": "Gemini 1.5 Flash",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.075 in / $0.3 out"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-5-pro-preview-05-06",
-  "model": "Gemini 2.5 Pro Preview 05.06",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-5-pro-preview-03-25",
-  "model": "Gemini 2.5 Pro Preview 03.25",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-5-flash-preview-05-20",
-  "model": "Gemini 2.5 Flash Preview 05.20",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-5-flash-lite-preview-06-17",
-  "model": "Gemini 2.5 Flash Lite Preview 06.17",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-0-flash-preview-image-generation",
-  "model": "Gemini 2.0 Flash Preview Image Generation",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-0-flash-live-001",
-  "model": "Gemini 2.0 Flash Live 001",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-2-0-flash-lite-preview-02-05",
-  "model": "Gemini 2.0 Flash Lite Preview 02.05",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-1-5-pro-exp",
-  "model": "Gemini 1.5 Pro Exp",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-1-5-pro",
-  "model": "Gemini 1.5 Pro",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2026-01-03",
-  "key": "gemini-1-5-flash",
-  "model": "Gemini 1.5 Flash",
-  "provider": "Google",
+  "commit": "a17757159c59b899c2ccfb988277597b31aa9bce",
   "type": "removed"
  },
  {
@@ -2151,6 +2003,7 @@
   "key": "gemini-3-flash-preview",
   "model": "Gemini 3 Flash Preview",
   "provider": "Google",
+  "commit": "e3cf0110bb672754b14a2d16bca96ecede56a340",
   "type": "added",
   "note": "$0.5 in / $3 out"
  },
@@ -2159,6 +2012,7 @@
   "key": "gpt-5-2",
   "model": "GPT-5.2",
   "provider": "OpenAI",
+  "commit": "1d85242877b31b47568d32e9567e3443a121aa57",
   "type": "added",
   "note": "$1.75 in / $14 out"
  },
@@ -2167,6 +2021,7 @@
   "key": "devstral",
   "model": "Devstral",
   "provider": "Mistral",
+  "commit": "b2e3f56f69ffbc6e12335a31bdabb2463c400af8",
   "type": "added",
   "note": "$0.4 in / $2 out"
  },
@@ -2175,6 +2030,7 @@
   "key": "labs-devstral-small",
   "model": "Labs Devstral Small",
   "provider": "Mistral",
+  "commit": "b2e3f56f69ffbc6e12335a31bdabb2463c400af8",
   "type": "added",
   "note": "$0.1 in / $0.3 out"
  },
@@ -2183,6 +2039,7 @@
   "key": "mistral-large-3",
   "model": "Mistral Large 3",
   "provider": "Mistral",
+  "commit": "829b06f53fb948bf4c48d8b0a3b3acedef2fe441",
   "type": "added",
   "note": "$0.5 in / $1.5 out"
  },
@@ -2191,6 +2048,7 @@
   "key": "deepseek-v3-2",
   "model": "DeepSeek V3.2",
   "provider": "DeepSeek",
+  "commit": "566adebdec41d3f2790de33e43d93892f529f597",
   "type": "added",
   "note": "$0.28 in / $0.4 out"
  },
@@ -2199,6 +2057,7 @@
   "key": "claude-opus-4-5",
   "model": "Claude Opus 4.5",
   "provider": "Anthropic",
+  "commit": "a807fe4450b1f7a5f41be5762b8918761dd9dae2",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -2207,119 +2066,16 @@
   "key": "grok-4-1-fast",
   "model": "Grok 4.1 Fast",
   "provider": "xAI",
+  "commit": "7b05a5f9ae5a2d7bbd9bfe1adf0c11ec9c1a3111",
   "type": "added",
   "note": "$0.2 in / $0.5 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "o3-mini",
-  "model": "o3 Mini",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$1.1 in / $4.4 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "o1-mini",
-  "model": "o1 Mini",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$1.1 in / $4.4 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "gpt-5-nano",
-  "model": "GPT-5 Nano",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$0.05 in / $0.4 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "gpt-5-mini",
-  "model": "GPT-5 Mini",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$0.25 in / $2 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "gpt-5-chat",
-  "model": "GPT-5 Chat",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$1.25 in / $10 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "gpt-5-1",
-  "model": "GPT-5.1",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$1.25 in / $10 out"
- },
- {
-  "date": "2025-11-19",
-  "key": "gpt-5",
-  "model": "GPT-5",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$1.25 in / $10 out"
- },
- {
-  "date": "2025-11-18",
-  "key": "o3-mini",
-  "model": "o3 Mini",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2025-11-18",
-  "key": "o1-mini",
-  "model": "o1 Mini",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2025-11-18",
-  "key": "gpt-5-nano",
-  "model": "GPT-5 Nano",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2025-11-18",
-  "key": "gpt-5-mini",
-  "model": "GPT-5 Mini",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2025-11-18",
-  "key": "gpt-5-chat",
-  "model": "GPT-5 Chat",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2025-11-18",
-  "key": "gpt-5-1",
-  "model": "GPT-5.1",
-  "provider": "OpenAI",
-  "type": "removed"
- },
- {
-  "date": "2025-11-18",
-  "key": "gpt-5",
-  "model": "GPT-5",
-  "provider": "OpenAI",
-  "type": "removed"
  },
  {
   "date": "2025-11-18",
   "key": "gemini-3-pro-preview",
   "model": "Gemini 3 Pro Preview",
   "provider": "Google",
+  "commit": "149f3084518d4d70d7d19ab6cff2cd356d108f15",
   "type": "added",
   "note": "$2 in / $12 out"
  },
@@ -2328,6 +2084,7 @@
   "key": "gpt-5-1",
   "model": "GPT-5.1",
   "provider": "OpenAI",
+  "commit": "52a42e172874f40623a1037a64519c9238fe3f63",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -2336,6 +2093,7 @@
   "key": "claude-3-opus",
   "model": "Claude 3 Opus",
   "provider": "Anthropic",
+  "commit": "2e7dc56895079b3e2747856e61c15307a7d655ea",
   "type": "added",
   "note": "$15 in / $75 out"
  },
@@ -2344,6 +2102,7 @@
   "key": "claude-3-haiku",
   "model": "Claude 3 Haiku",
   "provider": "Anthropic",
+  "commit": "2e7dc56895079b3e2747856e61c15307a7d655ea",
   "type": "added",
   "note": "$0.25 in / $1.25 out"
  },
@@ -2352,6 +2111,7 @@
   "key": "claude-haiku-4-5",
   "model": "Claude Haiku 4.5",
   "provider": "Anthropic",
+  "commit": "f1fbae8409afdc37cc93b79a065f5db16866b126",
   "type": "added",
   "note": "$1 in / $5 out"
  },
@@ -2360,6 +2120,7 @@
   "key": "gpt-realtime-mini",
   "model": "GPT-Realtime Mini",
   "provider": "OpenAI",
+  "commit": "3f4d2c6ada804fe1ae32c5cd56b2c477ca548a74",
   "type": "added",
   "note": "$0.6 in / $2.4 out"
  },
@@ -2368,6 +2129,7 @@
   "key": "claude-3-5-sonnet",
   "model": "Claude 3.5 Sonnet",
   "provider": "Anthropic",
+  "commit": "efa782d6d281e28d126dce8e0610c4e449d7a0cd",
   "type": "removed"
  },
  {
@@ -2375,6 +2137,7 @@
   "key": "claude-3-5-haiku",
   "model": "Claude 3.5 Haiku",
   "provider": "Anthropic",
+  "commit": "efa782d6d281e28d126dce8e0610c4e449d7a0cd",
   "type": "removed"
  },
  {
@@ -2382,6 +2145,7 @@
   "key": "gpt-5-chat",
   "model": "GPT-5 Chat",
   "provider": "OpenAI",
+  "commit": "d9664a3ee49e0c5f7ee3f5bb552a349994daa708",
   "type": "context",
   "old": 272000,
   "new": 128000
@@ -2391,6 +2155,7 @@
   "key": "claude-sonnet-4-5",
   "model": "Claude Sonnet 4.5",
   "provider": "Anthropic",
+  "commit": "551a17124329830a43c1f7a8d065ea9abb21a75a",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -2399,6 +2164,7 @@
   "key": "gpt-5-nano",
   "model": "GPT-5 Nano",
   "provider": "OpenAI",
+  "commit": "f8a64345b79395ed902279f0e663221d6c41e63a",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -2408,6 +2174,7 @@
   "key": "gpt-5-mini",
   "model": "GPT-5 Mini",
   "provider": "OpenAI",
+  "commit": "f8a64345b79395ed902279f0e663221d6c41e63a",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -2417,6 +2184,7 @@
   "key": "gpt-5-chat",
   "model": "GPT-5 Chat",
   "provider": "OpenAI",
+  "commit": "f8a64345b79395ed902279f0e663221d6c41e63a",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -2426,6 +2194,7 @@
   "key": "gpt-5",
   "model": "GPT-5",
   "provider": "OpenAI",
+  "commit": "f8a64345b79395ed902279f0e663221d6c41e63a",
   "type": "context",
   "old": 400000,
   "new": 272000
@@ -2435,6 +2204,7 @@
   "key": "gemini-1-5-pro-002",
   "model": "Gemini 1.5 Pro 002",
   "provider": "Google",
+  "commit": "2f3155c2eed18b325e26e3e343188ad6a6d8a841",
   "type": "removed"
  },
  {
@@ -2442,6 +2212,7 @@
   "key": "gemini-1-5-flash-002",
   "model": "Gemini 1.5 Flash 002",
   "provider": "Google",
+  "commit": "2f3155c2eed18b325e26e3e343188ad6a6d8a841",
   "type": "removed"
  },
  {
@@ -2449,6 +2220,7 @@
   "key": "gpt-3-5-turbo",
   "model": "GPT-3.5 Turbo",
   "provider": "OpenAI",
+  "commit": "2f3155c2eed18b325e26e3e343188ad6a6d8a841",
   "type": "output",
   "old": 2,
   "new": 1.5
@@ -2458,6 +2230,7 @@
   "key": "gpt-3-5-turbo",
   "model": "GPT-3.5 Turbo",
   "provider": "OpenAI",
+  "commit": "2f3155c2eed18b325e26e3e343188ad6a6d8a841",
   "type": "input",
   "old": 1.5,
   "new": 0.5
@@ -2467,6 +2240,7 @@
   "key": "gemini-1-5-flash",
   "model": "Gemini 1.5 Flash",
   "provider": "Google",
+  "commit": "2f3155c2eed18b325e26e3e343188ad6a6d8a841",
   "type": "added",
   "note": "$0.075 in / $0.3 out"
  },
@@ -2475,6 +2249,7 @@
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
+  "commit": "1585750c1b225a3b8f45310b45a79b928e502452",
   "type": "context",
   "old": 65536,
   "new": 131072
@@ -2484,24 +2259,16 @@
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
-  "type": "output",
-  "old": 2.19,
-  "new": 1.7
- },
- {
-  "date": "2025-09-24",
-  "key": "deepseek-reasoner",
-  "model": "DeepSeek Reasoner",
-  "provider": "DeepSeek",
-  "type": "input",
-  "old": 0.55,
-  "new": 0.6
+  "commit": "1585750c1b225a3b8f45310b45a79b928e502452",
+  "type": "version",
+  "note": "$0.55 / $2.19 → $0.6 / $1.7"
  },
  {
   "date": "2025-09-24",
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "1585750c1b225a3b8f45310b45a79b928e502452",
   "type": "context",
   "old": 65536,
   "new": 131072
@@ -2511,24 +2278,16 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
-  "type": "output",
-  "old": 1.1,
-  "new": 1.7
- },
- {
-  "date": "2025-09-24",
-  "key": "deepseek-chat",
-  "model": "DeepSeek Chat",
-  "provider": "DeepSeek",
-  "type": "input",
-  "old": 0.27,
-  "new": 0.6
+  "commit": "1585750c1b225a3b8f45310b45a79b928e502452",
+  "type": "version",
+  "note": "$0.27 / $1.1 → $0.6 / $1.7"
  },
  {
   "date": "2025-09-23",
   "key": "grok-4-fast",
   "model": "Grok 4 Fast",
   "provider": "xAI",
+  "commit": "d5ced7e06853857f7557ed3a6bf521504cc0f9a2",
   "type": "added",
   "note": "$0.2 in / $0.5 out"
  },
@@ -2537,6 +2296,7 @@
   "key": "claude-sonnet-4",
   "model": "Claude Sonnet 4",
   "provider": "Anthropic",
+  "commit": "d5ced7e06853857f7557ed3a6bf521504cc0f9a2",
   "type": "context",
   "old": 200000,
   "new": 1000000
@@ -2546,6 +2306,7 @@
   "key": "gemini-2-5-flash-image-preview",
   "model": "Gemini 2.5 Flash Image Preview",
   "provider": "Google",
+  "commit": "282617f2bcc75a223d023e9d0432b6ae3e614bce",
   "type": "removed"
  },
  {
@@ -2553,6 +2314,7 @@
   "key": "claude-sonnet-4",
   "model": "Claude Sonnet 4",
   "provider": "Anthropic",
+  "commit": "114d077cc971fb594ad58b5f62f6135e98e464c3",
   "type": "context",
   "old": 1000000,
   "new": 200000
@@ -2562,6 +2324,7 @@
   "key": "claude-sonnet-4",
   "model": "Claude Sonnet 4",
   "provider": "Anthropic",
+  "commit": "b8b30775a4c014530047a3e0b3603fd6451eb008",
   "type": "context",
   "old": 200000,
   "new": 1000000
@@ -2571,6 +2334,7 @@
   "key": "gemini-2-5-flash-image-preview",
   "model": "Gemini 2.5 Flash Image Preview",
   "provider": "Google",
+  "commit": "d88771ca4913be2c4bf09fa644d529f7efaec18d",
   "type": "output",
   "old": 2.5,
   "new": 30
@@ -2580,6 +2344,7 @@
   "key": "gpt-realtime",
   "model": "GPT-Realtime",
   "provider": "OpenAI",
+  "commit": "8b11452d9e16ab6ef65a3ce35f271f989c47da41",
   "type": "added",
   "note": "$4 in / $16 out"
  },
@@ -2588,6 +2353,7 @@
   "key": "grok-code-fast-1",
   "model": "Grok Code Fast 1",
   "provider": "xAI",
+  "commit": "81db36c06c4074cd07684dfe711fa39298dc5741",
   "type": "added",
   "note": "$0.2 in / $1.5 out"
  },
@@ -2596,6 +2362,7 @@
   "key": "gemini-2-5-flash-image-preview",
   "model": "Gemini 2.5 Flash Image Preview",
   "provider": "Google",
+  "commit": "4613f7821d420b4e4bf6b8af21be07e040f2cac1",
   "type": "added",
   "note": "$0.3 in / $2.5 out"
  },
@@ -2604,6 +2371,7 @@
   "key": "claude-4-sonnet",
   "model": "Claude 4 Sonnet",
   "provider": "Anthropic",
+  "commit": "bfe814f98122fb974e5e29861de684adefded525",
   "type": "context",
   "old": 200000,
   "new": 1000000
@@ -2613,6 +2381,7 @@
   "key": "gpt-5-chat",
   "model": "GPT-5 Chat",
   "provider": "OpenAI",
+  "commit": "9b86d721d5c9c8065425873c60de0216d975ca2d",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -2621,6 +2390,7 @@
   "key": "gpt-5-nano",
   "model": "GPT-5 Nano",
   "provider": "OpenAI",
+  "commit": "9b86d721d5c9c8065425873c60de0216d975ca2d",
   "type": "added",
   "note": "$0.05 in / $0.4 out"
  },
@@ -2629,6 +2399,7 @@
   "key": "gpt-5-mini",
   "model": "GPT-5 Mini",
   "provider": "OpenAI",
+  "commit": "9b86d721d5c9c8065425873c60de0216d975ca2d",
   "type": "added",
   "note": "$0.25 in / $2 out"
  },
@@ -2637,6 +2408,7 @@
   "key": "gpt-5",
   "model": "GPT-5",
   "provider": "OpenAI",
+  "commit": "9b86d721d5c9c8065425873c60de0216d975ca2d",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -2645,6 +2417,7 @@
   "key": "claude-opus-4-1",
   "model": "Claude Opus 4.1",
   "provider": "Anthropic",
+  "commit": "2e3f564a3979a6343f094659bd4f9f86f5fc978d",
   "type": "added",
   "note": "$15 in / $75 out"
  },
@@ -2653,6 +2426,7 @@
   "key": "gemini-2-5-flash-lite",
   "model": "Gemini 2.5 Flash Lite",
   "provider": "Google",
+  "commit": "29475ab4b0948036a404aafe0cc9e81264b125ab",
   "type": "added",
   "note": "$0.1 in / $0.4 out"
  },
@@ -2661,6 +2435,7 @@
   "key": "claude-3-sonnet",
   "model": "Claude 3 Sonnet",
   "provider": "Anthropic",
+  "commit": "37c626a9a06f83718a8818a8776f402649b11a5a",
   "type": "removed"
  },
  {
@@ -2668,6 +2443,7 @@
   "key": "claude-2-1",
   "model": "Claude 2.1",
   "provider": "Anthropic",
+  "commit": "37c626a9a06f83718a8818a8776f402649b11a5a",
   "type": "removed"
  },
  {
@@ -2675,6 +2451,7 @@
   "key": "claude-2",
   "model": "Claude 2",
   "provider": "Anthropic",
+  "commit": "37c626a9a06f83718a8818a8776f402649b11a5a",
   "type": "removed"
  },
  {
@@ -2682,6 +2459,7 @@
   "key": "gemini-2-0-flash-live-001",
   "model": "Gemini 2.0 Flash Live 001",
   "provider": "Google",
+  "commit": "37c626a9a06f83718a8818a8776f402649b11a5a",
   "type": "added",
   "note": "$0.35 in / $1.5 out"
  },
@@ -2690,6 +2468,7 @@
   "key": "claude-instant-1-2",
   "model": "Claude Instant 1.2",
   "provider": "Anthropic",
+  "commit": "685abf687116d146aee2ed2f8571c718401512cc",
   "type": "removed"
  },
  {
@@ -2697,6 +2476,7 @@
   "key": "claude-instant-1",
   "model": "Claude Instant 1",
   "provider": "Anthropic",
+  "commit": "685abf687116d146aee2ed2f8571c718401512cc",
   "type": "removed"
  },
  {
@@ -2704,6 +2484,7 @@
   "key": "grok-4",
   "model": "Grok 4",
   "provider": "xAI",
+  "commit": "0c8cbbe91b3b58f7d6872b5b99ad04eff6dcc258",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -2712,6 +2493,7 @@
   "key": "devstral-medium",
   "model": "Devstral Medium",
   "provider": "Mistral",
+  "commit": "0c8cbbe91b3b58f7d6872b5b99ad04eff6dcc258",
   "type": "added",
   "note": "$0.4 in / $2 out"
  },
@@ -2720,6 +2502,7 @@
   "key": "deepseek-v3",
   "model": "DeepSeek V3",
   "provider": "DeepSeek",
+  "commit": "06c86d6130a6f0c1b2449c485dbbf55d607d15a4",
   "type": "added",
   "note": "$0.27 in / $1.1 out"
  },
@@ -2728,6 +2511,7 @@
   "key": "deepseek-r1",
   "model": "DeepSeek R1",
   "provider": "DeepSeek",
+  "commit": "06c86d6130a6f0c1b2449c485dbbf55d607d15a4",
   "type": "added",
   "note": "$0.55 in / $2.19 out"
  },
@@ -2736,6 +2520,7 @@
   "key": "gemini-2-5-flash-lite-preview-06-17",
   "model": "Gemini 2.5 Flash Lite Preview 06.17",
   "provider": "Google",
+  "commit": "40cc61c8f33cba8c93f1d9deecd49108b81cc0ad",
   "type": "added",
   "note": "$0.1 in / $0.4 out"
  },
@@ -2744,6 +2529,7 @@
   "key": "gemini-2-5-flash-preview-05-20",
   "model": "Gemini 2.5 Flash Preview 05.20",
   "provider": "Google",
+  "commit": "40cc61c8f33cba8c93f1d9deecd49108b81cc0ad",
   "type": "output",
   "old": 0.6,
   "new": 2.5
@@ -2753,6 +2539,7 @@
   "key": "gemini-2-5-flash-preview-05-20",
   "model": "Gemini 2.5 Flash Preview 05.20",
   "provider": "Google",
+  "commit": "40cc61c8f33cba8c93f1d9deecd49108b81cc0ad",
   "type": "input",
   "old": 0.15,
   "new": 0.3
@@ -2762,6 +2549,7 @@
   "key": "gemini-2-5-flash",
   "model": "Gemini 2.5 Flash",
   "provider": "Google",
+  "commit": "b080220d02018912f3e237e8b741755ee293c1d2",
   "type": "added",
   "note": "$0.3 in / $2.5 out"
  },
@@ -2770,6 +2558,7 @@
   "key": "gemini-2-5-pro",
   "model": "Gemini 2.5 Pro",
   "provider": "Google",
+  "commit": "d7e53edc2604158c557c20cb0cfd3283c31afe45",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -2778,6 +2567,7 @@
   "key": "magistral-small",
   "model": "Magistral Small",
   "provider": "Mistral",
+  "commit": "0908618a1933cc359a6666305147e014acf9ecf9",
   "type": "added",
   "note": "$0.5 in / $1.5 out"
  },
@@ -2786,6 +2576,7 @@
   "key": "o3-pro",
   "model": "o3 Pro",
   "provider": "OpenAI",
+  "commit": "12a61fce4a21ac65011c842ac15230240fb22232",
   "type": "removed"
  },
  {
@@ -2793,6 +2584,7 @@
   "key": "magistral-medium",
   "model": "Magistral Medium",
   "provider": "Mistral",
+  "commit": "56f481a47e2fc86266ebedd46c590f560d71db20",
   "type": "added",
   "note": "$2 in / $5 out"
  },
@@ -2801,6 +2593,7 @@
   "key": "o3",
   "model": "o3",
   "provider": "OpenAI",
+  "commit": "56f481a47e2fc86266ebedd46c590f560d71db20",
   "type": "output",
   "old": 40,
   "new": 8
@@ -2810,6 +2603,7 @@
   "key": "o3",
   "model": "o3",
   "provider": "OpenAI",
+  "commit": "56f481a47e2fc86266ebedd46c590f560d71db20",
   "type": "input",
   "old": 10,
   "new": 2
@@ -2819,6 +2613,7 @@
   "key": "o3-pro",
   "model": "o3 Pro",
   "provider": "OpenAI",
+  "commit": "56f481a47e2fc86266ebedd46c590f560d71db20",
   "type": "added",
   "note": "$20 in / $80 out"
  },
@@ -2827,6 +2622,7 @@
   "key": "gemini-2-5-pro-preview-06-05",
   "model": "Gemini 2.5 Pro Preview 06.05",
   "provider": "Google",
+  "commit": "eb02cf1a2d705ca1a19318c798fd3f86632b53ff",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -2835,6 +2631,7 @@
   "key": "claude-4-sonnet",
   "model": "Claude 4 Sonnet",
   "provider": "Anthropic",
+  "commit": "7bbd8262ed44d060f7ff4d98668efca46f57273d",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -2843,6 +2640,7 @@
   "key": "claude-4-opus",
   "model": "Claude 4 Opus",
   "provider": "Anthropic",
+  "commit": "7bbd8262ed44d060f7ff4d98668efca46f57273d",
   "type": "added",
   "note": "$15 in / $75 out"
  },
@@ -2851,6 +2649,7 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
+  "commit": "8fb2779c9e257fb7ff93d2bac2f0d57b50f1662c",
   "type": "context",
   "old": 32000,
   "new": 131072
@@ -2860,24 +2659,16 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
-  "type": "output",
-  "old": 8.1,
-  "new": 2
- },
- {
-  "date": "2025-05-28",
-  "key": "mistral-medium",
-  "model": "Mistral Medium",
-  "provider": "Mistral",
-  "type": "input",
-  "old": 2.7,
-  "new": 0.4
+  "commit": "8fb2779c9e257fb7ff93d2bac2f0d57b50f1662c",
+  "type": "version",
+  "note": "$2.7 / $8.1 → $0.4 / $2"
  },
  {
   "date": "2025-05-26",
   "key": "gemini-1-5-pro-001",
   "model": "Gemini 1.5 Pro 001",
   "provider": "Google",
+  "commit": "f37a1a5854d2f2a579436a3596b65ef3e2ebe9b8",
   "type": "removed"
  },
  {
@@ -2885,6 +2676,7 @@
   "key": "gemini-1-5-flash-001",
   "model": "Gemini 1.5 Flash 001",
   "provider": "Google",
+  "commit": "f37a1a5854d2f2a579436a3596b65ef3e2ebe9b8",
   "type": "removed"
  },
  {
@@ -2892,6 +2684,7 @@
   "key": "devstral-small",
   "model": "Devstral Small",
   "provider": "Mistral",
+  "commit": "8c0054a77e862bbd11e9cb5f40063a6e2d0d696c",
   "type": "added",
   "note": "$0.1 in / $0.3 out"
  },
@@ -2900,6 +2693,7 @@
   "key": "claude-sonnet-4",
   "model": "Claude Sonnet 4",
   "provider": "Anthropic",
+  "commit": "c1a4d3a7045c6684771178910f595067ec682ae2",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -2908,6 +2702,7 @@
   "key": "claude-opus-4",
   "model": "Claude Opus 4",
   "provider": "Anthropic",
+  "commit": "c1a4d3a7045c6684771178910f595067ec682ae2",
   "type": "added",
   "note": "$15 in / $75 out"
  },
@@ -2916,6 +2711,7 @@
   "key": "gemini-2-0-flash-preview-image-generation",
   "model": "Gemini 2.0 Flash Preview Image Generation",
   "provider": "Google",
+  "commit": "aeb9ea0a7f154f8892276c0f53f2f81ba17d247a",
   "type": "added",
   "note": "$0.1 in / $0.4 out"
  },
@@ -2924,6 +2720,7 @@
   "key": "gemini-2-5-flash-preview-05-20",
   "model": "Gemini 2.5 Flash Preview 05.20",
   "provider": "Google",
+  "commit": "aeb9ea0a7f154f8892276c0f53f2f81ba17d247a",
   "type": "added",
   "note": "$0.15 in / $0.6 out"
  },
@@ -2932,6 +2729,7 @@
   "key": "gemini-2-5-pro-preview-05-06",
   "model": "Gemini 2.5 Pro Preview 05.06",
   "provider": "Google",
+  "commit": "ae10f3f82cc566097ec48b96b95e85c4b1dc0893",
   "type": "added",
   "note": "$1.25 in / $10 out"
  },
@@ -2940,6 +2738,7 @@
   "key": "gemini-2-5-flash-preview-04-17",
   "model": "Gemini 2.5 Flash Preview 04.17",
   "provider": "Google",
+  "commit": "de3c2d14bff66048c313d5768d46e3577982176a",
   "type": "added",
   "note": "$0.15 in / $0.6 out"
  },
@@ -2948,6 +2747,7 @@
   "key": "o4-mini",
   "model": "o4 Mini",
   "provider": "OpenAI",
+  "commit": "5c078af73895212e1d5b1e40d372745aa8ac50b2",
   "type": "added",
   "note": "$1.1 in / $4.4 out"
  },
@@ -2956,6 +2756,7 @@
   "key": "o3",
   "model": "o3",
   "provider": "OpenAI",
+  "commit": "5c078af73895212e1d5b1e40d372745aa8ac50b2",
   "type": "added",
   "note": "$10 in / $40 out"
  },
@@ -2964,6 +2765,7 @@
   "key": "gpt-4-1-nano",
   "model": "GPT-4.1 Nano",
   "provider": "OpenAI",
+  "commit": "a2bc0c0f36ae3a1d7b8e34e760de6aeeb9af613c",
   "type": "added",
   "note": "$0.1 in / $0.4 out"
  },
@@ -2972,6 +2774,7 @@
   "key": "gpt-4-1-mini",
   "model": "GPT-4.1 Mini",
   "provider": "OpenAI",
+  "commit": "a2bc0c0f36ae3a1d7b8e34e760de6aeeb9af613c",
   "type": "added",
   "note": "$0.4 in / $1.6 out"
  },
@@ -2980,23 +2783,16 @@
   "key": "gpt-4-1",
   "model": "GPT-4.1",
   "provider": "OpenAI",
+  "commit": "a2bc0c0f36ae3a1d7b8e34e760de6aeeb9af613c",
   "type": "added",
   "note": "$2 in / $8 out"
- },
- {
-  "date": "2025-04-12",
-  "key": "gemini-2-5-pro-preview-03-25",
-  "model": "Gemini 2.5 Pro Preview 03.25",
-  "provider": "Google",
-  "type": "output",
-  "old": 1,
-  "new": 10
  },
  {
   "date": "2025-04-11",
   "key": "grok-3-mini-fast",
   "model": "Grok 3 Mini Fast",
   "provider": "xAI",
+  "commit": "f9ce7548171feae0d3c0c995eda91687f5c9543f",
   "type": "added",
   "note": "$0.6 in / $4 out"
  },
@@ -3005,6 +2801,7 @@
   "key": "grok-3-mini",
   "model": "Grok 3 Mini",
   "provider": "xAI",
+  "commit": "f9ce7548171feae0d3c0c995eda91687f5c9543f",
   "type": "added",
   "note": "$0.3 in / $0.5 out"
  },
@@ -3013,6 +2810,7 @@
   "key": "grok-3-fast",
   "model": "Grok 3 Fast",
   "provider": "xAI",
+  "commit": "f9ce7548171feae0d3c0c995eda91687f5c9543f",
   "type": "added",
   "note": "$5 in / $25 out"
  },
@@ -3021,6 +2819,7 @@
   "key": "grok-3",
   "model": "Grok 3",
   "provider": "xAI",
+  "commit": "f9ce7548171feae0d3c0c995eda91687f5c9543f",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -3029,14 +2828,16 @@
   "key": "gemini-2-5-pro-preview-03-25",
   "model": "Gemini 2.5 Pro Preview 03.25",
   "provider": "Google",
+  "commit": "cd0a1e600006b2f021f5ffd8f4220b467987d4ef",
   "type": "added",
-  "note": "$1.25 in / $1 out"
+  "note": "$1.25 in / $10 out"
  },
  {
   "date": "2025-03-25",
   "key": "gemini-2-0-flash-lite",
   "model": "Gemini 2.0 Flash Lite",
   "provider": "Google",
+  "commit": "8657816477ebc53e644af0dbe18d7b9e1fb3b777",
   "type": "added",
   "note": "$0.075 in / $0.3 out"
  },
@@ -3045,6 +2846,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "1c3be85be7636552e64c0ea5d6b2a2added65a61",
   "type": "output",
   "old": 3,
   "new": 0.3
@@ -3054,6 +2856,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "1c3be85be7636552e64c0ea5d6b2a2added65a61",
   "type": "input",
   "old": 1,
   "new": 0.1
@@ -3063,6 +2866,7 @@
   "key": "claude-3-opus",
   "model": "Claude 3 Opus",
   "provider": "Anthropic",
+  "commit": "db83cbe5c04875032e2fc754800172ceb46baed0",
   "type": "removed"
  },
  {
@@ -3070,6 +2874,7 @@
   "key": "claude-3-haiku",
   "model": "Claude 3 Haiku",
   "provider": "Anthropic",
+  "commit": "db83cbe5c04875032e2fc754800172ceb46baed0",
   "type": "removed"
  },
  {
@@ -3077,6 +2882,7 @@
   "key": "gpt-4-5-preview",
   "model": "GPT-4.5 Preview",
   "provider": "OpenAI",
+  "commit": "1affd0f17842014f7b735f27ecf35ab34a7fecc5",
   "type": "added",
   "note": "$75 in / $150 out"
  },
@@ -3085,6 +2891,7 @@
   "key": "claude-3-7-sonnet",
   "model": "Claude 3.7 Sonnet",
   "provider": "Anthropic",
+  "commit": "9914c166b7993a7804fca68b9ab4a6e25c64ea82",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -3093,6 +2900,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "b3de3216a804ba3c4ebd28b289b6f3960440fff9",
   "type": "output",
   "old": 0.28,
   "new": 1.1
@@ -3102,6 +2910,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "b3de3216a804ba3c4ebd28b289b6f3960440fff9",
   "type": "input",
   "old": 0.14,
   "new": 0.27
@@ -3111,6 +2920,7 @@
   "key": "gemini-2-0-flash-lite-preview-02-05",
   "model": "Gemini 2.0 Flash Lite Preview 02.05",
   "provider": "Google",
+  "commit": "778bbcdd9cb2d70b9d493711f478fcf2d6cb10dc",
   "type": "added",
   "note": "$0.075 in / $0.3 out"
  },
@@ -3119,6 +2929,7 @@
   "key": "gemini-2-0-flash-001",
   "model": "Gemini 2.0 Flash 001",
   "provider": "Google",
+  "commit": "778bbcdd9cb2d70b9d493711f478fcf2d6cb10dc",
   "type": "added",
   "note": "$0.1 in / $0.4 out"
  },
@@ -3127,6 +2938,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "6f11137d6f28774e2b69750981d10589175ecc64",
   "type": "context",
   "old": 128000,
   "new": 65536
@@ -3136,6 +2948,7 @@
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
+  "commit": "6f11137d6f28774e2b69750981d10589175ecc64",
   "type": "context",
   "old": 64000,
   "new": 65536
@@ -3145,6 +2958,7 @@
   "key": "open-mixtral-8x22b",
   "model": "Open Mixtral 8x22b",
   "provider": "Mistral",
+  "commit": "6f11137d6f28774e2b69750981d10589175ecc64",
   "type": "context",
   "old": 64000,
   "new": 65336
@@ -3154,6 +2968,7 @@
   "key": "o3-mini",
   "model": "o3 Mini",
   "provider": "OpenAI",
+  "commit": "b8445436cdfac5ae89dc35ea1508b06df9d049b6",
   "type": "added",
   "note": "$1.1 in / $4.4 out"
  },
@@ -3162,6 +2977,7 @@
   "key": "o1-mini",
   "model": "o1 Mini",
   "provider": "OpenAI",
+  "commit": "b8445436cdfac5ae89dc35ea1508b06df9d049b6",
   "type": "output",
   "old": 12,
   "new": 4.4
@@ -3171,6 +2987,7 @@
   "key": "o1-mini",
   "model": "o1 Mini",
   "provider": "OpenAI",
+  "commit": "b8445436cdfac5ae89dc35ea1508b06df9d049b6",
   "type": "input",
   "old": 3,
   "new": 1.1
@@ -3180,6 +2997,7 @@
   "key": "gpt-4-vision-preview",
   "model": "GPT-4 Vision Preview",
   "provider": "OpenAI",
+  "commit": "a57fad1e296d1f672f82fd6038614d4ccebd378c",
   "type": "removed"
  },
  {
@@ -3187,6 +3005,7 @@
   "key": "grok-vision",
   "model": "Grok Vision",
   "provider": "xAI",
+  "commit": "a57fad1e296d1f672f82fd6038614d4ccebd378c",
   "type": "added",
   "note": "$5 in / $15 out"
  },
@@ -3195,6 +3014,7 @@
   "key": "grok-2-vision",
   "model": "Grok 2 Vision",
   "provider": "xAI",
+  "commit": "a57fad1e296d1f672f82fd6038614d4ccebd378c",
   "type": "added",
   "note": "$2 in / $10 out"
  },
@@ -3203,6 +3023,7 @@
   "key": "deepseek-reasoner",
   "model": "DeepSeek Reasoner",
   "provider": "DeepSeek",
+  "commit": "cefbada875402e8386c31a3d2fc71dda3c5a5d8a",
   "type": "added",
   "note": "$0.55 in / $2.19 out"
  },
@@ -3211,6 +3032,7 @@
   "key": "pixtral-large",
   "model": "Pixtral Large",
   "provider": "Mistral",
+  "commit": "b397dc1497b8e7942c1fb2d0fe1a8be51bf4f404",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -3219,6 +3041,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "b397dc1497b8e7942c1fb2d0fe1a8be51bf4f404",
   "type": "output",
   "old": 9,
   "new": 6
@@ -3228,6 +3051,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "b397dc1497b8e7942c1fb2d0fe1a8be51bf4f404",
   "type": "input",
   "old": 3,
   "new": 2
@@ -3237,6 +3061,7 @@
   "key": "o1-preview",
   "model": "o1 Preview",
   "provider": "OpenAI",
+  "commit": "c90942e5508cbd4dbdc308debf979860fbed74e2",
   "type": "removed"
  },
  {
@@ -3244,6 +3069,7 @@
   "key": "gpt-4o-mini-realtime-preview",
   "model": "GPT-4o Mini Realtime Preview",
   "provider": "OpenAI",
+  "commit": "c90942e5508cbd4dbdc308debf979860fbed74e2",
   "type": "added",
   "note": "$0.6 in / $2.4 out"
  },
@@ -3252,6 +3078,7 @@
   "key": "gpt-4o-realtime-preview",
   "model": "GPT-4o Realtime Preview",
   "provider": "OpenAI",
+  "commit": "c90942e5508cbd4dbdc308debf979860fbed74e2",
   "type": "added",
   "note": "$5 in / $20 out"
  },
@@ -3260,6 +3087,7 @@
   "key": "o1",
   "model": "o1",
   "provider": "OpenAI",
+  "commit": "c90942e5508cbd4dbdc308debf979860fbed74e2",
   "type": "added",
   "note": "$15 in / $60 out"
  },
@@ -3268,6 +3096,7 @@
   "key": "gpt-4o",
   "model": "GPT-4o",
   "provider": "OpenAI",
+  "commit": "e7543378b8b7c6ebb08afe28db64700a7b5232d7",
   "type": "output",
   "old": 15,
   "new": 10
@@ -3277,6 +3106,7 @@
   "key": "gpt-4o",
   "model": "GPT-4o",
   "provider": "OpenAI",
+  "commit": "e7543378b8b7c6ebb08afe28db64700a7b5232d7",
   "type": "input",
   "old": 5,
   "new": 2.5
@@ -3286,6 +3116,7 @@
   "key": "claude-3-5-haiku",
   "model": "Claude 3.5 Haiku",
   "provider": "Anthropic",
+  "commit": "8ce53be4987df0e6dbc3883efbbed7f8668ffe25",
   "type": "added",
   "note": "$1 in / $5 out"
  },
@@ -3294,6 +3125,7 @@
   "key": "grok",
   "model": "Grok",
   "provider": "xAI",
+  "commit": "5652c375b3e22bab6704e93058c868620c72d6ee",
   "type": "added",
   "note": "$5 in / $15 out"
  },
@@ -3302,6 +3134,7 @@
   "key": "pixtral-12b",
   "model": "Pixtral 12B",
   "provider": "Mistral",
+  "commit": "0b30e212da36d5010f97ee6a965fda89691566c0",
   "type": "added",
   "note": "$0.15 in / $0.15 out"
  },
@@ -3310,6 +3143,7 @@
   "key": "gemini-1-5-pro-002",
   "model": "Gemini 1.5 Pro 002",
   "provider": "Google",
+  "commit": "16c0307eab601b238f21021b9cba04b6957ad34c",
   "type": "added",
   "note": "$3.5 in / $10.5 out"
  },
@@ -3318,6 +3152,7 @@
   "key": "gemini-1-5-flash-001",
   "model": "Gemini 1.5 Flash 001",
   "provider": "Google",
+  "commit": "16c0307eab601b238f21021b9cba04b6957ad34c",
   "type": "context",
   "old": 1000000,
   "new": 1048576
@@ -3327,6 +3162,7 @@
   "key": "gemini-1-5-flash-002",
   "model": "Gemini 1.5 Flash 002",
   "provider": "Google",
+  "commit": "16c0307eab601b238f21021b9cba04b6957ad34c",
   "type": "added",
   "note": "$0.075 in / $0.3 out"
  },
@@ -3335,6 +3171,7 @@
   "key": "gemini-1-5-pro-001",
   "model": "Gemini 1.5 Pro 001",
   "provider": "Google",
+  "commit": "8039b95aaf61d363a7f3f381d2071fe6a8e203e9",
   "type": "added",
   "note": "$3.5 in / $10.5 out"
  },
@@ -3343,6 +3180,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "8039b95aaf61d363a7f3f381d2071fe6a8e203e9",
   "type": "context",
   "old": 32000,
   "new": 128000
@@ -3352,6 +3190,7 @@
   "key": "gemini-1-5-flash",
   "model": "Gemini 1.5 Flash",
   "provider": "Google",
+  "commit": "5fb270a559ab9ac26a1c0328ff822c0cc04418f9",
   "type": "removed"
  },
  {
@@ -3359,6 +3198,7 @@
   "key": "gemini-1-5-flash-001",
   "model": "Gemini 1.5 Flash 001",
   "provider": "Google",
+  "commit": "5fb270a559ab9ac26a1c0328ff822c0cc04418f9",
   "type": "added",
   "note": "$0.075 in / $0.3 out"
  },
@@ -3367,6 +3207,7 @@
   "key": "o1-mini",
   "model": "o1 Mini",
   "provider": "OpenAI",
+  "commit": "3afe70c1f2dba8981f40d0ee8d0bfc227147d029",
   "type": "added",
   "note": "$3 in / $12 out"
  },
@@ -3375,6 +3216,7 @@
   "key": "o1-preview",
   "model": "o1 Preview",
   "provider": "OpenAI",
+  "commit": "3afe70c1f2dba8981f40d0ee8d0bfc227147d029",
   "type": "added",
   "note": "$15 in / $60 out"
  },
@@ -3383,6 +3225,7 @@
   "key": "gemini-1-5-flash",
   "model": "Gemini 1.5 Flash",
   "provider": "Google",
+  "commit": "2d2282101b5f8b0141d8a9ed47f27bbf0ed059b3",
   "type": "output",
   "old": 1.05,
   "new": 0.3
@@ -3392,39 +3235,17 @@
   "key": "gemini-1-5-flash",
   "model": "Gemini 1.5 Flash",
   "provider": "Google",
+  "commit": "2d2282101b5f8b0141d8a9ed47f27bbf0ed059b3",
   "type": "input",
   "old": 0.35,
   "new": 0.075
  },
  {
   "date": "2024-08-17",
-  "key": "gemini-gemma-2-9b-it",
-  "model": "Gemma 2 9B IT",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.35 in / $1.05 out"
- },
- {
-  "date": "2024-08-17",
-  "key": "gemini-gemma-2-27b-it",
-  "model": "Gemma 2 27B IT",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.35 in / $1.05 out"
- },
- {
-  "date": "2024-08-17",
-  "key": "gemini-1-5-pro-exp",
-  "model": "Gemini 1.5 Pro Exp",
-  "provider": "Google",
-  "type": "added",
-  "note": "$3.5 in / $10.5 out"
- },
- {
-  "date": "2024-08-17",
   "key": "gemini-1-5-pro",
   "model": "Gemini 1.5 Pro",
   "provider": "Google",
+  "commit": "5731287f1bae7e9ab1289ef271a7a0b6c8f515d2",
   "type": "input",
   "old": 0.35,
   "new": 3.5
@@ -3434,31 +3255,7 @@
   "key": "deepseek-coder",
   "model": "DeepSeek Coder",
   "provider": "DeepSeek",
-  "type": "context",
-  "old": 32000,
-  "new": 128000
- },
- {
-  "date": "2024-08-17",
-  "key": "open-codestral-mamba",
-  "model": "Open Codestral Mamba",
-  "provider": "Mistral",
-  "type": "added",
-  "note": "$0.25 in / $0.25 out"
- },
- {
-  "date": "2024-08-17",
-  "key": "open-mistral-nemo",
-  "model": "Open Mistral Nemo",
-  "provider": "Mistral",
-  "type": "added",
-  "note": "$0.3 in / $0.3 out"
- },
- {
-  "date": "2024-08-17",
-  "key": "mistral-large",
-  "model": "Mistral Large",
-  "provider": "Mistral",
+  "commit": "5731287f1bae7e9ab1289ef271a7a0b6c8f515d2",
   "type": "context",
   "old": 32000,
   "new": 128000
@@ -3468,74 +3265,26 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
-  "type": "output",
-  "old": 12,
-  "new": 9
+  "commit": "5731287f1bae7e9ab1289ef271a7a0b6c8f515d2",
+  "type": "context",
+  "old": 32000,
+  "new": 128000
  },
  {
   "date": "2024-08-17",
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
-  "type": "input",
-  "old": 4,
-  "new": 3
- },
- {
-  "date": "2024-08-17",
-  "key": "gpt-4o-mini",
-  "model": "GPT-4o Mini",
-  "provider": "OpenAI",
-  "type": "added",
-  "note": "$0.15 in / $0.6 out"
- },
- {
-  "date": "2024-08-15",
-  "key": "gemini-gemma-2-9b-it",
-  "model": "Gemma 2 9B IT",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2024-08-15",
-  "key": "gemini-gemma-2-27b-it",
-  "model": "Gemma 2 27B IT",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2024-08-15",
-  "key": "gemini-1-5-pro-exp",
-  "model": "Gemini 1.5 Pro Exp",
-  "provider": "Google",
-  "type": "removed"
- },
- {
-  "date": "2024-08-15",
-  "key": "open-codestral-mamba",
-  "model": "Open Codestral Mamba",
-  "provider": "Mistral",
-  "type": "removed"
- },
- {
-  "date": "2024-08-15",
-  "key": "open-mistral-nemo",
-  "model": "Open Mistral Nemo",
-  "provider": "Mistral",
-  "type": "removed"
- },
- {
-  "date": "2024-08-15",
-  "key": "gpt-4o-mini",
-  "model": "GPT-4o Mini",
-  "provider": "OpenAI",
-  "type": "removed"
+  "commit": "5731287f1bae7e9ab1289ef271a7a0b6c8f515d2",
+  "type": "version",
+  "note": "$4 / $12 → $3 / $9"
  },
  {
   "date": "2024-08-15",
   "key": "gemini-1-5-pro",
   "model": "Gemini 1.5 Pro",
   "provider": "Google",
+  "commit": "e3cd8e169b4b996b3633b048064ea135a07ca024",
   "type": "input",
   "old": 3.5,
   "new": 0.35
@@ -3545,6 +3294,7 @@
   "key": "deepseek-coder",
   "model": "DeepSeek Coder",
   "provider": "DeepSeek",
+  "commit": "e3cd8e169b4b996b3633b048064ea135a07ca024",
   "type": "context",
   "old": 128000,
   "new": 32000
@@ -3554,6 +3304,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "e3cd8e169b4b996b3633b048064ea135a07ca024",
   "type": "context",
   "old": 128000,
   "new": 32000
@@ -3563,24 +3314,16 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
-  "type": "output",
-  "old": 9,
-  "new": 12
- },
- {
-  "date": "2024-08-15",
-  "key": "mistral-large",
-  "model": "Mistral Large",
-  "provider": "Mistral",
-  "type": "input",
-  "old": 3,
-  "new": 4
+  "commit": "e3cd8e169b4b996b3633b048064ea135a07ca024",
+  "type": "version",
+  "note": "$3 / $9 → $4 / $12"
  },
  {
   "date": "2024-08-01",
   "key": "gemini-1-5-pro-exp",
   "model": "Gemini 1.5 Pro Exp",
   "provider": "Google",
+  "commit": "fc3463e1788d35e6eebe678da257c2f5d9692891",
   "type": "added",
   "note": "$3.5 in / $10.5 out"
  },
@@ -3589,6 +3332,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "c77abaa07f274774e1497dced7d59e2df33cddb0",
   "type": "context",
   "old": 32000,
   "new": 128000
@@ -3598,24 +3342,16 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
-  "type": "output",
-  "old": 12,
-  "new": 9
- },
- {
-  "date": "2024-07-24",
-  "key": "mistral-large",
-  "model": "Mistral Large",
-  "provider": "Mistral",
-  "type": "input",
-  "old": 4,
-  "new": 3
+  "commit": "c77abaa07f274774e1497dced7d59e2df33cddb0",
+  "type": "version",
+  "note": "$4 / $12 → $3 / $9"
  },
  {
   "date": "2024-07-20",
   "key": "open-codestral-mamba",
   "model": "Open Codestral Mamba",
   "provider": "Mistral",
+  "commit": "48ae2603e48ce571a61243a74ec4869690490fa3",
   "type": "added",
   "note": "$0.25 in / $0.25 out"
  },
@@ -3624,30 +3360,16 @@
   "key": "open-mistral-nemo",
   "model": "Open Mistral Nemo",
   "provider": "Mistral",
+  "commit": "48ae2603e48ce571a61243a74ec4869690490fa3",
   "type": "added",
   "note": "$0.3 in / $0.3 out"
- },
- {
-  "date": "2024-07-18",
-  "key": "gemini-gemma-2-9b-it",
-  "model": "Gemma 2 9B IT",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.35 in / $1.05 out"
- },
- {
-  "date": "2024-07-18",
-  "key": "gemini-gemma-2-27b-it",
-  "model": "Gemma 2 27B IT",
-  "provider": "Google",
-  "type": "added",
-  "note": "$0.35 in / $1.05 out"
  },
  {
   "date": "2024-07-18",
   "key": "gpt-4o-mini",
   "model": "GPT-4o Mini",
   "provider": "OpenAI",
+  "commit": "cece76c4eefd4fc445ff80d214a805b6e7b7931a",
   "type": "added",
   "note": "$0.15 in / $0.6 out"
  },
@@ -3656,6 +3378,7 @@
   "key": "gemini-1-5-pro",
   "model": "Gemini 1.5 Pro",
   "provider": "Google",
+  "commit": "2452753e084e8134c0c484b32c63fb5f2950c5ba",
   "type": "input",
   "old": 0.35,
   "new": 3.5
@@ -3665,6 +3388,7 @@
   "key": "deepseek-coder",
   "model": "DeepSeek Coder",
   "provider": "DeepSeek",
+  "commit": "5192b7ccc232baacd13344f3bec8b07d5529a304",
   "type": "context",
   "old": 32000,
   "new": 128000
@@ -3674,6 +3398,7 @@
   "key": "claude-3-5-sonnet",
   "model": "Claude 3.5 Sonnet",
   "provider": "Anthropic",
+  "commit": "db2cf5b5a53fcafce60e36dacb1e47f047f5eb5f",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -3682,6 +3407,7 @@
   "key": "deepseek-coder",
   "model": "DeepSeek Coder",
   "provider": "DeepSeek",
+  "commit": "db2cf5b5a53fcafce60e36dacb1e47f047f5eb5f",
   "type": "context",
   "old": 16000,
   "new": 32000
@@ -3691,6 +3417,7 @@
   "key": "gemini-pro-vision",
   "model": "Gemini Pro Vision",
   "provider": "Google",
+  "commit": "a117f1c66a353cdb0683b691f72ddf28ea9de627",
   "type": "added",
   "note": "$0.35 in / $1.05 out"
  },
@@ -3699,6 +3426,7 @@
   "key": "gemini-1-5-pro",
   "model": "Gemini 1.5 Pro",
   "provider": "Google",
+  "commit": "a117f1c66a353cdb0683b691f72ddf28ea9de627",
   "type": "added",
   "note": "$0.35 in / $1.05 out"
  },
@@ -3707,6 +3435,7 @@
   "key": "gemini-pro",
   "model": "Gemini Pro",
   "provider": "Google",
+  "commit": "a117f1c66a353cdb0683b691f72ddf28ea9de627",
   "type": "added",
   "note": "$0.35 in / $1.05 out"
  },
@@ -3715,6 +3444,7 @@
   "key": "gemini-1-5-flash",
   "model": "Gemini 1.5 Flash",
   "provider": "Google",
+  "commit": "a117f1c66a353cdb0683b691f72ddf28ea9de627",
   "type": "added",
   "note": "$0.35 in / $1.05 out"
  },
@@ -3723,6 +3453,7 @@
   "key": "codestral",
   "model": "Codestral",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "added",
   "note": "$1 in / $3 out"
  },
@@ -3731,6 +3462,7 @@
   "key": "open-mixtral-8x22b",
   "model": "Open Mixtral 8x22b",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -3739,6 +3471,7 @@
   "key": "open-mixtral-8x7b",
   "model": "Open Mixtral 8x7b",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "output",
   "old": 6,
   "new": 0.7
@@ -3748,6 +3481,7 @@
   "key": "open-mixtral-8x7b",
   "model": "Open Mixtral 8x7b",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "input",
   "old": 2,
   "new": 0.7
@@ -3757,6 +3491,7 @@
   "key": "open-mistral-7b",
   "model": "Open Mistral 7B",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "added",
   "note": "$0.25 in / $0.25 out"
  },
@@ -3765,6 +3500,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "output",
   "old": 24,
   "new": 12
@@ -3774,6 +3510,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "input",
   "old": 8,
   "new": 4
@@ -3783,6 +3520,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "output",
   "old": 6,
   "new": 3
@@ -3792,6 +3530,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "input",
   "old": 2,
   "new": 1
@@ -3801,6 +3540,7 @@
   "key": "mistral-tiny",
   "model": "Mistral Tiny",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "output",
   "old": 0.46,
   "new": 0.25
@@ -3810,6 +3550,7 @@
   "key": "mistral-tiny",
   "model": "Mistral Tiny",
   "provider": "Mistral",
+  "commit": "668c894e9a33f62d2758754cd73e37e0629441b1",
   "type": "input",
   "old": 0.15,
   "new": 0.25
@@ -3819,6 +3560,7 @@
   "key": "gpt-4o",
   "model": "GPT-4o",
   "provider": "OpenAI",
+  "commit": "5dc3f157a64986ab5133713c54ff0a397fef3974",
   "type": "added",
   "note": "$5 in / $15 out"
  },
@@ -3827,6 +3569,7 @@
   "key": "deepseek-coder",
   "model": "DeepSeek Coder",
   "provider": "DeepSeek",
+  "commit": "9162f9c2c5410235de79b1a47cd94ce9e50fb122",
   "type": "added",
   "note": "$0.14 in / $0.28 out"
  },
@@ -3835,6 +3578,7 @@
   "key": "deepseek-chat",
   "model": "DeepSeek Chat",
   "provider": "DeepSeek",
+  "commit": "9162f9c2c5410235de79b1a47cd94ce9e50fb122",
   "type": "added",
   "note": "$0.14 in / $0.28 out"
  },
@@ -3843,6 +3587,7 @@
   "key": "open-mixtral-8x7b",
   "model": "Open Mixtral 8x7b",
   "provider": "Mistral",
+  "commit": "bcdf24e5aabb675c0819199539325ba7d05eb561",
   "type": "added",
   "note": "$2 in / $6 out"
  },
@@ -3851,6 +3596,7 @@
   "key": "gpt-4-turbo-preview",
   "model": "GPT-4 Turbo Preview",
   "provider": "OpenAI",
+  "commit": "6d8d8e9909a457ddca3fdcca3baa0acc13be79ac",
   "type": "removed"
  },
  {
@@ -3858,6 +3604,7 @@
   "key": "gpt-4-turbo",
   "model": "GPT-4 Turbo",
   "provider": "OpenAI",
+  "commit": "6d8d8e9909a457ddca3fdcca3baa0acc13be79ac",
   "type": "added",
   "note": "$10 in / $30 out"
  },
@@ -3866,6 +3613,7 @@
   "key": "gpt-4-turbo-preview",
   "model": "GPT-4 Turbo Preview",
   "provider": "OpenAI",
+  "commit": "be265fbb151a711c7ba67e469ae143d4951169dd",
   "type": "context",
   "old": 128000,
   "new": 8192
@@ -3875,6 +3623,7 @@
   "key": "gpt-4-turbo-preview",
   "model": "GPT-4 Turbo Preview",
   "provider": "OpenAI",
+  "commit": "62caa7e858e00acfb97f9195d06ed16cd4abbf2c",
   "type": "context",
   "old": 8192,
   "new": 128000
@@ -3884,6 +3633,7 @@
   "key": "claude-3-sonnet",
   "model": "Claude 3 Sonnet",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 200000
@@ -3893,6 +3643,7 @@
   "key": "claude-3-opus",
   "model": "Claude 3 Opus",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 200000
@@ -3902,6 +3653,7 @@
   "key": "claude-3-haiku",
   "model": "Claude 3 Haiku",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 200000
@@ -3911,6 +3663,7 @@
   "key": "claude-2-1",
   "model": "Claude 2.1",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 200000
@@ -3920,6 +3673,7 @@
   "key": "claude-2",
   "model": "Claude 2",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 100000
@@ -3929,6 +3683,7 @@
   "key": "claude-instant-1-2",
   "model": "Claude Instant 1.2",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 100000
@@ -3938,6 +3693,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 32000
@@ -3947,6 +3703,7 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 32000
@@ -3956,6 +3713,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 32000
@@ -3965,6 +3723,7 @@
   "key": "mistral-tiny",
   "model": "Mistral Tiny",
   "provider": "Mistral",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 32000
@@ -3974,6 +3733,7 @@
   "key": "claude-instant-1",
   "model": "Claude Instant 1",
   "provider": "Anthropic",
+  "commit": "eb3ca85d7e4eb9600b2bfc3e6ca3ff170064808a",
   "type": "context",
   "old": null,
   "new": 100000
@@ -3983,6 +3743,7 @@
   "key": "mistral-large",
   "model": "Mistral Large",
   "provider": "Mistral",
+  "commit": "40c2c343be45cc5c711ab24102a3bd7bb7d2b273",
   "type": "added",
   "note": "$8 in / $24 out"
  },
@@ -3991,6 +3752,7 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
+  "commit": "40c2c343be45cc5c711ab24102a3bd7bb7d2b273",
   "type": "output",
   "old": 8.2,
   "new": 8.1
@@ -4000,6 +3762,7 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
+  "commit": "40c2c343be45cc5c711ab24102a3bd7bb7d2b273",
   "type": "input",
   "old": 2.73,
   "new": 2.7
@@ -4009,24 +3772,16 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
-  "type": "output",
-  "old": 1.97,
-  "new": 6
- },
- {
-  "date": "2024-03-19",
-  "key": "mistral-small",
-  "model": "Mistral Small",
-  "provider": "Mistral",
-  "type": "input",
-  "old": 0.66,
-  "new": 2
+  "commit": "40c2c343be45cc5c711ab24102a3bd7bb7d2b273",
+  "type": "version",
+  "note": "$0.66 / $1.97 → $2 / $6"
  },
  {
   "date": "2024-03-13",
   "key": "claude-3-haiku",
   "model": "Claude 3 Haiku",
   "provider": "Anthropic",
+  "commit": "0269cddd55e4d5c9e9b74d09cd5dc92af7ccafc6",
   "type": "added",
   "note": "$0.25 in / $1.25 out"
  },
@@ -4035,6 +3790,7 @@
   "key": "gpt-3-5-turbo",
   "model": "GPT-3.5 Turbo",
   "provider": "OpenAI",
+  "commit": "dec967f647bd3d865383f011b82275491ce3ba36",
   "type": "context",
   "old": 4097,
   "new": 16385
@@ -4044,6 +3800,7 @@
   "key": "claude-3-sonnet",
   "model": "Claude 3 Sonnet",
   "provider": "Anthropic",
+  "commit": "0ac652a771a25f051fd3f3234aebc333184a36d3",
   "type": "added",
   "note": "$3 in / $15 out"
  },
@@ -4052,6 +3809,7 @@
   "key": "claude-3-opus",
   "model": "Claude 3 Opus",
   "provider": "Anthropic",
+  "commit": "0ac652a771a25f051fd3f3234aebc333184a36d3",
   "type": "added",
   "note": "$15 in / $75 out"
  },
@@ -4060,6 +3818,7 @@
   "key": "gpt-4-turbo-preview",
   "model": "GPT-4 Turbo Preview",
   "provider": "OpenAI",
+  "commit": "e143eac6b5a8b62de10fcdf8b6a414cd3ce2b465",
   "type": "added",
   "note": "$10 in / $30 out"
  },
@@ -4068,6 +3827,7 @@
   "key": "gpt-3-5-turbo-16k",
   "model": "GPT-3.5 Turbo 16K",
   "provider": "OpenAI",
+  "commit": "9d45c734751ff69659e5ac518e32f2b64a67a757",
   "type": "context",
   "old": null,
   "new": 16385
@@ -4077,6 +3837,7 @@
   "key": "gpt-3-5-turbo",
   "model": "GPT-3.5 Turbo",
   "provider": "OpenAI",
+  "commit": "9d45c734751ff69659e5ac518e32f2b64a67a757",
   "type": "context",
   "old": null,
   "new": 4097
@@ -4086,6 +3847,7 @@
   "key": "gpt-4-vision-preview",
   "model": "GPT-4 Vision Preview",
   "provider": "OpenAI",
+  "commit": "9d45c734751ff69659e5ac518e32f2b64a67a757",
   "type": "context",
   "old": null,
   "new": 128000
@@ -4095,6 +3857,7 @@
   "key": "gpt-4-preview",
   "model": "GPT-4 Preview",
   "provider": "OpenAI",
+  "commit": "9d45c734751ff69659e5ac518e32f2b64a67a757",
   "type": "context",
   "old": null,
   "new": 128000
@@ -4104,6 +3867,7 @@
   "key": "gpt-4-32k",
   "model": "GPT-4 32K",
   "provider": "OpenAI",
+  "commit": "9d45c734751ff69659e5ac518e32f2b64a67a757",
   "type": "context",
   "old": null,
   "new": 32768
@@ -4113,6 +3877,7 @@
   "key": "gpt-4",
   "model": "GPT-4",
   "provider": "OpenAI",
+  "commit": "9d45c734751ff69659e5ac518e32f2b64a67a757",
   "type": "context",
   "old": null,
   "new": 8192
@@ -4122,6 +3887,7 @@
   "key": "mistral-medium",
   "model": "Mistral Medium",
   "provider": "Mistral",
+  "commit": "afbb7748fea332548fe381552aa2a6db34dbce9c",
   "type": "added",
   "note": "$2.73 in / $8.2 out"
  },
@@ -4130,6 +3896,7 @@
   "key": "mistral-small",
   "model": "Mistral Small",
   "provider": "Mistral",
+  "commit": "afbb7748fea332548fe381552aa2a6db34dbce9c",
   "type": "added",
   "note": "$0.66 in / $1.97 out"
  },
@@ -4138,6 +3905,7 @@
   "key": "mistral-tiny",
   "model": "Mistral Tiny",
   "provider": "Mistral",
+  "commit": "afbb7748fea332548fe381552aa2a6db34dbce9c",
   "type": "added",
   "note": "$0.15 in / $0.46 out"
  },
@@ -4146,6 +3914,7 @@
   "key": "claude-2-1",
   "model": "Claude 2.1",
   "provider": "Anthropic",
+  "commit": "3e76d4b422cabf504a9de113eeb6c1b20ba1c9c6",
   "type": "output",
   "old": 32.68,
   "new": 24
@@ -4155,6 +3924,7 @@
   "key": "claude-2-1",
   "model": "Claude 2.1",
   "provider": "Anthropic",
+  "commit": "3e76d4b422cabf504a9de113eeb6c1b20ba1c9c6",
   "type": "input",
   "old": 11.02,
   "new": 8
@@ -4164,6 +3934,7 @@
   "key": "claude-2",
   "model": "Claude 2",
   "provider": "Anthropic",
+  "commit": "3e76d4b422cabf504a9de113eeb6c1b20ba1c9c6",
   "type": "output",
   "old": 32.68,
   "new": 24
@@ -4173,6 +3944,7 @@
   "key": "claude-2",
   "model": "Claude 2",
   "provider": "Anthropic",
+  "commit": "3e76d4b422cabf504a9de113eeb6c1b20ba1c9c6",
   "type": "input",
   "old": 11.02,
   "new": 8
@@ -4182,6 +3954,7 @@
   "key": "claude-instant-1-2",
   "model": "Claude Instant 1.2",
   "provider": "Anthropic",
+  "commit": "3e76d4b422cabf504a9de113eeb6c1b20ba1c9c6",
   "type": "output",
   "old": 5.51,
   "new": 0.551
@@ -4191,6 +3964,7 @@
   "key": "claude-instant-1-2",
   "model": "Claude Instant 1.2",
   "provider": "Anthropic",
+  "commit": "3e76d4b422cabf504a9de113eeb6c1b20ba1c9c6",
   "type": "input",
   "old": 1.63,
   "new": 0.163

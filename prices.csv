@@ -18,9 +18,6 @@ codestral,Codestral,Mistral,0.3,0.9,0.03,,,128000,128000,false,false,false,false
 gpt-5-6-luna,GPT-5.6 Luna,OpenAI,0.2,1.2,0.02,0.1,0.6,922000,128000,true,true,true,false,
 gpt-5-4-nano,GPT-5.4 Nano,OpenAI,0.2,1.25,0.02,0.1,0.625,272000,128000,true,true,true,false,2027-04-01
 deepseek-v3,DeepSeek V3,DeepSeek,0.27,1.1,0.07,,,65536,8192,false,false,true,false,
-gemini-gemma-2-27b-it,Gemma 2 27B IT,Google,0.35,1.05,,,,,8192,true,false,false,false,
-gemini-gemma-2-9b-it,Gemma 2 9B IT,Google,0.35,1.05,,,,,8192,true,false,false,false,
-deepseek-flash,DeepSeek Flash,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,false,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,false,
 deepseek-v4-flash-vision-exp,DeepSeek V4 Flash Vision Exp,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,true,
 gemini-3-1-flash-lite,Gemini 3.1 Flash Lite,Google,0.25,1.5,0.025,0.125,0.75,1048576,65536,true,true,true,false,2027-05-07
@@ -30,7 +27,6 @@ gpt-3-5-turbo,GPT-3.5 Turbo,OpenAI,0.5,1.5,,,,16385,4096,false,false,true,false,
 mistral-large-3,Mistral Large 3,Mistral,0.5,1.5,0.05,,,262144,262144,true,false,false,false,
 gemini-2-5-flash,Gemini 2.5 Flash,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,
 gemini-3-5-flash-lite,Gemini 3.5 Flash Lite,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,
-gemini-exp,Gemini Exp,Google,0.3,2.5,0.03,,,1048576,65535,true,true,true,true,
 deepseek-r1,DeepSeek R1,DeepSeek,0.55,2.19,0.14,,,65536,8192,false,true,true,false,
 mistral-large-4,Mistral Large 4,Mistral,0.68,2.09,0.068,,,1048576,,true,true,true,false,
 gemini-3-flash-preview,Gemini 3 Flash Preview,Google,0.5,3,0.05,0.25,1.5,1048576,65536,true,true,true,true,

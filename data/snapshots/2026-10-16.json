@@ -25,7 +25,8 @@
    "claude-haiku-4-5",
    "claude-haiku-4-5-20251001"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-haiku-4-5"
  },
  "claude-sonnet-4-5": {
   "name": "Claude Sonnet 4.5",
@@ -53,7 +54,8 @@
    "claude-sonnet-4-5",
    "claude-sonnet-4-5-20250929"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-sonnet-4-5"
  },
  "claude-sonnet-5": {
   "name": "Claude Sonnet 5",
@@ -80,7 +82,8 @@
   "apiNames": [
    "claude-sonnet-5"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-sonnet-5"
  },
  "claude-sonnet-5-5": {
   "name": "Claude Sonnet 5.5",
@@ -107,7 +110,8 @@
   "apiNames": [
    "claude-sonnet-5-5"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-sonnet-5-5"
  },
  "claude-sonnet-4-6": {
   "name": "Claude Sonnet 4.6",
@@ -134,7 +138,8 @@
   "apiNames": [
    "claude-sonnet-4-6"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-sonnet-4-6"
  },
  "claude-opus-4-5": {
   "name": "Claude Opus 4.5",
@@ -162,7 +167,8 @@
    "claude-opus-4-5",
    "claude-opus-4-5-20251101"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-opus-4-5"
  },
  "claude-opus-4-6": {
   "name": "Claude Opus 4.6",
@@ -190,7 +196,8 @@
    "claude-opus-4-6",
    "claude-opus-4-6-20260205"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-opus-4-6"
  },
  "claude-opus-4-7": {
   "name": "Claude Opus 4.7",
@@ -218,7 +225,8 @@
    "claude-opus-4-7",
    "claude-opus-4-7-20260416"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-opus-4-7"
  },
  "claude-fable-5": {
   "name": "Claude Fable 5",
@@ -245,7 +253,8 @@
   "apiNames": [
    "claude-fable-5"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-fable-5"
  },
  "claude-fable-5-1": {
   "name": "Claude Fable 5.1",
@@ -272,7 +281,8 @@
   "apiNames": [
    "claude-fable-5-1"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-fable-5-1"
  },
  "claude-opus-5-5": {
   "name": "Claude Opus 5.5",
@@ -299,7 +309,8 @@
   "apiNames": [
    "claude-opus-5-5"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-opus-5-5"
  },
  "claude-opus-5": {
   "name": "Claude Opus 5",
@@ -326,7 +337,8 @@
   "apiNames": [
    "claude-opus-5"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-opus-5"
  },
  "claude-opus-4-8": {
   "name": "Claude Opus 4.8",
@@ -353,7 +365,8 @@
   "apiNames": [
    "claude-opus-4-8"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-opus-4-8"
  },
  "deepseek-coder": {
   "name": "DeepSeek Coder",
@@ -380,7 +393,8 @@
   "apiNames": [
    "deepseek-coder"
   ],
-  "source": null
+  "source": null,
+  "src": "deepseek-coder"
  },
  "deepseek-r1": {
   "name": "DeepSeek R1",
@@ -407,7 +421,8 @@
   "apiNames": [
    "deepseek-r1"
   ],
-  "source": null
+  "source": null,
+  "src": "deepseek-r1"
  },
  "deepseek-v3": {
   "name": "DeepSeek V3",
@@ -434,7 +449,8 @@
   "apiNames": [
    "deepseek-v3"
   ],
-  "source": null
+  "source": null,
+  "src": "deepseek-v3"
  },
  "deepseek-v3-2": {
   "name": "DeepSeek V3.2",
@@ -461,7 +477,8 @@
   "apiNames": [
    "deepseek-v3.2"
   ],
-  "source": null
+  "source": null,
+  "src": "deepseek-v3.2"
  },
  "deep-research-max-preview": {
   "name": "Gemini Deep Research Max Preview",
@@ -488,7 +505,8 @@
   "apiNames": [
    "deep-research-max-preview-04-2026"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "deep-research-max-preview-04-2026"
  },
  "gemini-2-5-flash": {
   "name": "Gemini 2.5 Flash",
@@ -515,7 +533,8 @@
   "apiNames": [
    "gemini-2.5-flash"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-2.5-flash"
  },
  "deep-research-pro-preview": {
   "name": "Gemini Deep Research Pro Preview",
@@ -542,7 +561,8 @@
   "apiNames": [
    "deep-research-pro-preview-12-2025"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025"
+  "source": "https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025",
+  "src": "deep-research-pro-preview-12-2025"
  },
  "gemini-2-5-flash-lite": {
   "name": "Gemini 2.5 Flash Lite",
@@ -569,7 +589,8 @@
   "apiNames": [
    "gemini-2.5-flash-lite"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-2.5-flash-lite"
  },
  "gemini-2-5-pro": {
   "name": "Gemini 2.5 Pro",
@@ -596,7 +617,8 @@
   "apiNames": [
    "gemini-2.5-pro"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-2.5-pro"
  },
  "gemini-3-1-flash-lite": {
   "name": "Gemini 3.1 Flash Lite",
@@ -623,7 +645,8 @@
   "apiNames": [
    "gemini-3.1-flash-lite"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.1-flash-lite"
  },
  "gemini-3-5-flash-lite": {
   "name": "Gemini 3.5 Flash Lite",
@@ -650,7 +673,8 @@
   "apiNames": [
    "gemini-3.5-flash-lite"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.5-flash-lite"
  },
  "gemini-3-flash-preview": {
   "name": "Gemini 3 Flash Preview",
@@ -677,7 +701,8 @@
   "apiNames": [
    "gemini-3-flash-preview"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3-flash-preview"
  },
  "gemini-3-5-flash": {
   "name": "Gemini 3.5 Flash",
@@ -704,7 +729,8 @@
   "apiNames": [
    "gemini-3.5-flash"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.5-flash"
  },
  "gemini-3-6-flash": {
   "name": "Gemini 3.6 Flash",
@@ -731,7 +757,8 @@
   "apiNames": [
    "gemini-3.6-flash"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.6-flash"
  },
  "gemini-3-7-flash": {
   "name": "Gemini 3.7 Flash",
@@ -758,7 +785,8 @@
   "apiNames": [
    "gemini-3.7-flash"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.7-flash"
  },
  "gemini-3-8-flash": {
   "name": "Gemini 3.8 Flash",
@@ -785,7 +813,8 @@
   "apiNames": [
    "gemini-3.8-flash"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.8-flash"
  },
  "gemini-omni-flash-preview": {
   "name": "Gemini Omni Flash Preview",
@@ -812,7 +841,8 @@
   "apiNames": [
    "gemini-omni-flash-preview"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-omni-flash-preview"
  },
  "gemini-3-1-pro-preview": {
   "name": "Gemini 3.1 Pro Preview",
@@ -839,61 +869,8 @@
   "apiNames": [
    "gemini-3.1-pro-preview"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
- },
- "gemini-gemma-2-27b-it": {
-  "name": "Gemma 2 27B IT",
-  "provider": "Google",
-  "input": 0.35,
-  "output": 1.05,
-  "cached": null,
-  "cacheWrite": null,
-  "batchIn": null,
-  "batchOut": null,
-  "longIn": null,
-  "longOut": null,
-  "longAt": null,
-  "context": null,
-  "maxOutput": 8192,
-  "vision": true,
-  "reasoning": false,
-  "caching": false,
-  "tools": true,
-  "pdf": false,
-  "web": false,
-  "preview": false,
-  "deprecates": null,
-  "apiNames": [
-   "gemini-gemma-2-27b-it"
-  ],
-  "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
- },
- "gemini-gemma-2-9b-it": {
-  "name": "Gemma 2 9B IT",
-  "provider": "Google",
-  "input": 0.35,
-  "output": 1.05,
-  "cached": null,
-  "cacheWrite": null,
-  "batchIn": null,
-  "batchOut": null,
-  "longIn": null,
-  "longOut": null,
-  "longAt": null,
-  "context": null,
-  "maxOutput": 8192,
-  "vision": true,
-  "reasoning": false,
-  "caching": false,
-  "tools": true,
-  "pdf": false,
-  "web": false,
-  "preview": false,
-  "deprecates": null,
-  "apiNames": [
-   "gemini-gemma-2-9b-it"
-  ],
-  "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-3.1-pro-preview"
  },
  "gpt-3-5-turbo": {
   "name": "GPT-3.5 Turbo",
@@ -921,7 +898,8 @@
    "gpt-3.5-turbo",
    "gpt-3.5-turbo-0125"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-3.5-turbo"
  },
  "gpt-3-5-turbo-16k": {
   "name": "GPT-3.5 Turbo 16K",
@@ -948,7 +926,8 @@
   "apiNames": [
    "gpt-3.5-turbo-16k"
   ],
-  "source": null
+  "source": null,
+  "src": "gpt-3.5-turbo-16k"
  },
  "gpt-4": {
   "name": "GPT-4",
@@ -976,7 +955,8 @@
    "gpt-4",
    "gpt-4-0613"
   ],
-  "source": null
+  "source": null,
+  "src": "gpt-4"
  },
  "gpt-4-preview": {
   "name": "GPT-4 Preview",
@@ -1003,7 +983,8 @@
   "apiNames": [
    "gpt-4-1106-preview"
   ],
-  "source": null
+  "source": null,
+  "src": "gpt-4-1106-preview"
  },
  "gpt-4-turbo": {
   "name": "GPT-4 Turbo",
@@ -1031,7 +1012,8 @@
    "gpt-4-turbo",
    "gpt-4-turbo-2024-04-09"
   ],
-  "source": null
+  "source": null,
+  "src": "gpt-4-turbo"
  },
  "gpt-4-1": {
   "name": "GPT-4.1",
@@ -1059,7 +1041,8 @@
    "gpt-4.1",
    "gpt-4.1-2025-04-14"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-4.1"
  },
  "gpt-4-1-mini": {
   "name": "GPT-4.1 Mini",
@@ -1087,7 +1070,8 @@
    "gpt-4.1-mini",
    "gpt-4.1-mini-2025-04-14"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-4.1-mini"
  },
  "gpt-4-1-nano": {
   "name": "GPT-4.1 Nano",
@@ -1115,7 +1099,8 @@
    "gpt-4.1-nano",
    "gpt-4.1-nano-2025-04-14"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-4.1-nano"
  },
  "gpt-4o": {
   "name": "GPT-4o",
@@ -1144,7 +1129,8 @@
    "gpt-4o-2024-08-06",
    "gpt-4o-2024-11-20"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-4o"
  },
  "gpt-4o-mini": {
   "name": "GPT-4o Mini",
@@ -1172,7 +1158,8 @@
    "gpt-4o-mini",
    "gpt-4o-mini-2024-07-18"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-4o-mini"
  },
  "gpt-5": {
   "name": "GPT-5",
@@ -1200,7 +1187,8 @@
    "gpt-5",
    "gpt-5-2025-08-07"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5"
  },
  "gpt-5-1": {
   "name": "GPT-5.1",
@@ -1228,7 +1216,8 @@
    "gpt-5.1",
    "gpt-5.1-2025-11-13"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.1"
  },
  "gpt-5-2": {
   "name": "GPT-5.2",
@@ -1256,7 +1245,8 @@
    "gpt-5.2",
    "gpt-5.2-2025-12-11"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.2"
  },
  "gpt-6-astra": {
   "name": "GPT-6 Astra",
@@ -1283,7 +1273,8 @@
   "apiNames": [
    "gpt-6-astra"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-6-astra"
  },
  "gpt-6-sol": {
   "name": "GPT-6 Sol",
@@ -1310,7 +1301,8 @@
   "apiNames": [
    "gpt-6-sol"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-6-sol"
  },
  "gpt-6-luna": {
   "name": "GPT-6 Luna",
@@ -1337,7 +1329,8 @@
   "apiNames": [
    "gpt-6-luna"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-6-luna"
  },
  "gpt-5-6": {
   "name": "GPT-5.6",
@@ -1364,7 +1357,8 @@
   "apiNames": [
    "gpt-5.6"
   ],
-  "source": null
+  "source": null,
+  "src": "gpt-5.6"
  },
  "gpt-5-6-sol": {
   "name": "GPT-5.6 Sol",
@@ -1391,7 +1385,8 @@
   "apiNames": [
    "gpt-5.6-sol"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.6-sol"
  },
  "gpt-5-6-terra": {
   "name": "GPT-5.6 Terra",
@@ -1418,7 +1413,8 @@
   "apiNames": [
    "gpt-5.6-terra"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.6-terra"
  },
  "gpt-5-6-luna": {
   "name": "GPT-5.6 Luna",
@@ -1445,7 +1441,8 @@
   "apiNames": [
    "gpt-5.6-luna"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.6-luna"
  },
  "gpt-5-6-cyber": {
   "name": "GPT-5.6 Cyber",
@@ -1472,7 +1469,8 @@
   "apiNames": [
    "gpt-5.6-cyber"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.6-cyber"
  },
  "gpt-5-5": {
   "name": "GPT-5.5",
@@ -1500,7 +1498,8 @@
    "gpt-5.5",
    "gpt-5.5-2026-04-23"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.5"
  },
  "gpt-5-4": {
   "name": "GPT-5.4",
@@ -1528,7 +1527,8 @@
    "gpt-5.4",
    "gpt-5.4-2026-03-05"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.4"
  },
  "gpt-5-4-mini": {
   "name": "GPT-5.4 Mini",
@@ -1556,7 +1556,8 @@
    "gpt-5.4-mini",
    "gpt-5.4-mini-2026-03-17"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.4-mini"
  },
  "gpt-5-4-nano": {
   "name": "GPT-5.4 Nano",
@@ -1584,7 +1585,8 @@
    "gpt-5.4-nano",
    "gpt-5.4-nano-2026-03-17"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.4-nano"
  },
  "gpt-5-mini": {
   "name": "GPT-5 Mini",
@@ -1612,7 +1614,8 @@
    "gpt-5-mini",
    "gpt-5-mini-2025-08-07"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5-mini"
  },
  "gpt-5-nano": {
   "name": "GPT-5 Nano",
@@ -1640,7 +1643,8 @@
    "gpt-5-nano",
    "gpt-5-nano-2025-08-07"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5-nano"
  },
  "codestral": {
   "name": "Codestral",
@@ -1668,7 +1672,8 @@
    "codestral-2508",
    "codestral-latest"
   ],
-  "source": "https://docs.mistral.ai/models/model-cards/codestral-25-08"
+  "source": "https://docs.mistral.ai/models/model-cards/codestral-25-08",
+  "src": "codestral-latest"
  },
  "ministral-3-14b": {
   "name": "Ministral 3 14B",
@@ -1697,7 +1702,8 @@
    "ministral-14b-latest",
    "ministral-3-14b-2512"
   ],
-  "source": "https://docs.mistral.ai/models/ministral-3-14b-25-12"
+  "source": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+  "src": "ministral-14b-latest"
  },
  "ministral-3-3b": {
   "name": "Ministral 3 3B",
@@ -1726,7 +1732,8 @@
    "ministral-3b-2512",
    "ministral-3b-latest"
   ],
-  "source": "https://docs.mistral.ai/models/ministral-3-3b-25-12"
+  "source": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+  "src": "ministral-3b-latest"
  },
  "mistral-medium-3": {
   "name": "Mistral Medium 3",
@@ -1753,7 +1760,8 @@
   "apiNames": [
    "mistral-medium-3"
   ],
-  "source": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
+  "source": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+  "src": "mistral-medium-3"
  },
  "voxtral-small": {
   "name": "Voxtral Small",
@@ -1781,7 +1789,8 @@
    "voxtral-small-2507",
    "voxtral-small-latest"
   ],
-  "source": "https://docs.mistral.ai/models/voxtral-small-25-07"
+  "source": "https://docs.mistral.ai/models/voxtral-small-25-07",
+  "src": "voxtral-small-latest"
  },
  "mistral-large-4": {
   "name": "Mistral Large 4",
@@ -1809,7 +1818,8 @@
    "mistral-large-4",
    "mistral-large-4-0"
   ],
-  "source": "https://docs.mistral.ai/models/mistral-large-4"
+  "source": "https://docs.mistral.ai/models/mistral-large-4",
+  "src": "mistral-large-4"
  },
  "mistral-large-3": {
   "name": "Mistral Large 3",
@@ -1838,7 +1848,8 @@
    "mistral-large-3",
    "mistral-large-latest"
   ],
-  "source": "https://docs.mistral.ai/models/mistral-large-3-25-12"
+  "source": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+  "src": "mistral-large-3"
  },
  "mistral-medium-3-5": {
   "name": "Mistral Medium 3.5",
@@ -1869,7 +1880,8 @@
    "mistral-medium-3.5",
    "mistral-medium-latest"
   ],
-  "source": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
+  "source": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+  "src": "mistral-medium-3-5"
  },
  "mistral-small": {
   "name": "Mistral Small",
@@ -1897,7 +1909,8 @@
    "mistral-small-2603",
    "mistral-small-latest"
   ],
-  "source": "https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03"
+  "source": "https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03",
+  "src": "mistral-small-latest"
  },
  "ministral-3-8b": {
   "name": "Ministral 3 8B",
@@ -1926,7 +1939,8 @@
    "ministral-8b-2512",
    "ministral-8b-latest"
   ],
-  "source": "https://mistral.ai/pricing"
+  "source": "https://mistral.ai/pricing",
+  "src": "ministral-8b-latest"
  },
  "mistral-tiny": {
   "name": "Mistral Tiny",
@@ -1953,7 +1967,8 @@
   "apiNames": [
    "mistral-tiny"
   ],
-  "source": null
+  "source": null,
+  "src": "mistral-tiny"
  },
  "open-mistral-nemo": {
   "name": "Open Mistral Nemo",
@@ -1980,7 +1995,8 @@
   "apiNames": [
    "open-mistral-nemo"
   ],
-  "source": "https://mistral.ai/technology/"
+  "source": "https://mistral.ai/technology/",
+  "src": "open-mistral-nemo"
  },
  "o1": {
   "name": "o1",
@@ -2008,7 +2024,8 @@
    "o1",
    "o1-2024-12-17"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "o1"
  },
  "o3": {
   "name": "o3",
@@ -2036,7 +2053,8 @@
    "o3",
    "o3-2025-04-16"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "o3"
  },
  "o3-mini": {
   "name": "o3 Mini",
@@ -2064,7 +2082,8 @@
    "o3-mini",
    "o3-mini-2025-01-31"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "o3-mini"
  },
  "o4-mini": {
   "name": "o4 Mini",
@@ -2092,7 +2111,8 @@
    "o4-mini",
    "o4-mini-2025-04-16"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "o4-mini"
  },
  "grok-4-20": {
   "name": "Grok 4.20",
@@ -2143,7 +2163,8 @@
    "grok-4.20-reasoning-gv2",
    "grok-4.20-reasoning-latest"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-4.20-reasoning-latest"
  },
  "grok-4-3": {
   "name": "Grok 4.3",
@@ -2171,7 +2192,8 @@
    "grok-4.3",
    "grok-4.3-latest"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-4.3-latest"
  },
  "grok-4-5": {
   "name": "Grok 4.5",
@@ -2199,7 +2221,8 @@
    "grok-4.5",
    "grok-4.5-latest"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-4.5-latest"
  },
  "grok-4-6": {
   "name": "Grok 4.6",
@@ -2226,7 +2249,8 @@
   "apiNames": [
    "grok-4.6"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-4.6"
  },
  "grok-4-7": {
   "name": "Grok 4.7",
@@ -2253,7 +2277,8 @@
   "apiNames": [
    "grok-4.7"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-4.7"
  },
  "gpt-5-search-api": {
   "name": "GPT-5 Search API",
@@ -2281,61 +2306,8 @@
    "gpt-5-search-api",
    "gpt-5-search-api-2025-10-14"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
- },
- "gemini-exp": {
-  "name": "Gemini Exp",
-  "provider": "Google",
-  "input": 0.3,
-  "output": 2.5,
-  "cached": 0.03,
-  "cacheWrite": null,
-  "batchIn": null,
-  "batchOut": null,
-  "longIn": null,
-  "longOut": null,
-  "longAt": null,
-  "context": 1048576,
-  "maxOutput": 65535,
-  "vision": true,
-  "reasoning": true,
-  "caching": true,
-  "tools": true,
-  "pdf": true,
-  "web": true,
-  "preview": true,
-  "deprecates": null,
-  "apiNames": [
-   "gemini-exp-1206"
-  ],
-  "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
- },
- "deepseek-flash": {
-  "name": "DeepSeek Flash",
-  "provider": "DeepSeek",
-  "input": 0.3,
-  "output": 1.2,
-  "cached": 0.006,
-  "cacheWrite": null,
-  "batchIn": null,
-  "batchOut": null,
-  "longIn": null,
-  "longOut": null,
-  "longAt": null,
-  "context": 1000000,
-  "maxOutput": 393216,
-  "vision": true,
-  "reasoning": true,
-  "caching": true,
-  "tools": true,
-  "pdf": false,
-  "web": false,
-  "preview": false,
-  "deprecates": null,
-  "apiNames": [
-   "deepseek-flash"
-  ],
-  "source": "https://api-docs.deepseek.com/quick_start/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5-search-api"
  },
  "deepseek-v4-flash": {
   "name": "DeepSeek V4 Flash",
@@ -2360,9 +2332,11 @@
   "preview": false,
   "deprecates": null,
   "apiNames": [
+   "deepseek-flash",
    "deepseek-v4-flash"
   ],
-  "source": "https://api-docs.deepseek.com/quick_start/pricing"
+  "source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "src": "deepseek-v4-flash"
  },
  "deepseek-v4-flash-vision-exp": {
   "name": "DeepSeek V4 Flash Vision Exp",
@@ -2389,7 +2363,8 @@
   "apiNames": [
    "deepseek-v4-flash-vision-exp"
   ],
-  "source": "https://api-docs.deepseek.com/quick_start/pricing"
+  "source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "src": "deepseek-v4-flash-vision-exp"
  },
  "deepseek-v4-pro": {
   "name": "DeepSeek V4 Pro",
@@ -2416,7 +2391,8 @@
   "apiNames": [
    "deepseek-v4-pro"
   ],
-  "source": "https://api-docs.deepseek.com/quick_start/pricing"
+  "source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "src": "deepseek-v4-pro"
  },
  "grok-build-0-1": {
   "name": "Grok Build 0.1",
@@ -2443,7 +2419,8 @@
   "apiNames": [
    "grok-build-0.1"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-build-0.1"
  },
  "claude-mythos-5": {
   "name": "Claude Mythos 5",
@@ -2470,7 +2447,8 @@
   "apiNames": [
    "claude-mythos-5"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-mythos-5"
  },
  "claude-mythos-5-1": {
   "name": "Claude Mythos 5.1",
@@ -2497,7 +2475,8 @@
   "apiNames": [
    "claude-mythos-5-1"
   ],
-  "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "src": "claude-mythos-5-1"
  },
  "gemini-omni-1-1-flash": {
   "name": "Gemini Omni 1.1 Flash",
@@ -2524,7 +2503,8 @@
   "apiNames": [
    "gemini-omni-1.1-flash"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-omni-1.1-flash"
  },
  "gpt-5-5-cyber": {
   "name": "GPT-5.5 Cyber",
@@ -2552,7 +2532,8 @@
    "gpt-5.5-cyber",
    "gpt-5.5-cyber-preview"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-5.5-cyber"
  },
  "gpt-rosalind-research": {
   "name": "GPT-Rosalind Research",
@@ -2579,7 +2560,8 @@
   "apiNames": [
    "gpt-rosalind-research"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-rosalind-research"
  },
  "grok-code-fast-1": {
   "name": "Grok Code Fast 1",
@@ -2608,7 +2590,8 @@
    "grok-code-fast-1",
    "grok-code-fast-1-0825"
   ],
-  "source": "https://api.x.ai/v1/language-models"
+  "source": "https://api.x.ai/v1/language-models",
+  "src": "grok-code-fast-1"
  },
  "gpt-6-1-sol": {
   "name": "GPT-6.1 Sol",
@@ -2635,7 +2618,8 @@
   "apiNames": [
    "gpt-6.1-sol"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-6.1-sol"
  },
  "claude-haiku-5-5": {
   "name": "Claude Haiku 5.5",
@@ -2662,7 +2646,8 @@
   "apiNames": [
    "claude-haiku-5-5"
   ],
-  "source": "https://platform.claude.com/docs/en/models/haiku-5-5/overview"
+  "source": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+  "src": "claude-haiku-5-5"
  },
  "gpt-rosalind-discovery": {
   "name": "GPT-Rosalind Discovery",
@@ -2689,7 +2674,8 @@
   "apiNames": [
    "gpt-rosalind-discovery"
   ],
-  "source": "https://developers.openai.com/api/docs/pricing"
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "src": "gpt-rosalind-discovery"
  },
  "gemini-4-argon": {
   "name": "Gemini 4 Argon",
@@ -2716,6 +2702,7 @@
   "apiNames": [
    "gemini-4-argon"
   ],
-  "source": "https://ai.google.dev/gemini-api/docs/pricing"
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "src": "gemini-4-argon"
  }
 }
