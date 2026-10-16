@@ -1,0 +1,1190 @@
+{
+ "claude-haiku-4-5": {
+  "provider": "Anthropic",
+  "input": 1,
+  "output": 5,
+  "context": 200000
+ },
+ "claude-sonnet-4-5": {
+  "provider": "Anthropic",
+  "input": 3,
+  "output": 15,
+  "context": 200000
+ },
+ "claude-sonnet-5": {
+  "provider": "Anthropic",
+  "input": 2,
+  "output": 10,
+  "context": 1000000
+ },
+ "claude-sonnet-5-5": {
+  "provider": "Anthropic",
+  "input": 2,
+  "output": 10,
+  "context": 1000000
+ },
+ "claude-sonnet-4-6": {
+  "provider": "Anthropic",
+  "input": 3,
+  "output": 15,
+  "context": 1000000
+ },
+ "claude-opus-4-5": {
+  "provider": "Anthropic",
+  "input": 5,
+  "output": 25,
+  "context": 200000
+ },
+ "claude-opus-4-6": {
+  "provider": "Anthropic",
+  "input": 5,
+  "output": 25,
+  "context": 1000000
+ },
+ "claude-opus-4-7": {
+  "provider": "Anthropic",
+  "input": 5,
+  "output": 25,
+  "context": 1000000
+ },
+ "claude-fable-5": {
+  "provider": "Anthropic",
+  "input": 10,
+  "output": 50,
+  "context": 1000000
+ },
+ "claude-fable-5-1": {
+  "provider": "Anthropic",
+  "input": 10,
+  "output": 50,
+  "context": 1000000
+ },
+ "claude-opus-5-5": {
+  "provider": "Anthropic",
+  "input": 4,
+  "output": 20,
+  "context": 1000000
+ },
+ "claude-opus-5": {
+  "provider": "Anthropic",
+  "input": 5,
+  "output": 25,
+  "context": 1000000
+ },
+ "claude-opus-4-8": {
+  "provider": "Anthropic",
+  "input": 5,
+  "output": 25,
+  "context": 1000000
+ },
+ "computer-use-preview": {
+  "provider": "OpenAI",
+  "input": 3,
+  "output": 12,
+  "context": 8192
+ },
+ "deepseek-chat": {
+  "provider": "DeepSeek",
+  "input": 0.28,
+  "output": 0.42,
+  "context": 131072
+ },
+ "deepseek-reasoner": {
+  "provider": "DeepSeek",
+  "input": 0.28,
+  "output": 0.42,
+  "context": 131072
+ },
+ "deepseek-coder": {
+  "provider": "DeepSeek",
+  "input": 0.14,
+  "output": 0.28,
+  "context": 128000
+ },
+ "deepseek-r1": {
+  "provider": "DeepSeek",
+  "input": 0.55,
+  "output": 2.19,
+  "context": 65536
+ },
+ "deepseek-v3": {
+  "provider": "DeepSeek",
+  "input": 0.27,
+  "output": 1.1,
+  "context": 65536
+ },
+ "deepseek-v3.2": {
+  "provider": "DeepSeek",
+  "input": 0.28,
+  "output": 0.4,
+  "context": 163840
+ },
+ "ft:gpt-3.5-turbo": {
+  "provider": "OpenAI",
+  "input": 3,
+  "output": 6,
+  "context": 16385
+ },
+ "ft:gpt-3.5-turbo-0125": {
+  "provider": "OpenAI",
+  "input": 3,
+  "output": 6,
+  "context": 16385
+ },
+ "ft:gpt-3.5-turbo-0613": {
+  "provider": "OpenAI",
+  "input": 3,
+  "output": 6,
+  "context": 4096
+ },
+ "ft:gpt-3.5-turbo-1106": {
+  "provider": "OpenAI",
+  "input": 3,
+  "output": 6,
+  "context": 16385
+ },
+ "ft:gpt-4-0613": {
+  "provider": "OpenAI",
+  "input": 30,
+  "output": 60,
+  "context": 8192
+ },
+ "gemini-robotics-er-2-preview": {
+  "provider": "Google",
+  "input": 1,
+  "output": 5,
+  "context": 131072
+ },
+ "gemini-3.1-flash-lite-preview": {
+  "provider": "Google",
+  "input": 0.25,
+  "output": 1.5,
+  "context": 1048576
+ },
+ "deep-research-preview-04-2026": {
+  "provider": "Google",
+  "input": 2,
+  "output": 12,
+  "context": 1048576
+ },
+ "deep-research-max-preview-04-2026": {
+  "provider": "Google",
+  "input": 2,
+  "output": 12,
+  "context": 1048576
+ },
+ "gemini-2.5-flash": {
+  "provider": "Google",
+  "input": 0.3,
+  "output": 2.5,
+  "context": 1048576
+ },
+ "deep-research-pro-preview-12-2025": {
+  "provider": "Google",
+  "input": 2,
+  "output": 12,
+  "context": 1048576
+ },
+ "gemini-2.5-flash-lite": {
+  "provider": "Google",
+  "input": 0.1,
+  "output": 0.4,
+  "context": 1048576
+ },
+ "gemini-flash-latest": {
+  "provider": "Google",
+  "input": 0.75,
+  "output": 3.75,
+  "context": 1048576
+ },
+ "gemini-flash-lite-latest": {
+  "provider": "Google",
+  "input": 0.3,
+  "output": 2.5,
+  "context": 1048576
+ },
+ "gemini-2.5-pro": {
+  "provider": "Google",
+  "input": 1.25,
+  "output": 10,
+  "context": 1048576
+ },
+ "gemini-2.5-computer-use-preview-10-2025": {
+  "provider": "Google",
+  "input": 1.25,
+  "output": 10,
+  "context": 128000
+ },
+ "gemini-3.1-flash-lite": {
+  "provider": "Google",
+  "input": 0.25,
+  "output": 1.5,
+  "context": 1048576
+ },
+ "gemini-3.5-flash-lite": {
+  "provider": "Google",
+  "input": 0.3,
+  "output": 2.5,
+  "context": 1048576
+ },
+ "gemini-3-flash-preview": {
+  "provider": "Google",
+  "input": 0.5,
+  "output": 3,
+  "context": 1048576
+ },
+ "gemini-3.5-flash": {
+  "provider": "Google",
+  "input": 1.5,
+  "output": 9,
+  "context": 1048576
+ },
+ "gemini-3.6-flash": {
+  "provider": "Google",
+  "input": 0.75,
+  "output": 3.75,
+  "context": 1048576
+ },
+ "gemini-3.7-flash": {
+  "provider": "Google",
+  "input": 0.75,
+  "output": 3.75,
+  "context": 1048576
+ },
+ "gemini-3.8-flash": {
+  "provider": "Google",
+  "input": 0.75,
+  "output": 3.75,
+  "context": 1048576
+ },
+ "gemini-omni-flash-preview": {
+  "provider": "Google",
+  "input": 1.5,
+  "output": 9,
+  "context": 131072
+ },
+ "gemini-3.1-pro-preview": {
+  "provider": "Google",
+  "input": 2,
+  "output": 12,
+  "context": 1048576
+ },
+ "gemini-3.1-pro-preview-customtools": {
+  "provider": "Google",
+  "input": 2,
+  "output": 12,
+  "context": 1048576
+ },
+ "gemini-2.5-pro-preview-tts": {
+  "provider": "Google",
+  "input": 1,
+  "output": 20,
+  "context": 8192
+ },
+ "gemini-gemma-2-27b-it": {
+  "provider": "Google",
+  "input": 0.35,
+  "output": 1.05,
+  "context": null
+ },
+ "gemini-gemma-2-9b-it": {
+  "provider": "Google",
+  "input": 0.35,
+  "output": 1.05,
+  "context": null
+ },
+ "gpt-3.5-turbo": {
+  "provider": "OpenAI",
+  "input": 0.5,
+  "output": 1.5,
+  "context": 16385
+ },
+ "gpt-3.5-turbo-0125": {
+  "provider": "OpenAI",
+  "input": 0.5,
+  "output": 1.5,
+  "context": 16385
+ },
+ "gpt-3.5-turbo-1106": {
+  "provider": "OpenAI",
+  "input": 1,
+  "output": 2,
+  "context": 16385
+ },
+ "gpt-3.5-turbo-16k": {
+  "provider": "OpenAI",
+  "input": 3,
+  "output": 4,
+  "context": 16385
+ },
+ "gpt-4": {
+  "provider": "OpenAI",
+  "input": 30,
+  "output": 60,
+  "context": 8192
+ },
+ "gpt-4-0613": {
+  "provider": "OpenAI",
+  "input": 30,
+  "output": 60,
+  "context": 8192
+ },
+ "gpt-4-1106-preview": {
+  "provider": "OpenAI",
+  "input": 10,
+  "output": 30,
+  "context": 128000
+ },
+ "gpt-4-turbo": {
+  "provider": "OpenAI",
+  "input": 10,
+  "output": 30,
+  "context": 128000
+ },
+ "gpt-4.1": {
+  "provider": "OpenAI",
+  "input": 2,
+  "output": 8,
+  "context": 1047576
+ },
+ "gpt-4.1-mini": {
+  "provider": "OpenAI",
+  "input": 0.4,
+  "output": 1.6,
+  "context": 1047576
+ },
+ "gpt-4.1-nano": {
+  "provider": "OpenAI",
+  "input": 0.1,
+  "output": 0.4,
+  "context": 1047576
+ },
+ "gpt-4o": {
+  "provider": "OpenAI",
+  "input": 2.5,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-audio": {
+  "provider": "OpenAI",
+  "input": 2.5,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-audio-1.5": {
+  "provider": "OpenAI",
+  "input": 2.5,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-audio-mini": {
+  "provider": "OpenAI",
+  "input": 0.6,
+  "output": 2.4,
+  "context": 128000
+ },
+ "gpt-4o-mini": {
+  "provider": "OpenAI",
+  "input": 0.15,
+  "output": 0.6,
+  "context": 128000
+ },
+ "gpt-4o-mini-search-preview": {
+  "provider": "OpenAI",
+  "input": 0.15,
+  "output": 0.6,
+  "context": 128000
+ },
+ "gpt-4o-search-preview": {
+  "provider": "OpenAI",
+  "input": 2.5,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-5": {
+  "provider": "OpenAI",
+  "input": 1.25,
+  "output": 10,
+  "context": 272000
+ },
+ "gpt-5.1": {
+  "provider": "OpenAI",
+  "input": 1.25,
+  "output": 10,
+  "context": 272000
+ },
+ "gpt-5.1-chat-latest": {
+  "provider": "OpenAI",
+  "input": 1.25,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-5.2": {
+  "provider": "OpenAI",
+  "input": 1.75,
+  "output": 14,
+  "context": 272000
+ },
+ "gpt-5.2-chat-latest": {
+  "provider": "OpenAI",
+  "input": 1.75,
+  "output": 14,
+  "context": 128000
+ },
+ "gpt-6-astra": {
+  "provider": "OpenAI",
+  "input": 10,
+  "output": 50,
+  "context": 922000
+ },
+ "gpt-6-sol": {
+  "provider": "OpenAI",
+  "input": 2,
+  "output": 10,
+  "context": 922000
+ },
+ "gpt-6-luna": {
+  "provider": "OpenAI",
+  "input": 0.1,
+  "output": 0.5,
+  "context": 922000
+ },
+ "gpt-5.6": {
+  "provider": "OpenAI",
+  "input": 4,
+  "output": 20,
+  "context": 922000
+ },
+ "gpt-5.6-sol": {
+  "provider": "OpenAI",
+  "input": 4,
+  "output": 20,
+  "context": 922000
+ },
+ "gpt-5.6-terra": {
+  "provider": "OpenAI",
+  "input": 2,
+  "output": 12,
+  "context": 922000
+ },
+ "gpt-5.6-luna": {
+  "provider": "OpenAI",
+  "input": 0.2,
+  "output": 1.2,
+  "context": 922000
+ },
+ "gpt-5.6-cyber": {
+  "provider": "OpenAI",
+  "input": 12.5,
+  "output": 75,
+  "context": 400000
+ },
+ "daybreak-red-latest": {
+  "provider": "OpenAI",
+  "input": 12.5,
+  "output": 75,
+  "context": 400000
+ },
+ "daybreak-blue-latest": {
+  "provider": "OpenAI",
+  "input": 4,
+  "output": 20,
+  "context": 922000
+ },
+ "chat-latest": {
+  "provider": "OpenAI",
+  "input": 5,
+  "output": 30,
+  "context": 400000
+ },
+ "gpt-5.5": {
+  "provider": "OpenAI",
+  "input": 5,
+  "output": 30,
+  "context": 1050000
+ },
+ "gpt-5.4": {
+  "provider": "OpenAI",
+  "input": 2.5,
+  "output": 15,
+  "context": 1050000
+ },
+ "gpt-5.4-mini": {
+  "provider": "OpenAI",
+  "input": 0.75,
+  "output": 4.5,
+  "context": 272000
+ },
+ "gpt-5.4-nano": {
+  "provider": "OpenAI",
+  "input": 0.2,
+  "output": 1.25,
+  "context": 272000
+ },
+ "gpt-5-chat": {
+  "provider": "OpenAI",
+  "input": 1.25,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-5-chat-latest": {
+  "provider": "OpenAI",
+  "input": 1.25,
+  "output": 10,
+  "context": 128000
+ },
+ "gpt-5.3-chat-latest": {
+  "provider": "OpenAI",
+  "input": 1.75,
+  "output": 14,
+  "context": 128000
+ },
+ "gpt-5-mini": {
+  "provider": "OpenAI",
+  "input": 0.25,
+  "output": 2,
+  "context": 272000
+ },
+ "gpt-5-nano": {
+  "provider": "OpenAI",
+  "input": 0.05,
+  "output": 0.4,
+  "context": 272000
+ },
+ "codestral-2508": {
+  "provider": "Mistral",
+  "input": 0.3,
+  "output": 0.9,
+  "context": 128000
+ },
+ "codestral-latest": {
+  "provider": "Mistral",
+  "input": 0.3,
+  "output": 0.9,
+  "context": 128000
+ },
+ "codestral-mamba-latest": {
+  "provider": "Mistral",
+  "input": 0.25,
+  "output": 0.25,
+  "context": 256000
+ },
+ "devstral-small-latest": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.3,
+  "context": 256000
+ },
+ "devstral-latest": {
+  "provider": "Mistral",
+  "input": 0.4,
+  "output": 2,
+  "context": 256000
+ },
+ "devstral-medium-latest": {
+  "provider": "Mistral",
+  "input": 0.4,
+  "output": 2,
+  "context": 256000
+ },
+ "ministral-14b-2512": {
+  "provider": "Mistral",
+  "input": 0.2,
+  "output": 0.2,
+  "context": 262144
+ },
+ "ministral-14b-latest": {
+  "provider": "Mistral",
+  "input": 0.2,
+  "output": 0.2,
+  "context": 262144
+ },
+ "ministral-3b-2512": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.1,
+  "context": 131072
+ },
+ "ministral-3b-latest": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.1,
+  "context": 131072
+ },
+ "mistral-medium-3": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "voxtral-small-2507": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.4,
+  "context": 32768
+ },
+ "voxtral-small-latest": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.4,
+  "context": 32768
+ },
+ "zai-glm-5-2": {
+  "provider": "Mistral",
+  "input": 1.4,
+  "output": 4.4,
+  "context": 1048576
+ },
+ "zai-glm-5-3": {
+  "provider": "Mistral",
+  "input": 1.4,
+  "output": 4.4,
+  "context": 1048576
+ },
+ "zai-glm-5": {
+  "provider": "Mistral",
+  "input": 1.4,
+  "output": 4.4,
+  "context": 1048576
+ },
+ "zai-glm-latest": {
+  "provider": "Mistral",
+  "input": 1.4,
+  "output": 4.4,
+  "context": 1048576
+ },
+ "glm-5-2": {
+  "provider": "Mistral",
+  "input": 1.4,
+  "output": 4.4,
+  "context": 1048576
+ },
+ "magistral-medium-latest": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "magistral-small-latest": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.6,
+  "context": 262144
+ },
+ "mistral-large-4": {
+  "provider": "Mistral",
+  "input": 0.68,
+  "output": 2.09,
+  "context": 1048576
+ },
+ "mistral-large-4-0": {
+  "provider": "Mistral",
+  "input": 0.68,
+  "output": 2.09,
+  "context": 1048576
+ },
+ "mistral-large-latest": {
+  "provider": "Mistral",
+  "input": 0.5,
+  "output": 1.5,
+  "context": 262144
+ },
+ "mistral-large-3": {
+  "provider": "Mistral",
+  "input": 0.5,
+  "output": 1.5,
+  "context": 262144
+ },
+ "mistral-large-2512": {
+  "provider": "Mistral",
+  "input": 0.5,
+  "output": 1.5,
+  "context": 262144
+ },
+ "mistral-medium": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-medium-2604": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-medium-latest": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-medium-3-5": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-small": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.3,
+  "context": 32000
+ },
+ "mistral-small-latest": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.6,
+  "context": 262144
+ },
+ "ministral-3-3b-2512": {
+  "provider": "Mistral",
+  "input": 0.1,
+  "output": 0.1,
+  "context": 131072
+ },
+ "ministral-3-8b-2512": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.15,
+  "context": 262144
+ },
+ "ministral-3-14b-2512": {
+  "provider": "Mistral",
+  "input": 0.2,
+  "output": 0.2,
+  "context": 262144
+ },
+ "ministral-8b-2512": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.15,
+  "context": 262144
+ },
+ "ministral-8b-latest": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.15,
+  "context": 262144
+ },
+ "mistral-tiny": {
+  "provider": "Mistral",
+  "input": 0.25,
+  "output": 0.25,
+  "context": 32000
+ },
+ "open-mistral-nemo": {
+  "provider": "Mistral",
+  "input": 0.3,
+  "output": 0.3,
+  "context": 128000
+ },
+ "pixtral-large-latest": {
+  "provider": "Mistral",
+  "input": 2,
+  "output": 6,
+  "context": 128000
+ },
+ "o1": {
+  "provider": "OpenAI",
+  "input": 15,
+  "output": 60,
+  "context": 200000
+ },
+ "o3": {
+  "provider": "OpenAI",
+  "input": 2,
+  "output": 8,
+  "context": 200000
+ },
+ "o3-mini": {
+  "provider": "OpenAI",
+  "input": 1.1,
+  "output": 4.4,
+  "context": 200000
+ },
+ "o4-mini": {
+  "provider": "OpenAI",
+  "input": 1.1,
+  "output": 4.4,
+  "context": 200000
+ },
+ "grok-4.20-beta-0309-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-0309-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-0309-non-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.3": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.3-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.5": {
+  "provider": "xAI",
+  "input": 2,
+  "output": 6,
+  "context": 500000
+ },
+ "grok-4.5-latest": {
+  "provider": "xAI",
+  "input": 2,
+  "output": 6,
+  "context": 500000
+ },
+ "grok-build-latest": {
+  "provider": "xAI",
+  "input": 2,
+  "output": 6,
+  "context": 500000
+ },
+ "grok-4.6": {
+  "provider": "xAI",
+  "input": 2,
+  "output": 6,
+  "context": 500000
+ },
+ "grok-4.7": {
+  "provider": "xAI",
+  "input": 2,
+  "output": 6,
+  "context": 500000
+ },
+ "gpt-5-search-api": {
+  "provider": "OpenAI",
+  "input": 1.25,
+  "output": 10,
+  "context": 272000
+ },
+ "gemini-pro-latest": {
+  "provider": "Google",
+  "input": 2,
+  "output": 12,
+  "context": 1048576
+ },
+ "gemini-exp-1206": {
+  "provider": "Google",
+  "input": 0.3,
+  "output": 2.5,
+  "context": 1048576
+ },
+ "deepseek-flash": {
+  "provider": "DeepSeek",
+  "input": 0.3,
+  "output": 1.2,
+  "context": 1000000
+ },
+ "deepseek-v4-flash": {
+  "provider": "DeepSeek",
+  "input": 0.3,
+  "output": 1.2,
+  "context": 1000000
+ },
+ "deepseek-v4-flash-vision-exp": {
+  "provider": "DeepSeek",
+  "input": 0.3,
+  "output": 1.2,
+  "context": 1000000
+ },
+ "deepseek-v4-pro": {
+  "provider": "DeepSeek",
+  "input": 1.32,
+  "output": 3.96,
+  "context": 1000000
+ },
+ "grok-4.20-0309-non-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-build-0.1": {
+  "provider": "xAI",
+  "input": 1,
+  "output": 2,
+  "context": 256000
+ },
+ "claude-mythos-5": {
+  "provider": "Anthropic",
+  "input": 10,
+  "output": 50,
+  "context": 1000000
+ },
+ "claude-mythos-5-1": {
+  "provider": "Anthropic",
+  "input": 10,
+  "output": 50,
+  "context": 1000000
+ },
+ "claude-mythos-preview": {
+  "provider": "Anthropic",
+  "input": 10,
+  "output": 50,
+  "context": 1000000
+ },
+ "gemini-robotics-er-2-streaming-preview": {
+  "provider": "Google",
+  "input": 1,
+  "output": 5,
+  "context": 131072
+ },
+ "mistral-small-2603": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.6,
+  "context": 262144
+ },
+ "gemini-omni-1.1-flash": {
+  "provider": "Google",
+  "input": 1.5,
+  "output": 9,
+  "context": 1048576
+ },
+ "grok-4.20": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-reasoning-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-non-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-non-reasoning-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "mistral-medium-3.5": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-vibe-cli-latest": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-vibe-cli-with-tools": {
+  "provider": "Mistral",
+  "input": 1.5,
+  "output": 7.5,
+  "context": 262144
+ },
+ "mistral-vibe-cli-fast": {
+  "provider": "Mistral",
+  "input": 0.15,
+  "output": 0.6,
+  "context": 262144
+ },
+ "mistral-code-latest": {
+  "provider": "Mistral",
+  "input": 0.3,
+  "output": 0.9,
+  "context": 128000
+ },
+ "mistral-code-fim-latest": {
+  "provider": "Mistral",
+  "input": 0.3,
+  "output": 0.9,
+  "context": 128000
+ },
+ "mistral-code-agent-latest": {
+  "provider": "Mistral",
+  "input": 0.4,
+  "output": 2,
+  "context": 256000
+ },
+ "gpt-5.5-cyber": {
+  "provider": "OpenAI",
+  "input": 12.5,
+  "output": 75,
+  "context": null
+ },
+ "gpt-5.5-cyber-preview": {
+  "provider": "OpenAI",
+  "input": 12.5,
+  "output": 75,
+  "context": null
+ },
+ "gpt-rosalind-research": {
+  "provider": "OpenAI",
+  "input": 5,
+  "output": 25,
+  "context": null
+ },
+ "grok-4.20-0309": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-0309": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-latest-non-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-latest-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-non-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-beta-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-experimental-beta-0304": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-experimental-beta-0304-non-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-experimental-beta-0304-reasoning": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-experimental-beta-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-experimental-beta-non-reasoning-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-experimental-beta-reasoning-latest": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-non-reasoning-gv2": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-4.20-reasoning-gv2": {
+  "provider": "xAI",
+  "input": 1.25,
+  "output": 2.5,
+  "context": 1000000
+ },
+ "grok-code-fast": {
+  "provider": "xAI",
+  "input": 1,
+  "output": 2,
+  "context": 256000
+ },
+ "grok-code-fast-1": {
+  "provider": "xAI",
+  "input": 1,
+  "output": 2,
+  "context": 256000
+ },
+ "grok-code-fast-1-0825": {
+  "provider": "xAI",
+  "input": 1,
+  "output": 2,
+  "context": 256000
+ },
+ "gpt-6.1-sol": {
+  "provider": "OpenAI",
+  "input": 2,
+  "output": 10,
+  "context": 922000
+ },
+ "claude-haiku-5-5": {
+  "provider": "Anthropic",
+  "input": 0.1,
+  "output": 0.5,
+  "context": 1000000
+ },
+ "gpt-rosalind-discovery": {
+  "provider": "OpenAI",
+  "input": 5,
+  "output": 25,
+  "context": null
+ },
+ "gemini-4-argon": {
+  "provider": "Google",
+  "input": 2,
+  "output": 10,
+  "context": 1048576
+ }
+}
