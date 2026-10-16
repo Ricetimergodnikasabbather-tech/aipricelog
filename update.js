@@ -182,7 +182,7 @@ const priceTable = rows => `
 <p class="muted" id="sortnote" style="margin:4px 0 8px;font-size:.86rem">Sorted by <b>your estimated monthly cost, cheapest first</b>. Click any column to sort by it. Tiers go by output price: Budget under $2, Standard $2–15, Premium $15+ per 1M tokens.</p>
 <div class="tablewrap"><table id="prices"><thead><tr>
 <th data-k="name">Model</th><th class="n" data-k="cost">Your cost / mo <span class="arr">▲</span></th><th class="n" data-k="in">Input / 1M</th><th class="n" data-k="out">Output / 1M</th><th class="n hide-sm" data-k="cached">Cached input</th><th class="n hide-sm" data-k="ctx">Context</th>
-</tr></thead><tbody>${rows
+</tr></thead><tbody>${[...rows].sort((a, b) => costOf(a, PRESETS[0][1], PRESETS[0][2]) - costOf(b, PRESETS[0][1], PRESETS[0][2]))
   .map(m => `<tr data-name="${esc((m.name + " " + m.provider + " " + m.apiNames.join(" ")).toLowerCase())}" data-in="${m.input}" data-out="${m.output}" data-cached="${m.cached ?? ""}" data-li="${m.longIn ?? ""}" data-lo="${m.longOut ?? ""}" data-la="${m.longAt ?? ""}" data-ctx="${m.context ?? 0}" data-max="${m.maxOutput ?? 0}" data-tier="${tier(m)}" data-vision="${+m.vision}" data-reasoning="${+m.reasoning}" data-caching="${+m.caching}" data-preview="${+m.preview}">
 <td>${dot(m.provider)}<a href="${modelUrl(m.key)}">${esc(m.name)}</a>${badge(m)}<span class="prov">${m.provider} · ${tier(m)}</span></td><td class="n cost">${money(costOf(m, PRESETS[0][1], PRESETS[0][2]) * PRESETS[0][3])}</td><td class="n">${usd(m.input)}</td><td class="n">${usd(m.output)}</td><td class="n hide-sm">${usd(m.cached)}</td><td class="n hide-sm">${ctx(m.context)}</td></tr>`)
   .join("")}</tbody></table></div>
