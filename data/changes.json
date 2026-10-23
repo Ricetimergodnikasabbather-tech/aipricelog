@@ -1,5 +1,13 @@
 [
  {
+  "date": "2026-10-23",
+  "key": "gemini-omni-flash-preview",
+  "model": "Gemini Omni Flash Preview",
+  "provider": "Google",
+  "commit": "159b5b2f7243bba757c08e4ddc45a2514e4cd037",
+  "type": "removed"
+ },
+ {
   "date": "2026-10-13",
   "key": "gemini-4-argon",
   "model": "Gemini 4 Argon",

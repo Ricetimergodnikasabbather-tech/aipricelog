@@ -49,7 +49,6 @@ grok-4-6,Grok 4.6,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
 grok-4-7,Grok 4.7,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
 gpt-3-5-turbo-16k,GPT-3.5 Turbo 16K,OpenAI,3,4,,,,16385,4096,false,false,true,false,2026-10-23
 gemini-3-5-flash,Gemini 3.5 Flash,Google,1.5,9,0.15,0.75,4.5,1048576,65536,true,true,true,false,
-gemini-omni-flash-preview,Gemini Omni Flash Preview,Google,1.5,9,,,,131072,65536,true,true,false,true,2026-10-22
 gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,1048576,65536,true,true,false,false,
 gemini-2-5-pro,Gemini 2.5 Pro,Google,1.25,10,0.125,0.625,5,1048576,65536,true,true,true,false,
 gpt-5,GPT-5,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2026-12-11

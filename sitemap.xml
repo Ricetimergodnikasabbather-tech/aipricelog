@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://aipricelog.com/</loc><lastmod>2026-10-13</lastmod></url>
-<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-10-13</lastmod></url>
+<url><loc>https://aipricelog.com/</loc><lastmod>2026-10-23</lastmod></url>
+<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://aipricelog.com/about.html</loc><lastmod>2023-11-22</lastmod></url>
 <url><loc>https://aipricelog.com/openai/</loc><lastmod>2026-10-09</lastmod></url>
 <url><loc>https://aipricelog.com/anthropic/</loc><lastmod>2026-10-09</lastmod></url>
-<url><loc>https://aipricelog.com/google/</loc><lastmod>2026-10-13</lastmod></url>
+<url><loc>https://aipricelog.com/google/</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://aipricelog.com/xai/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://aipricelog.com/deepseek/</loc><lastmod>2026-10-01</lastmod></url>
 <url><loc>https://aipricelog.com/mistral/</loc><lastmod>2026-10-08</lastmod></url>
@@ -59,7 +59,6 @@
 <url><loc>https://aipricelog.com/models/grok-4-7/</loc><lastmod>2026-09-21</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-3-5-turbo-16k/</loc><lastmod>2024-01-09</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-3-5-flash/</loc><lastmod>2026-05-19</lastmod></url>
-<url><loc>https://aipricelog.com/models/gemini-omni-flash-preview/</loc><lastmod>2026-08-28</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-omni-1-1-flash/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-2-5-pro/</loc><lastmod>2025-06-17</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5/</loc><lastmod>2026-01-14</lastmod></url>

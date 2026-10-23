@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T07:07Z",
+ "updated": "2026-10-23T07:04Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -1508,35 +1508,6 @@
    ],
    "source": "https://ai.google.dev/gemini-api/docs/pricing",
    "src": "gemini-3.5-flash"
-  },
-  {
-   "key": "gemini-omni-flash-preview",
-   "name": "Gemini Omni Flash Preview",
-   "provider": "Google",
-   "input": 1.5,
-   "output": 9,
-   "cached": null,
-   "cacheWrite": null,
-   "batchIn": null,
-   "batchOut": null,
-   "longIn": null,
-   "longOut": null,
-   "longAt": null,
-   "context": 131072,
-   "maxOutput": 65536,
-   "vision": true,
-   "reasoning": true,
-   "caching": false,
-   "tools": false,
-   "pdf": false,
-   "web": false,
-   "preview": true,
-   "deprecates": "2026-10-22",
-   "apiNames": [
-    "gemini-omni-flash-preview"
-   ],
-   "source": "https://ai.google.dev/gemini-api/docs/pricing",
-   "src": "gemini-omni-flash-preview"
   },
   {
    "key": "gemini-omni-1-1-flash",
