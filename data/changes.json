@@ -1,5 +1,85 @@
 [
  {
+  "date": "2026-10-24",
+  "key": "deep-research-pro-preview",
+  "model": "Gemini Deep Research Pro Preview",
+  "provider": "Google",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "gpt-3-5-turbo",
+  "model": "GPT-3.5 Turbo",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "gpt-3-5-turbo-16k",
+  "model": "GPT-3.5 Turbo 16K",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "gpt-4",
+  "model": "GPT-4",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "gpt-4-preview",
+  "model": "GPT-4 Preview",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "gpt-4-turbo",
+  "model": "GPT-4 Turbo",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "gpt-4-1-nano",
+  "model": "GPT-4.1 Nano",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "o1",
+  "model": "o1",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "o3-mini",
+  "model": "o3 Mini",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "o4-mini",
+  "model": "o4 Mini",
+  "provider": "OpenAI",
+  "commit": "ecdc0f9ab9beacc13240078fa95c94a68c3248c4",
+  "type": "removed"
+ },
+ {
   "date": "2026-10-23",
   "key": "gemini-omni-flash-preview",
   "model": "Gemini Omni Flash Preview",
