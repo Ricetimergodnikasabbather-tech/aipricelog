@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-10-27",
+  "key": "gpt-6-1-terra",
+  "model": "GPT-6.1 Terra",
+  "provider": "OpenAI",
+  "commit": "c905cd065dfcc64440420e26fa9a085bdc991ba1",
+  "type": "added",
+  "note": "$1 in / $5 out"
+ },
+ {
   "date": "2026-10-24",
   "key": "deep-research-pro-preview",
   "model": "Gemini Deep Research Pro Preview",

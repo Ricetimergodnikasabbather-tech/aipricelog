@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>AI Price Log: price changes</title><link>https://aipricelog.com/changes.html</link><description>Dated AI API price changes across OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral.</description>
+<item><title>GPT-6.1 Terra (OpenAI): New model listed: $1 in / $5 out</title><link>https://aipricelog.com/models/gpt-6-1-terra/</link><guid isPermaLink="false">2026-10-27-gpt-6-1-terra-added</guid><pubDate>Tue, 27 Oct 2026 06:17:00 GMT</pubDate></item>
 <item><title>Gemini Deep Research Pro Preview (Google): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-10-24-deep-research-pro-preview-removed</guid><pubDate>Sat, 24 Oct 2026 06:17:00 GMT</pubDate></item>
 <item><title>GPT-3.5 Turbo (OpenAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-10-24-gpt-3-5-turbo-removed</guid><pubDate>Sat, 24 Oct 2026 06:17:00 GMT</pubDate></item>
 <item><title>GPT-3.5 Turbo 16K (OpenAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-10-24-gpt-3-5-turbo-16k-removed</guid><pubDate>Sat, 24 Oct 2026 06:17:00 GMT</pubDate></item>
@@ -48,5 +49,4 @@
 <item><title>Grok 4.1 Fast (xAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-08-29-grok-4-1-fast-removed</guid><pubDate>Sat, 29 Aug 2026 06:17:00 GMT</pubDate></item>
 <item><title>Grok 3 Mini Fast (xAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-08-29-grok-3-mini-fast-removed</guid><pubDate>Sat, 29 Aug 2026 06:17:00 GMT</pubDate></item>
 <item><title>Grok 3 Fast (xAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-08-29-grok-3-fast-removed</guid><pubDate>Sat, 29 Aug 2026 06:17:00 GMT</pubDate></item>
-<item><title>Grok 3 (xAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-08-29-grok-3-removed</guid><pubDate>Sat, 29 Aug 2026 06:17:00 GMT</pubDate></item>
 </channel></rss>

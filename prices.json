@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:10Z",
+ "updated": "2026-10-27T07:06Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -817,7 +817,7 @@
    "longOut": null,
    "longAt": null,
    "context": 1048576,
-   "maxOutput": null,
+   "maxOutput": 1048576,
    "vision": true,
    "reasoning": true,
    "caching": true,
@@ -1180,6 +1180,35 @@
    ],
    "source": "https://platform.claude.com/docs/en/about-claude/pricing",
    "src": "claude-haiku-4-5"
+  },
+  {
+   "key": "gpt-6-1-terra",
+   "name": "GPT-6.1 Terra",
+   "provider": "OpenAI",
+   "input": 1,
+   "output": 5,
+   "cached": 0.05,
+   "cacheWrite": 1.25,
+   "batchIn": 0.5,
+   "batchOut": 2.5,
+   "longIn": 2,
+   "longOut": 7.5,
+   "longAt": 272000,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6.1-terra"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6.1-terra"
   },
   {
    "key": "mistral-medium-3",
