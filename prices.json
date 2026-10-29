@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T07:17Z",
+ "updated": "2026-10-29T07:18Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -538,6 +538,35 @@
    "src": "deepseek-v3"
   },
   {
+   "key": "deepseek-v4-1-flash",
+   "name": "DeepSeek V4.1 Flash",
+   "provider": "Mistral",
+   "input": 0.3,
+   "output": 1.2,
+   "cached": 0.007,
+   "cacheWrite": null,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1048576,
+   "maxOutput": 131072,
+   "vision": false,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": false,
+   "web": false,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "deepseek-v4-1-flash-1017"
+   ],
+   "source": "https://docs.mistral.ai/models/deepseek-v4-flash-1017",
+   "src": "deepseek-v4-1-flash-1017"
+  },
+  {
    "key": "deepseek-v4-flash",
    "name": "DeepSeek V4 Flash",
    "provider": "DeepSeek",
@@ -804,36 +833,6 @@
    "src": "deepseek-r1"
   },
   {
-   "key": "mistral-large-4",
-   "name": "Mistral Large 4",
-   "provider": "Mistral",
-   "input": 0.68,
-   "output": 2.09,
-   "cached": 0.068,
-   "cacheWrite": null,
-   "batchIn": null,
-   "batchOut": null,
-   "longIn": null,
-   "longOut": null,
-   "longAt": null,
-   "context": 1048576,
-   "maxOutput": 1048576,
-   "vision": true,
-   "reasoning": true,
-   "caching": true,
-   "tools": true,
-   "pdf": false,
-   "web": false,
-   "preview": false,
-   "deprecates": null,
-   "apiNames": [
-    "mistral-large-4",
-    "mistral-large-4-0"
-   ],
-   "source": "https://docs.mistral.ai/models/mistral-large-4",
-   "src": "mistral-large-4"
-  },
-  {
    "key": "gemini-3-flash-preview",
    "name": "Gemini 3 Flash Preview",
    "provider": "Google",
@@ -916,11 +915,10 @@
    "deprecates": null,
    "apiNames": [
     "grok-code-fast",
-    "grok-code-fast-1",
     "grok-code-fast-1-0825"
    ],
    "source": "https://api.x.ai/v1/language-models",
-   "src": "grok-code-fast-1"
+   "src": "grok-code-fast-1-0825"
   },
   {
    "key": "gemini-3-6-flash",
@@ -1211,6 +1209,36 @@
    "src": "gpt-6.1-terra"
   },
   {
+   "key": "mistral-large-4",
+   "name": "Mistral Large 4",
+   "provider": "Mistral",
+   "input": 1.36,
+   "output": 4.18,
+   "cached": 0.14,
+   "cacheWrite": null,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1048576,
+   "maxOutput": 1048576,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": false,
+   "web": false,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "mistral-large-4",
+    "mistral-large-4-0"
+   ],
+   "source": "https://docs.mistral.ai/models/mistral-large-4",
+   "src": "mistral-large-4"
+  },
+  {
    "key": "mistral-medium-3",
    "name": "Mistral Medium 3",
    "provider": "Mistral",
@@ -1339,8 +1367,8 @@
    "output": 6,
    "cached": 0.5,
    "cacheWrite": null,
-   "batchIn": null,
-   "batchOut": null,
+   "batchIn": 1.6,
+   "batchOut": 4.8,
    "longIn": 4,
    "longOut": 12,
    "longAt": 200000,

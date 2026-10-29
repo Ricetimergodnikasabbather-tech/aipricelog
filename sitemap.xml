@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://aipricelog.com/</loc><lastmod>2026-10-27</lastmod></url>
-<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-10-27</lastmod></url>
+<url><loc>https://aipricelog.com/</loc><lastmod>2026-10-29</lastmod></url>
+<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-10-29</lastmod></url>
 <url><loc>https://aipricelog.com/about.html</loc><lastmod>2023-11-22</lastmod></url>
 <url><loc>https://aipricelog.com/openai/</loc><lastmod>2026-10-27</lastmod></url>
 <url><loc>https://aipricelog.com/anthropic/</loc><lastmod>2026-10-09</lastmod></url>
 <url><loc>https://aipricelog.com/google/</loc><lastmod>2026-10-24</lastmod></url>
 <url><loc>https://aipricelog.com/xai/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://aipricelog.com/deepseek/</loc><lastmod>2026-10-01</lastmod></url>
-<url><loc>https://aipricelog.com/mistral/</loc><lastmod>2026-10-08</lastmod></url>
+<url><loc>https://aipricelog.com/mistral/</loc><lastmod>2026-10-29</lastmod></url>
 <url><loc>https://aipricelog.com/models/ministral-3-3b/</loc><lastmod>2026-03-02</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5-nano/</loc><lastmod>2026-01-14</lastmod></url>
 <url><loc>https://aipricelog.com/models/ministral-3-8b/</loc><lastmod>2026-03-02</lastmod></url>
@@ -27,6 +27,7 @@
 <url><loc>https://aipricelog.com/models/gpt-5-6-luna/</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5-4-nano/</loc><lastmod>2026-07-30</lastmod></url>
 <url><loc>https://aipricelog.com/models/deepseek-v3/</loc><lastmod>2025-06-27</lastmod></url>
+<url><loc>https://aipricelog.com/models/deepseek-v4-1-flash/</loc><lastmod>2026-10-29</lastmod></url>
 <url><loc>https://aipricelog.com/models/deepseek-v4-flash/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://aipricelog.com/models/deepseek-v4-flash-vision-exp/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-3-1-flash-lite/</loc><lastmod>2026-05-20</lastmod></url>
@@ -36,7 +37,6 @@
 <url><loc>https://aipricelog.com/models/gemini-2-5-flash/</loc><lastmod>2025-06-18</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-3-5-flash-lite/</loc><lastmod>2026-07-21</lastmod></url>
 <url><loc>https://aipricelog.com/models/deepseek-r1/</loc><lastmod>2025-06-27</lastmod></url>
-<url><loc>https://aipricelog.com/models/mistral-large-4/</loc><lastmod>2026-10-08</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-3-flash-preview/</loc><lastmod>2025-12-17</lastmod></url>
 <url><loc>https://aipricelog.com/models/grok-build-0-1/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://aipricelog.com/models/grok-code-fast-1/</loc><lastmod>2026-09-22</lastmod></url>
@@ -49,6 +49,7 @@
 <url><loc>https://aipricelog.com/models/deepseek-v4-pro/</loc><lastmod>2026-08-19</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-haiku-4-5/</loc><lastmod>2025-10-15</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-6-1-terra/</loc><lastmod>2026-10-27</lastmod></url>
+<url><loc>https://aipricelog.com/models/mistral-large-4/</loc><lastmod>2026-10-29</lastmod></url>
 <url><loc>https://aipricelog.com/models/mistral-medium-3/</loc><lastmod>2026-08-27</lastmod></url>
 <url><loc>https://aipricelog.com/models/mistral-medium-3-5/</loc><lastmod>2026-06-16</lastmod></url>
 <url><loc>https://aipricelog.com/models/grok-4-5/</loc><lastmod>2026-07-08</lastmod></url>
