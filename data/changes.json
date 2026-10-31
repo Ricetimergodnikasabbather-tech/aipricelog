@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-10-31",
+  "key": "gpt-6-rosalind",
+  "model": "GPT-6 Rosalind",
+  "provider": "OpenAI",
+  "commit": "a392a39627f51bf0369944556c22268ee8cffe83",
+  "type": "added",
+  "note": "$15 in / $75 out"
+ },
+ {
   "date": "2026-10-29",
   "key": "deepseek-v4-1-flash",
   "model": "DeepSeek V4.1 Flash",

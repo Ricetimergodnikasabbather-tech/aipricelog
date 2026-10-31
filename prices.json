@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:18Z",
+ "updated": "2026-10-31T07:13Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -2533,6 +2533,35 @@
    ],
    "source": "https://developers.openai.com/api/docs/pricing",
    "src": "gpt-5.5-cyber"
+  },
+  {
+   "key": "gpt-6-rosalind",
+   "name": "GPT-6 Rosalind",
+   "provider": "OpenAI",
+   "input": 15,
+   "output": 75,
+   "cached": 1.5,
+   "cacheWrite": 18.75,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": 30,
+   "longOut": 112.5,
+   "longAt": 272000,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6-rosalind"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6-rosalind"
   }
  ]
 }
