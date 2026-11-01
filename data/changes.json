@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-01",
+  "key": "gpt-6-astra-law",
+  "model": "GPT-6 Astra Law",
+  "provider": "OpenAI",
+  "commit": "a1c5829f6b7664135974e902bdee2419c53ef825",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
   "date": "2026-10-31",
   "key": "gpt-6-rosalind",
   "model": "GPT-6 Rosalind",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T07:13Z",
+ "updated": "2026-11-01T07:20Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -2474,6 +2474,35 @@
    ],
    "source": "https://platform.claude.com/docs/en/about-claude/pricing",
    "src": "claude-mythos-5-1"
+  },
+  {
+   "key": "gpt-6-astra-law",
+   "name": "GPT-6 Astra Law",
+   "provider": "OpenAI",
+   "input": 10,
+   "output": 50,
+   "cached": 1,
+   "cacheWrite": null,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6-astra-law"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6-astra-law"
   },
   {
    "key": "gpt-5-6-cyber",
