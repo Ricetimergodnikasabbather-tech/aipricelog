@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T07:43Z",
+ "updated": "2026-11-03T07:30Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -833,6 +833,36 @@
    "src": "deepseek-r1"
   },
   {
+   "key": "mistral-large-4",
+   "name": "Mistral Large 4",
+   "provider": "Mistral",
+   "input": 0.7,
+   "output": 2.1,
+   "cached": 0.07,
+   "cacheWrite": null,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1048576,
+   "maxOutput": 1048576,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": false,
+   "web": false,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "mistral-large-4",
+    "mistral-large-4-0"
+   ],
+   "source": "https://docs.mistral.ai/models/mistral-large-4-0",
+   "src": "mistral-large-4"
+  },
+  {
    "key": "gemini-3-flash-preview",
    "name": "Gemini 3 Flash Preview",
    "provider": "Google",
@@ -1207,36 +1237,6 @@
    ],
    "source": "https://developers.openai.com/api/docs/pricing",
    "src": "gpt-6.1-terra"
-  },
-  {
-   "key": "mistral-large-4",
-   "name": "Mistral Large 4",
-   "provider": "Mistral",
-   "input": 1.36,
-   "output": 4.18,
-   "cached": 0.14,
-   "cacheWrite": null,
-   "batchIn": null,
-   "batchOut": null,
-   "longIn": null,
-   "longOut": null,
-   "longAt": null,
-   "context": 1048576,
-   "maxOutput": 1048576,
-   "vision": true,
-   "reasoning": true,
-   "caching": true,
-   "tools": true,
-   "pdf": false,
-   "web": false,
-   "preview": false,
-   "deprecates": null,
-   "apiNames": [
-    "mistral-large-4",
-    "mistral-large-4-0"
-   ],
-   "source": "https://docs.mistral.ai/models/mistral-large-4",
-   "src": "mistral-large-4"
   },
   {
    "key": "mistral-medium-3",
