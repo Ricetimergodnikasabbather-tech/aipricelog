@@ -24,7 +24,7 @@ gemini-3-1-flash-lite,Gemini 3.1 Flash Lite,Google,0.25,1.5,0.025,0.125,0.75,104
 gpt-5-mini,GPT-5 Mini,OpenAI,0.25,2,0.025,0.125,1,272000,128000,true,true,true,false,2026-12-11
 gpt-4-1-mini,GPT-4.1 Mini,OpenAI,0.4,1.6,0.1,0.2,0.8,1047576,32768,true,false,true,false,2027-01-14
 mistral-large-3,Mistral Large 3,Mistral,0.5,1.5,0.05,,,262144,262144,true,false,false,false,
-gemini-2-5-flash,Gemini 2.5 Flash,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,
+gemini-2-5-flash,Gemini 2.5 Flash,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,2026-12-01
 gemini-3-5-flash-lite,Gemini 3.5 Flash Lite,Google,0.3,2.5,0.03,0.15,1.25,1048576,65536,true,true,true,false,
 deepseek-r1,DeepSeek R1,DeepSeek,0.55,2.19,0.14,,,65536,8192,false,true,true,false,
 mistral-large-4,Mistral Large 4,Mistral,0.7,2.1,0.07,,,1048576,1048576,true,true,true,false,
@@ -47,7 +47,7 @@ grok-4-6,Grok 4.6,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
 grok-4-7,Grok 4.7,xAI,2,6,0.5,1.6,4.8,500000,500000,true,true,true,false,
 gemini-3-5-flash,Gemini 3.5 Flash,Google,1.5,9,0.15,0.75,4.5,1048576,65536,true,true,true,false,
 gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,1048576,65536,true,true,false,false,
-gemini-2-5-pro,Gemini 2.5 Pro,Google,1.25,10,0.125,0.625,5,1048576,65536,true,true,true,false,
+gemini-2-5-pro,Gemini 2.5 Pro,Google,1.25,10,0.125,0.625,5,1048576,65536,true,true,true,false,2026-12-01
 gpt-5,GPT-5,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2026-12-11
 gpt-5-1,GPT-5.1,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2027-04-01
 gpt-5-search-api,GPT-5 Search API,OpenAI,1.25,10,0.125,,,272000,128000,true,false,true,false,

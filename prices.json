@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T07:30Z",
+ "updated": "2026-11-04T07:35Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -767,7 +767,7 @@
    "pdf": true,
    "web": true,
    "preview": false,
-   "deprecates": null,
+   "deprecates": "2026-12-01",
    "apiNames": [
     "gemini-2.5-flash"
    ],
@@ -1468,7 +1468,7 @@
    "pdf": true,
    "web": true,
    "preview": false,
-   "deprecates": null,
+   "deprecates": "2026-12-01",
    "apiNames": [
     "gemini-2.5-pro"
    ],
