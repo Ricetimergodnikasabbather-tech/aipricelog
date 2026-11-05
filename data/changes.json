@@ -1,5 +1,15 @@
 [
  {
+  "date": "2026-11-05",
+  "key": "gpt-5-6-cyber",
+  "model": "GPT-5.6 Cyber",
+  "provider": "OpenAI",
+  "commit": "a1ffb06e2829c4876defacdca549b99d4a0694d2",
+  "type": "context",
+  "old": 400000,
+  "new": 272000
+ },
+ {
   "date": "2026-11-03",
   "key": "mistral-large-4",
   "model": "Mistral Large 4",

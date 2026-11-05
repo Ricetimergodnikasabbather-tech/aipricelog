@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:35Z",
+ "updated": "2026-11-05T07:37Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -2517,7 +2517,7 @@
    "longIn": 25,
    "longOut": 112.5,
    "longAt": 272000,
-   "context": 400000,
+   "context": 272000,
    "maxOutput": 128000,
    "vision": true,
    "reasoning": true,
