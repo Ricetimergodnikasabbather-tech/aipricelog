@@ -17,7 +17,7 @@ codestral,Codestral,Mistral,0.3,0.9,0.03,,,128000,128000,false,false,false,false
 gpt-5-6-luna,GPT-5.6 Luna,OpenAI,0.2,1.2,0.02,0.1,0.6,922000,128000,true,true,true,false,
 gpt-5-4-nano,GPT-5.4 Nano,OpenAI,0.2,1.25,0.02,0.1,0.625,272000,128000,true,true,true,false,2027-04-01
 deepseek-v3,DeepSeek V3,DeepSeek,0.27,1.1,0.07,,,65536,8192,false,false,true,false,
-deepseek-v4-1-flash,DeepSeek V4.1 Flash,Mistral,0.3,1.2,0.007,,,1048576,131072,false,true,true,false,
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,Mistral,0.3,1.2,0.007,,,1048576,131072,true,true,true,false,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,false,
 deepseek-v4-flash-vision-exp,DeepSeek V4 Flash Vision Exp,DeepSeek,0.3,1.2,0.006,,,1000000,393216,true,true,true,true,
 gemini-3-1-flash-lite,Gemini 3.1 Flash Lite,Google,0.25,1.5,0.025,0.125,0.75,1048576,65536,true,true,true,false,2027-05-07
@@ -46,7 +46,8 @@ grok-4-5,Grok 4.5,xAI,2,6,0.3,,,500000,500000,true,true,true,false,
 grok-4-6,Grok 4.6,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
 grok-4-7,Grok 4.7,xAI,2,6,0.5,1.6,4.8,500000,500000,true,true,true,false,
 gemini-3-5-flash,Gemini 3.5 Flash,Google,1.5,9,0.15,0.75,4.5,1048576,65536,true,true,true,false,
-gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,1048576,65536,true,true,false,false,
+gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,131072,65536,true,true,false,false,2026-12-03
+gemini-omni-1-2-flash,Gemini Omni 1.2 Flash,Google,1.5,9,,,,131072,65536,true,true,false,false,
 gemini-2-5-pro,Gemini 2.5 Pro,Google,1.25,10,0.125,0.625,5,1048576,65536,true,true,true,false,2026-12-01
 gpt-5,GPT-5,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2026-12-11
 gpt-5-1,GPT-5.1,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2027-04-01
@@ -86,3 +87,4 @@ gpt-6-astra-law,GPT-6 Astra Law,OpenAI,10,50,1,,,922000,128000,true,true,true,fa
 gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,12.5,75,1.25,,,272000,128000,true,true,true,false,
 gpt-5-5-cyber,GPT-5.5 Cyber,OpenAI,12.5,75,1.25,,,,,false,true,false,false,
 gpt-6-rosalind,GPT-6 Rosalind,OpenAI,15,75,1.5,,,922000,128000,true,true,true,false,
+gpt-6-cyber,GPT-6 Cyber,OpenAI,20,100,2,,,922000,128000,true,true,true,false,

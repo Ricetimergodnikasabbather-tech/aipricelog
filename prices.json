@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:37Z",
+ "updated": "2026-11-06T07:34Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -552,7 +552,7 @@
    "longAt": null,
    "context": 1048576,
    "maxOutput": 131072,
-   "vision": false,
+   "vision": true,
    "reasoning": true,
    "caching": true,
    "tools": true,
@@ -1430,7 +1430,36 @@
    "longIn": null,
    "longOut": null,
    "longAt": null,
-   "context": 1048576,
+   "context": 131072,
+   "maxOutput": 65536,
+   "vision": true,
+   "reasoning": true,
+   "caching": false,
+   "tools": false,
+   "pdf": false,
+   "web": false,
+   "preview": false,
+   "deprecates": "2026-12-03",
+   "apiNames": [
+    "gemini-omni-1.1-flash"
+   ],
+   "source": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
+   "src": "gemini-omni-1.1-flash"
+  },
+  {
+   "key": "gemini-omni-1-2-flash",
+   "name": "Gemini Omni 1.2 Flash",
+   "provider": "Google",
+   "input": 1.5,
+   "output": 9,
+   "cached": null,
+   "cacheWrite": null,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 131072,
    "maxOutput": 65536,
    "vision": true,
    "reasoning": true,
@@ -1441,10 +1470,10 @@
    "preview": false,
    "deprecates": null,
    "apiNames": [
-    "gemini-omni-1.1-flash"
+    "gemini-omni-1.2-flash"
    ],
    "source": "https://ai.google.dev/gemini-api/docs/pricing",
-   "src": "gemini-omni-1.1-flash"
+   "src": "gemini-omni-1.2-flash"
   },
   {
    "key": "gemini-2-5-pro",
@@ -2591,6 +2620,35 @@
    ],
    "source": "https://developers.openai.com/api/docs/pricing",
    "src": "gpt-6-rosalind"
+  },
+  {
+   "key": "gpt-6-cyber",
+   "name": "GPT-6 Cyber",
+   "provider": "OpenAI",
+   "input": 20,
+   "output": 100,
+   "cached": 2,
+   "cacheWrite": 25,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6-cyber"
+   ],
+   "source": "https://developers.openai.com/api/docs/models/gpt-6-cyber",
+   "src": "gpt-6-cyber"
   }
  ]
 }

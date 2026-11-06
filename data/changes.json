@@ -1,5 +1,33 @@
 [
  {
+  "date": "2026-11-06",
+  "key": "gemini-omni-1-1-flash",
+  "model": "Gemini Omni 1.1 Flash",
+  "provider": "Google",
+  "commit": "08f2a98250df4ee67943d449c051a6d37e12368e",
+  "type": "context",
+  "old": 1048576,
+  "new": 131072
+ },
+ {
+  "date": "2026-11-06",
+  "key": "gpt-6-cyber",
+  "model": "GPT-6 Cyber",
+  "provider": "OpenAI",
+  "commit": "08f2a98250df4ee67943d449c051a6d37e12368e",
+  "type": "added",
+  "note": "$20 in / $100 out"
+ },
+ {
+  "date": "2026-11-06",
+  "key": "gemini-omni-1-2-flash",
+  "model": "Gemini Omni 1.2 Flash",
+  "provider": "Google",
+  "commit": "08f2a98250df4ee67943d449c051a6d37e12368e",
+  "type": "added",
+  "note": "$1.5 in / $9 out"
+ },
+ {
   "date": "2026-11-05",
   "key": "gpt-5-6-cyber",
   "model": "GPT-5.6 Cyber",
