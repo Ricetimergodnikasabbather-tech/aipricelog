@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:34Z",
+ "updated": "2026-11-07T07:20Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -888,7 +888,7 @@
    "apiNames": [
     "gemini-3-flash-preview"
    ],
-   "source": "https://ai.google.dev/gemini-api/docs/pricing",
+   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
    "src": "gemini-3-flash-preview"
   },
   {
@@ -1005,7 +1005,7 @@
    "apiNames": [
     "gemini-3.7-flash"
    ],
-   "source": "https://ai.google.dev/gemini-api/docs/pricing",
+   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
    "src": "gemini-3.7-flash"
   },
   {
@@ -1289,7 +1289,7 @@
    "pdf": false,
    "web": false,
    "preview": false,
-   "deprecates": null,
+   "deprecates": "2027-04-30",
    "apiNames": [
     "mistral-medium",
     "mistral-medium-2604",
@@ -1414,7 +1414,7 @@
    "apiNames": [
     "gemini-3.5-flash"
    ],
-   "source": "https://ai.google.dev/gemini-api/docs/pricing",
+   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
    "src": "gemini-3.5-flash"
   },
   {
