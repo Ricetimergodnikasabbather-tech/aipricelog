@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T07:46Z",
+ "updated": "2026-11-10T07:29Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -2360,6 +2360,35 @@
    "src": "gpt-5.5"
   },
   {
+   "key": "claude-fable-5-2",
+   "name": "Claude Fable 5.2",
+   "provider": "Anthropic",
+   "input": 8,
+   "output": 40,
+   "cached": 0.2,
+   "cacheWrite": 10,
+   "batchIn": 4,
+   "batchOut": 20,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1000000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "claude-fable-5-2"
+   ],
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "src": "claude-fable-5-2"
+  },
+  {
    "key": "claude-fable-5",
    "name": "Claude Fable 5",
    "provider": "Anthropic",
@@ -2631,9 +2660,9 @@
    "cacheWrite": 25,
    "batchIn": null,
    "batchOut": null,
-   "longIn": null,
-   "longOut": null,
-   "longAt": null,
+   "longIn": 40,
+   "longOut": 150,
+   "longAt": 272000,
    "context": 922000,
    "maxOutput": 128000,
    "vision": true,
@@ -2647,7 +2676,7 @@
    "apiNames": [
     "gpt-6-cyber"
    ],
-   "source": "https://developers.openai.com/api/docs/models/gpt-6-cyber",
+   "source": "https://developers.openai.com/api/docs/pricing",
    "src": "gpt-6-cyber"
   }
  ]

@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-10",
+  "key": "claude-fable-5-2",
+  "model": "Claude Fable 5.2",
+  "provider": "Anthropic",
+  "commit": "d1a0cc6b24e9911e71481ae83231f842c565656f",
+  "type": "added",
+  "note": "$8 in / $40 out"
+ },
+ {
   "date": "2026-11-06",
   "key": "gemini-omni-1-1-flash",
   "model": "Gemini Omni 1.1 Flash",
