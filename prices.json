@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:29Z",
+ "updated": "2026-11-11T07:34Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -1800,6 +1800,35 @@
    "src": "gemini-4-argon"
   },
   {
+   "key": "gemini-4-carbon",
+   "name": "Gemini 4 Carbon",
+   "provider": "Google",
+   "input": 2,
+   "output": 10,
+   "cached": 0.1,
+   "cacheWrite": null,
+   "batchIn": 1,
+   "batchOut": 5,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1048576,
+   "maxOutput": 1048576,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gemini-4-carbon"
+   ],
+   "source": "https://aistudio.google.com/docs/pricing#gemini-4-carbon",
+   "src": "gemini-4-carbon"
+  },
+  {
    "key": "gpt-4o",
    "name": "GPT-4o",
    "provider": "OpenAI",
@@ -2358,6 +2387,35 @@
    ],
    "source": "https://developers.openai.com/api/docs/pricing",
    "src": "gpt-5.5"
+  },
+  {
+   "key": "claude-mythos-5-2",
+   "name": "Claude Mythos 5.2",
+   "provider": "Anthropic",
+   "input": 8,
+   "output": 40,
+   "cached": 0.2,
+   "cacheWrite": 10,
+   "batchIn": 4,
+   "batchOut": 20,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1000000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": false,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "claude-mythos-5-2"
+   ],
+   "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "src": "claude-mythos-5-2"
   },
   {
    "key": "claude-fable-5-2",

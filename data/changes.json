@@ -1,5 +1,23 @@
 [
  {
+  "date": "2026-11-11",
+  "key": "claude-mythos-5-2",
+  "model": "Claude Mythos 5.2",
+  "provider": "Anthropic",
+  "commit": "606490a52dbafa822a24f943d0f8a14a1bc29940",
+  "type": "added",
+  "note": "$8 in / $40 out"
+ },
+ {
+  "date": "2026-11-11",
+  "key": "gemini-4-carbon",
+  "model": "Gemini 4 Carbon",
+  "provider": "Google",
+  "commit": "606490a52dbafa822a24f943d0f8a14a1bc29940",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
   "date": "2026-11-10",
   "key": "claude-fable-5-2",
   "model": "Claude Fable 5.2",

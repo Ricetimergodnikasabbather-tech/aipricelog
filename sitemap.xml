@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://aipricelog.com/</loc><lastmod>2026-11-10</lastmod></url>
-<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-11-10</lastmod></url>
+<url><loc>https://aipricelog.com/</loc><lastmod>2026-11-11</lastmod></url>
+<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-11-11</lastmod></url>
 <url><loc>https://aipricelog.com/about.html</loc><lastmod>2023-11-22</lastmod></url>
 <url><loc>https://aipricelog.com/openai/</loc><lastmod>2026-11-06</lastmod></url>
-<url><loc>https://aipricelog.com/anthropic/</loc><lastmod>2026-11-10</lastmod></url>
-<url><loc>https://aipricelog.com/google/</loc><lastmod>2026-11-06</lastmod></url>
+<url><loc>https://aipricelog.com/anthropic/</loc><lastmod>2026-11-11</lastmod></url>
+<url><loc>https://aipricelog.com/google/</loc><lastmod>2026-11-11</lastmod></url>
 <url><loc>https://aipricelog.com/xai/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://aipricelog.com/deepseek/</loc><lastmod>2026-10-01</lastmod></url>
 <url><loc>https://aipricelog.com/mistral/</loc><lastmod>2026-11-03</lastmod></url>
@@ -69,6 +69,7 @@
 <url><loc>https://aipricelog.com/models/gpt-6-sol/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-6-1-sol/</loc><lastmod>2026-09-29</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-4-argon/</loc><lastmod>2026-10-13</lastmod></url>
+<url><loc>https://aipricelog.com/models/gemini-4-carbon/</loc><lastmod>2026-11-11</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-4o/</loc><lastmod>2024-11-12</lastmod></url>
 <url><loc>https://aipricelog.com/models/deep-research-max-preview/</loc><lastmod>2026-10-06</lastmod></url>
 <url><loc>https://aipricelog.com/models/gemini-3-1-pro-preview/</loc><lastmod>2026-02-20</lastmod></url>
@@ -88,6 +89,7 @@
 <url><loc>https://aipricelog.com/models/gpt-rosalind-research/</loc><lastmod>2026-09-13</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-rosalind-discovery/</loc><lastmod>2026-10-09</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5-5/</loc><lastmod>2026-04-24</lastmod></url>
+<url><loc>https://aipricelog.com/models/claude-mythos-5-2/</loc><lastmod>2026-11-11</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-fable-5-2/</loc><lastmod>2026-11-10</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-fable-5/</loc><lastmod>2026-06-10</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-fable-5-1/</loc><lastmod>2026-09-01</lastmod></url>
