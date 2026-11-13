@@ -45,6 +45,7 @@ mistral-medium-3-5,Mistral Medium 3.5,Mistral,1.5,7.5,0.15,,,262144,262144,true,
 grok-4-5,Grok 4.5,xAI,2,6,0.3,,,500000,500000,true,true,true,false,
 grok-4-6,Grok 4.6,xAI,2,6,0.5,,,500000,500000,true,true,true,false,
 grok-4-7,Grok 4.7,xAI,2,6,0.5,1.6,4.8,500000,500000,true,true,true,false,
+gemini-4-hydrogen,Gemini 4 Hydrogen,Google,1.5,7.5,0.075,0.75,3.75,1048576,1048576,true,true,true,false,
 gemini-3-5-flash,Gemini 3.5 Flash,Google,1.5,9,0.15,0.75,4.5,1048576,65536,true,true,true,false,
 gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,131072,65536,true,true,false,false,2026-12-03
 gemini-omni-1-2-flash,Gemini Omni 1.2 Flash,Google,1.5,9,,,,131072,65536,true,true,false,false,

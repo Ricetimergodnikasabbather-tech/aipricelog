@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-13",
+  "key": "gemini-4-hydrogen",
+  "model": "Gemini 4 Hydrogen",
+  "provider": "Google",
+  "commit": "32cb45a3d8875321efd8adab9ddccb5ff41d8d9a",
+  "type": "added",
+  "note": "$1.5 in / $7.5 out"
+ },
+ {
   "date": "2026-11-11",
   "key": "claude-mythos-5-2",
   "model": "Claude Mythos 5.2",

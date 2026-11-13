@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T07:38Z",
+ "updated": "2026-11-13T07:36Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -1387,6 +1387,35 @@
    ],
    "source": "https://api.x.ai/v1/language-models",
    "src": "grok-4.7"
+  },
+  {
+   "key": "gemini-4-hydrogen",
+   "name": "Gemini 4 Hydrogen",
+   "provider": "Google",
+   "input": 1.5,
+   "output": 7.5,
+   "cached": 0.075,
+   "cacheWrite": null,
+   "batchIn": 0.75,
+   "batchOut": 3.75,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1048576,
+   "maxOutput": 1048576,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gemini-4-hydrogen"
+   ],
+   "source": "https://aistudio.google.com/docs/pricing#gemini-4-hydrogen",
+   "src": "gemini-4-hydrogen"
   },
   {
    "key": "gemini-3-5-flash",
