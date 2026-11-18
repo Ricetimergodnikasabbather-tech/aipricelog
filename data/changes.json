@@ -1,5 +1,62 @@
 [
  {
+  "date": "2026-11-18",
+  "key": "ministral-3-3b",
+  "model": "Ministral 3 3B",
+  "provider": "Mistral",
+  "commit": "50fb44aeaaeaea3af4dd1164c9fa37e64be5104d",
+  "type": "context",
+  "old": 131072,
+  "new": 262144
+ },
+ {
+  "date": "2026-11-18",
+  "key": "gpt-6-rosalind",
+  "model": "GPT-6 Rosalind",
+  "provider": "OpenAI",
+  "commit": "50fb44aeaaeaea3af4dd1164c9fa37e64be5104d",
+  "type": "input",
+  "old": 15,
+  "new": 10
+ },
+ {
+  "date": "2026-11-18",
+  "key": "gpt-6-rosalind",
+  "model": "GPT-6 Rosalind",
+  "provider": "OpenAI",
+  "commit": "50fb44aeaaeaea3af4dd1164c9fa37e64be5104d",
+  "type": "output",
+  "old": 75,
+  "new": 50
+ },
+ {
+  "date": "2026-11-18",
+  "key": "gpt-6-2-astra",
+  "model": "GPT-6.2 Astra",
+  "provider": "OpenAI",
+  "commit": "50fb44aeaaeaea3af4dd1164c9fa37e64be5104d",
+  "type": "added",
+  "note": "$8 in / $40 out"
+ },
+ {
+  "date": "2026-11-18",
+  "key": "gpt-6-2-sol",
+  "model": "GPT-6.2 Sol",
+  "provider": "OpenAI",
+  "commit": "50fb44aeaaeaea3af4dd1164c9fa37e64be5104d",
+  "type": "added",
+  "note": "$2 in / $10 out"
+ },
+ {
+  "date": "2026-11-18",
+  "key": "gpt-6-2-astra-law",
+  "model": "GPT-6.2 Astra Law",
+  "provider": "OpenAI",
+  "commit": "50fb44aeaaeaea3af4dd1164c9fa37e64be5104d",
+  "type": "added",
+  "note": "$8 in / $40 out"
+ },
+ {
   "date": "2026-11-13",
   "key": "gemini-4-hydrogen",
   "model": "Gemini 4 Hydrogen",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:09Z",
+ "updated": "2026-11-18T15:45Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -16,7 +16,7 @@
    "longIn": null,
    "longOut": null,
    "longAt": null,
-   "context": 131072,
+   "context": 262144,
    "maxOutput": 131072,
    "vision": true,
    "reasoning": false,
@@ -738,9 +738,7 @@
    "preview": false,
    "deprecates": null,
    "apiNames": [
-    "mistral-large-2512",
-    "mistral-large-3",
-    "mistral-large-latest"
+    "mistral-large-3"
    ],
    "source": "https://docs.mistral.ai/models/mistral-large-3-25-12",
    "src": "mistral-large-3"
@@ -857,7 +855,8 @@
    "deprecates": null,
    "apiNames": [
     "mistral-large-4",
-    "mistral-large-4-0"
+    "mistral-large-4-0",
+    "mistral-large-latest"
    ],
    "source": "https://docs.mistral.ai/models/mistral-large-4-0",
    "src": "mistral-large-4"
@@ -1858,6 +1857,35 @@
    "src": "gemini-4-carbon"
   },
   {
+   "key": "gpt-6-2-sol",
+   "name": "GPT-6.2 Sol",
+   "provider": "OpenAI",
+   "input": 2,
+   "output": 10,
+   "cached": 0.1,
+   "cacheWrite": 2.5,
+   "batchIn": 1,
+   "batchOut": 5,
+   "longIn": 4,
+   "longOut": 15,
+   "longAt": 272000,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6.2-sol"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6.2-sol"
+  },
+  {
    "key": "gpt-4o",
    "name": "GPT-4o",
    "provider": "OpenAI",
@@ -2476,6 +2504,64 @@
    "src": "claude-fable-5-2"
   },
   {
+   "key": "gpt-6-2-astra",
+   "name": "GPT-6.2 Astra",
+   "provider": "OpenAI",
+   "input": 8,
+   "output": 40,
+   "cached": 0.4,
+   "cacheWrite": 10,
+   "batchIn": 4,
+   "batchOut": 20,
+   "longIn": 16,
+   "longOut": 60,
+   "longAt": 272000,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6.2-astra"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6.2-astra"
+  },
+  {
+   "key": "gpt-6-2-astra-law",
+   "name": "GPT-6.2 Astra Law",
+   "provider": "OpenAI",
+   "input": 8,
+   "output": 40,
+   "cached": 0.4,
+   "cacheWrite": 10,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": 16,
+   "longOut": 60,
+   "longAt": 272000,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6.2-astra-law"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6.2-astra-law"
+  },
+  {
    "key": "claude-fable-5",
    "name": "Claude Fable 5",
    "provider": "Anthropic",
@@ -2621,6 +2707,35 @@
    "src": "claude-mythos-5-1"
   },
   {
+   "key": "gpt-6-rosalind",
+   "name": "GPT-6 Rosalind",
+   "provider": "OpenAI",
+   "input": 10,
+   "output": 50,
+   "cached": 1,
+   "cacheWrite": 18.75,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": 30,
+   "longOut": 112.5,
+   "longAt": 272000,
+   "context": 922000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gpt-6-rosalind"
+   ],
+   "source": "https://developers.openai.com/api/docs/pricing",
+   "src": "gpt-6-rosalind"
+  },
+  {
    "key": "gpt-6-astra-law",
    "name": "GPT-6 Astra Law",
    "provider": "OpenAI",
@@ -2630,9 +2745,9 @@
    "cacheWrite": null,
    "batchIn": null,
    "batchOut": null,
-   "longIn": null,
-   "longOut": null,
-   "longAt": null,
+   "longIn": 20,
+   "longOut": 75,
+   "longAt": 272000,
    "context": 922000,
    "maxOutput": 128000,
    "vision": true,
@@ -2707,35 +2822,6 @@
    ],
    "source": "https://developers.openai.com/api/docs/pricing",
    "src": "gpt-5.5-cyber"
-  },
-  {
-   "key": "gpt-6-rosalind",
-   "name": "GPT-6 Rosalind",
-   "provider": "OpenAI",
-   "input": 15,
-   "output": 75,
-   "cached": 1.5,
-   "cacheWrite": 18.75,
-   "batchIn": null,
-   "batchOut": null,
-   "longIn": 30,
-   "longOut": 112.5,
-   "longAt": 272000,
-   "context": 922000,
-   "maxOutput": 128000,
-   "vision": true,
-   "reasoning": true,
-   "caching": true,
-   "tools": true,
-   "pdf": true,
-   "web": true,
-   "preview": false,
-   "deprecates": null,
-   "apiNames": [
-    "gpt-6-rosalind"
-   ],
-   "source": "https://developers.openai.com/api/docs/pricing",
-   "src": "gpt-6-rosalind"
   },
   {
    "key": "gpt-6-cyber",
