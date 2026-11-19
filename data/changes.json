@@ -1,5 +1,23 @@
 [
  {
+  "date": "2026-11-19",
+  "key": "claude-mythos-preview",
+  "model": "Claude Mythos Preview",
+  "provider": "Anthropic",
+  "commit": "2f29a55a5102fbf23e406d313ea4b91a7257e48f",
+  "type": "added",
+  "note": "$10 in / $50 out"
+ },
+ {
+  "date": "2026-11-19",
+  "key": "gemini-4-neon",
+  "model": "Gemini 4 Neon",
+  "provider": "Google",
+  "commit": "2f29a55a5102fbf23e406d313ea4b91a7257e48f",
+  "type": "added",
+  "note": "$3 in / $15 out"
+ },
+ {
   "date": "2026-11-18",
   "key": "ministral-3-3b",
   "model": "Ministral 3 3B",

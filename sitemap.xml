@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://aipricelog.com/</loc><lastmod>2026-11-18</lastmod></url>
-<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://aipricelog.com/</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://aipricelog.com/changes.html</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://aipricelog.com/about.html</loc><lastmod>2023-11-22</lastmod></url>
 <url><loc>https://aipricelog.com/openai/</loc><lastmod>2026-11-18</lastmod></url>
-<url><loc>https://aipricelog.com/anthropic/</loc><lastmod>2026-11-11</lastmod></url>
-<url><loc>https://aipricelog.com/google/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://aipricelog.com/anthropic/</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://aipricelog.com/google/</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://aipricelog.com/xai/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://aipricelog.com/deepseek/</loc><lastmod>2026-10-01</lastmod></url>
 <url><loc>https://aipricelog.com/mistral/</loc><lastmod>2026-11-18</lastmod></url>
@@ -80,6 +80,7 @@
 <url><loc>https://aipricelog.com/models/gpt-5-4/</loc><lastmod>2026-03-06</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-sonnet-4-5/</loc><lastmod>2026-10-09</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-sonnet-4-6/</loc><lastmod>2026-03-27</lastmod></url>
+<url><loc>https://aipricelog.com/models/gemini-4-neon/</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-opus-5-5/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5-6/</loc><lastmod>2026-08-21</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5-6-sol/</loc><lastmod>2026-08-21</lastmod></url>
@@ -100,6 +101,7 @@
 <url><loc>https://aipricelog.com/models/gpt-6-astra/</loc><lastmod>2026-09-03</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-mythos-5/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://aipricelog.com/models/claude-mythos-5-1/</loc><lastmod>2026-09-04</lastmod></url>
+<url><loc>https://aipricelog.com/models/claude-mythos-preview/</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-6-rosalind/</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-6-astra-law/</loc><lastmod>2026-11-01</lastmod></url>
 <url><loc>https://aipricelog.com/models/gpt-5-6-cyber/</loc><lastmod>2026-11-05</lastmod></url>

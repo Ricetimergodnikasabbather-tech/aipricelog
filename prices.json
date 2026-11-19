@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:45Z",
+ "updated": "2026-11-19T15:51Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -586,7 +586,7 @@
    "caching": true,
    "tools": true,
    "pdf": false,
-   "web": false,
+   "web": true,
    "preview": false,
    "deprecates": null,
    "apiNames": [
@@ -616,7 +616,7 @@
    "caching": true,
    "tools": true,
    "pdf": false,
-   "web": false,
+   "web": true,
    "preview": true,
    "deprecates": null,
    "apiNames": [
@@ -1169,7 +1169,7 @@
    "caching": true,
    "tools": true,
    "pdf": false,
-   "web": false,
+   "web": true,
    "preview": false,
    "deprecates": null,
    "apiNames": [
@@ -2123,6 +2123,35 @@
    "src": "claude-sonnet-4-6"
   },
   {
+   "key": "gemini-4-neon",
+   "name": "Gemini 4 Neon",
+   "provider": "Google",
+   "input": 3,
+   "output": 15,
+   "cached": 0.15,
+   "cacheWrite": null,
+   "batchIn": 1.5,
+   "batchOut": 7.5,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1048576,
+   "maxOutput": 1048576,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": true,
+   "preview": false,
+   "deprecates": null,
+   "apiNames": [
+    "gemini-4-neon"
+   ],
+   "source": "https://aistudio.google.com/docs/pricing#gemini-4-neon",
+   "src": "gemini-4-neon"
+  },
+  {
    "key": "claude-opus-5-5",
    "name": "Claude Opus 5.5",
    "provider": "Anthropic",
@@ -2705,6 +2734,35 @@
    ],
    "source": "https://platform.claude.com/docs/en/about-claude/pricing",
    "src": "claude-mythos-5-1"
+  },
+  {
+   "key": "claude-mythos-preview",
+   "name": "Claude Mythos Preview",
+   "provider": "Anthropic",
+   "input": 10,
+   "output": 50,
+   "cached": 1,
+   "cacheWrite": 12.5,
+   "batchIn": null,
+   "batchOut": null,
+   "longIn": null,
+   "longOut": null,
+   "longAt": null,
+   "context": 1000000,
+   "maxOutput": 128000,
+   "vision": true,
+   "reasoning": true,
+   "caching": true,
+   "tools": true,
+   "pdf": true,
+   "web": false,
+   "preview": true,
+   "deprecates": null,
+   "apiNames": [
+    "claude-mythos-preview"
+   ],
+   "source": "https://platform.claude.com/docs/en/about-claude/models/overview",
+   "src": "claude-mythos-preview"
   },
   {
    "key": "gpt-6-rosalind",
