@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-20",
+  "key": "genie-4",
+  "model": "Genie 4",
+  "provider": "Google",
+  "commit": "1b5047429d26b58cfd3e01a5cb9a2f129a1787b2",
+  "type": "added",
+  "note": "$1.5 in / $9 out"
+ },
+ {
   "date": "2026-11-19",
   "key": "claude-mythos-preview",
   "model": "Claude Mythos Preview",

@@ -49,6 +49,7 @@ gemini-4-hydrogen,Gemini 4 Hydrogen,Google,1.5,7.5,0.075,0.75,3.75,1048576,10485
 gemini-3-5-flash,Gemini 3.5 Flash,Google,1.5,9,0.15,0.75,4.5,1048576,65536,true,true,true,false,
 gemini-omni-1-1-flash,Gemini Omni 1.1 Flash,Google,1.5,9,,,,131072,65536,true,true,false,false,2026-12-03
 gemini-omni-1-2-flash,Gemini Omni 1.2 Flash,Google,1.5,9,,,,131072,65536,true,true,false,false,
+genie-4,Genie 4,Google,1.5,9,,,,1048576,65536,true,false,false,false,
 gemini-2-5-pro,Gemini 2.5 Pro,Google,1.25,10,0.125,0.625,5,1048576,65536,true,true,true,false,2026-12-01
 gpt-5,GPT-5,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2026-12-11
 gpt-5-1,GPT-5.1,OpenAI,1.25,10,0.125,0.625,5,272000,128000,true,true,true,false,2027-04-01
