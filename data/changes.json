@@ -1,5 +1,13 @@
 [
  {
+  "date": "2026-11-21",
+  "key": "grok-build-0-1",
+  "model": "Grok Build 0.1",
+  "provider": "xAI",
+  "commit": "ac7674625ceed298d6c411cc964f23aded63989d",
+  "type": "removed"
+ },
+ {
   "date": "2026-11-20",
   "key": "genie-4",
   "model": "Genie 4",
