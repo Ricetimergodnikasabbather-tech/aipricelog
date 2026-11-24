@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:22Z",
+ "updated": "2026-11-24T17:53Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -2260,7 +2260,7 @@
    "pdf": true,
    "web": false,
    "preview": false,
-   "deprecates": null,
+   "deprecates": "2027-01-22",
    "apiNames": [
     "claude-opus-4-5",
     "claude-opus-4-5-20251101"

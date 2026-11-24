@@ -74,7 +74,7 @@ gemini-4-neon,Gemini 4 Neon,Google,3,15,0.15,1.5,7.5,1048576,1048576,true,true,t
 claude-opus-5-5,Claude Opus 5.5,Anthropic,4,20,0.2,2,10,1000000,128000,true,true,true,false,
 gpt-5-6,GPT-5.6,OpenAI,4,20,0.4,2,10,922000,128000,true,true,true,false,
 gpt-5-6-sol,GPT-5.6 Sol,OpenAI,4,20,0.4,2,10,922000,128000,true,true,true,false,
-claude-opus-4-5,Claude Opus 4.5,Anthropic,5,25,0.5,2.5,12.5,200000,64000,true,true,true,false,
+claude-opus-4-5,Claude Opus 4.5,Anthropic,5,25,0.5,2.5,12.5,200000,64000,true,true,true,false,2027-01-22
 claude-opus-4-6,Claude Opus 4.6,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
 claude-opus-4-7,Claude Opus 4.7,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
 claude-opus-5,Claude Opus 5,Anthropic,5,25,0.5,2.5,12.5,1000000,128000,true,true,true,false,
