@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:53Z",
+ "updated": "2026-11-25T17:20Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -1308,8 +1308,8 @@
    "output": 6,
    "cached": 0.5,
    "cacheWrite": null,
-   "batchIn": null,
-   "batchOut": null,
+   "batchIn": 1.6,
+   "batchOut": 4.8,
    "longIn": 4,
    "longOut": 12,
    "longAt": 200000,
@@ -1324,10 +1324,11 @@
    "preview": false,
    "deprecates": null,
    "apiNames": [
-    "grok-4.6"
+    "grok-4.6",
+    "grok-4.6-latest"
    ],
    "source": "https://api.x.ai/v1/language-models",
-   "src": "grok-4.6"
+   "src": "grok-4.6-latest"
   },
   {
    "key": "grok-4-7",
@@ -1353,10 +1354,11 @@
    "preview": false,
    "deprecates": null,
    "apiNames": [
-    "grok-4.7"
+    "grok-4.7",
+    "grok-4.7-latest"
    ],
    "source": "https://api.x.ai/v1/language-models",
-   "src": "grok-4.7"
+   "src": "grok-4.7-latest"
   },
   {
    "key": "gemini-4-hydrogen",
