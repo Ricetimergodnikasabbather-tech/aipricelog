@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:46Z",
+ "updated": "2026-11-28T15:38Z",
  "unit": "USD per 1M tokens",
  "source": "https://aipricelog.com",
  "models": [
@@ -889,36 +889,6 @@
    ],
    "source": "https://ai.google.dev/gemini-api/docs/deprecations",
    "src": "gemini-3-flash-preview"
-  },
-  {
-   "key": "grok-code-fast-1",
-   "name": "Grok Code Fast 1",
-   "provider": "xAI",
-   "input": 1,
-   "output": 2,
-   "cached": 0.2,
-   "cacheWrite": null,
-   "batchIn": null,
-   "batchOut": null,
-   "longIn": 2,
-   "longOut": 4,
-   "longAt": 200000,
-   "context": 256000,
-   "maxOutput": 256000,
-   "vision": true,
-   "reasoning": true,
-   "caching": true,
-   "tools": true,
-   "pdf": false,
-   "web": false,
-   "preview": false,
-   "deprecates": null,
-   "apiNames": [
-    "grok-code-fast",
-    "grok-code-fast-1-0825"
-   ],
-   "source": "https://api.x.ai/v1/language-models",
-   "src": "grok-code-fast-1-0825"
   },
   {
    "key": "gemini-3-6-flash",

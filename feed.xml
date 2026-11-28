@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>AI Price Log: price changes</title><link>https://aipricelog.com/changes.html</link><description>Dated AI API price changes across OpenAI, Anthropic, Google, xAI, DeepSeek and Mistral.</description>
+<item><title>Grok Code Fast 1 (xAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-11-28-grok-code-fast-1-removed</guid><pubDate>Sat, 28 Nov 2026 06:17:00 GMT</pubDate></item>
 <item><title>Grok Build 0.1 (xAI): Removed from listings</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-11-21-grok-build-0-1-removed</guid><pubDate>Sat, 21 Nov 2026 06:17:00 GMT</pubDate></item>
 <item><title>Genie 4 (Google): New model listed: $1.5 in / $9 out</title><link>https://aipricelog.com/models/genie-4/</link><guid isPermaLink="false">2026-11-20-genie-4-added</guid><pubDate>Fri, 20 Nov 2026 06:17:00 GMT</pubDate></item>
 <item><title>Claude Mythos Preview (Anthropic): New model listed: $10 in / $50 out</title><link>https://aipricelog.com/models/claude-mythos-preview/</link><guid isPermaLink="false">2026-11-19-claude-mythos-preview-added</guid><pubDate>Thu, 19 Nov 2026 06:17:00 GMT</pubDate></item>
@@ -48,5 +49,4 @@
 <item><title>GPT-6.1 Sol (OpenAI): New model listed: $2 in / $10 out</title><link>https://aipricelog.com/models/gpt-6-1-sol/</link><guid isPermaLink="false">2026-09-29-gpt-6-1-sol-added</guid><pubDate>Tue, 29 Sep 2026 06:17:00 GMT</pubDate></item>
 <item><title>Gemini Deep Research Pro Preview (Google): New model listed: $2 in / $12 out</title><link>https://aipricelog.com/changes.html</link><guid isPermaLink="false">2026-09-29-deep-research-pro-preview-added</guid><pubDate>Tue, 29 Sep 2026 06:17:00 GMT</pubDate></item>
 <item><title>Claude Sonnet 5.5 (Anthropic): New model listed: $2 in / $10 out</title><link>https://aipricelog.com/models/claude-sonnet-5-5/</link><guid isPermaLink="false">2026-09-28-claude-sonnet-5-5-added</guid><pubDate>Mon, 28 Sep 2026 06:17:00 GMT</pubDate></item>
-<item><title>Claude Mythos Preview (Anthropic): Removed from listings</title><link>https://aipricelog.com/models/claude-mythos-preview/</link><guid isPermaLink="false">2026-09-23-claude-mythos-preview-removed</guid><pubDate>Wed, 23 Sep 2026 06:17:00 GMT</pubDate></item>
 </channel></rss>

@@ -1,5 +1,13 @@
 [
  {
+  "date": "2026-11-28",
+  "key": "grok-code-fast-1",
+  "model": "Grok Code Fast 1",
+  "provider": "xAI",
+  "commit": "89813239c4dadc032818ea0567bb13795ad5ee5c",
+  "type": "removed"
+ },
+ {
   "date": "2026-11-21",
   "key": "grok-build-0-1",
   "model": "Grok Build 0.1",
